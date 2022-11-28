@@ -1,0 +1,15 @@
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\1.1 exo moyenne\bin\Debug\net6.0\1.1 exo moyenne.exe
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\1.1 exo moyenne\bin\Debug\net6.0\1.1 exo moyenne.deps.json
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\1.1 exo moyenne\bin\Debug\net6.0\1.1 exo moyenne.runtimeconfig.json
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\1.1 exo moyenne\bin\Debug\net6.0\1.1 exo moyenne.dll
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\1.1 exo moyenne\bin\Debug\net6.0\1.1 exo moyenne.pdb
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\1.1 exo moyenne\obj\Debug\net6.0\1.1 exo moyenne.csproj.AssemblyReference.cache
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\1.1 exo moyenne\obj\Debug\net6.0\1.1 exo moyenne.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\1.1 exo moyenne\obj\Debug\net6.0\1.1 exo moyenne.AssemblyInfoInputs.cache
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\1.1 exo moyenne\obj\Debug\net6.0\1.1 exo moyenne.AssemblyInfo.cs
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\1.1 exo moyenne\obj\Debug\net6.0\1.1 exo moyenne.csproj.CoreCompileInputs.cache
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\1.1 exo moyenne\obj\Debug\net6.0\1.1 exo moyenne.dll
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\1.1 exo moyenne\obj\Debug\net6.0\refint\1.1 exo moyenne.dll
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\1.1 exo moyenne\obj\Debug\net6.0\1.1 exo moyenne.pdb
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\1.1 exo moyenne\obj\Debug\net6.0\1.1 exo moyenne.genruntimeconfig.cache
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\1.1 exo moyenne\obj\Debug\net6.0\ref\1.1 exo moyenne.dll

@@ -1,0 +1,15 @@
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\3.1_FOURCHETTE\3.1_FOURCHETTE\bin\Debug\net6.0\3.1_FOURCHETTE.exe
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\3.1_FOURCHETTE\3.1_FOURCHETTE\bin\Debug\net6.0\3.1_FOURCHETTE.deps.json
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\3.1_FOURCHETTE\3.1_FOURCHETTE\bin\Debug\net6.0\3.1_FOURCHETTE.runtimeconfig.json
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\3.1_FOURCHETTE\3.1_FOURCHETTE\bin\Debug\net6.0\3.1_FOURCHETTE.dll
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\3.1_FOURCHETTE\3.1_FOURCHETTE\bin\Debug\net6.0\3.1_FOURCHETTE.pdb
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\3.1_FOURCHETTE\3.1_FOURCHETTE\obj\Debug\net6.0\3.1_FOURCHETTE.csproj.AssemblyReference.cache
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\3.1_FOURCHETTE\3.1_FOURCHETTE\obj\Debug\net6.0\3.1_FOURCHETTE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\3.1_FOURCHETTE\3.1_FOURCHETTE\obj\Debug\net6.0\3.1_FOURCHETTE.AssemblyInfoInputs.cache
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\3.1_FOURCHETTE\3.1_FOURCHETTE\obj\Debug\net6.0\3.1_FOURCHETTE.AssemblyInfo.cs
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\3.1_FOURCHETTE\3.1_FOURCHETTE\obj\Debug\net6.0\3.1_FOURCHETTE.csproj.CoreCompileInputs.cache
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\3.1_FOURCHETTE\3.1_FOURCHETTE\obj\Debug\net6.0\3.1_FOURCHETTE.dll
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\3.1_FOURCHETTE\3.1_FOURCHETTE\obj\Debug\net6.0\refint\3.1_FOURCHETTE.dll
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\3.1_FOURCHETTE\3.1_FOURCHETTE\obj\Debug\net6.0\3.1_FOURCHETTE.pdb
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\3.1_FOURCHETTE\3.1_FOURCHETTE\obj\Debug\net6.0\3.1_FOURCHETTE.genruntimeconfig.cache
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\3.1_FOURCHETTE\3.1_FOURCHETTE\obj\Debug\net6.0\ref\3.1_FOURCHETTE.dll

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exo_4.2_nbrs_parfait", "exo_4.2_nbrs_parfait\exo_4.2_nbrs_parfait.csproj", "{1B3CDB12-EBB1-4CDF-90C6-BD3630AB2912}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B3CDB12-EBB1-4CDF-90C6-BD3630AB2912}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B3CDB12-EBB1-4CDF-90C6-BD3630AB2912}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B3CDB12-EBB1-4CDF-90C6-BD3630AB2912}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B3CDB12-EBB1-4CDF-90C6-BD3630AB2912}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A9860432-260A-40F2-BC3E-3D348502F5F5}
+	EndGlobalSection
+EndGlobal

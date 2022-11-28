@@ -1,0 +1,15 @@
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\2.1_ComparaisonDeNombres\2.1_ComparaisonDeNombres\obj\Debug\net6.0\2.1_ComparaisonDeNombres.csproj.AssemblyReference.cache
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\2.1_ComparaisonDeNombres\2.1_ComparaisonDeNombres\obj\Debug\net6.0\2.1_ComparaisonDeNombres.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\2.1_ComparaisonDeNombres\2.1_ComparaisonDeNombres\obj\Debug\net6.0\2.1_ComparaisonDeNombres.AssemblyInfoInputs.cache
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\2.1_ComparaisonDeNombres\2.1_ComparaisonDeNombres\obj\Debug\net6.0\2.1_ComparaisonDeNombres.AssemblyInfo.cs
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\2.1_ComparaisonDeNombres\2.1_ComparaisonDeNombres\obj\Debug\net6.0\2.1_ComparaisonDeNombres.csproj.CoreCompileInputs.cache
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\2.1_ComparaisonDeNombres\2.1_ComparaisonDeNombres\bin\Debug\net6.0\2.1_ComparaisonDeNombres.exe
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\2.1_ComparaisonDeNombres\2.1_ComparaisonDeNombres\bin\Debug\net6.0\2.1_ComparaisonDeNombres.deps.json
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\2.1_ComparaisonDeNombres\2.1_ComparaisonDeNombres\bin\Debug\net6.0\2.1_ComparaisonDeNombres.runtimeconfig.json
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\2.1_ComparaisonDeNombres\2.1_ComparaisonDeNombres\bin\Debug\net6.0\2.1_ComparaisonDeNombres.dll
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\2.1_ComparaisonDeNombres\2.1_ComparaisonDeNombres\bin\Debug\net6.0\2.1_ComparaisonDeNombres.pdb
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\2.1_ComparaisonDeNombres\2.1_ComparaisonDeNombres\obj\Debug\net6.0\2.1_ComparaisonDeNombres.dll
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\2.1_ComparaisonDeNombres\2.1_ComparaisonDeNombres\obj\Debug\net6.0\refint\2.1_ComparaisonDeNombres.dll
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\2.1_ComparaisonDeNombres\2.1_ComparaisonDeNombres\obj\Debug\net6.0\2.1_ComparaisonDeNombres.pdb
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\2.1_ComparaisonDeNombres\2.1_ComparaisonDeNombres\obj\Debug\net6.0\2.1_ComparaisonDeNombres.genruntimeconfig.cache
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\2.1_ComparaisonDeNombres\2.1_ComparaisonDeNombres\obj\Debug\net6.0\ref\2.1_ComparaisonDeNombres.dll

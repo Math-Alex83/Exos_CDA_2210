@@ -1,0 +1,15 @@
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\Parti_6\exo_6.3_jeuDuPendu\JeuDuPendu\bin\Debug\net6.0\JeuDuPendu.exe
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\Parti_6\exo_6.3_jeuDuPendu\JeuDuPendu\bin\Debug\net6.0\JeuDuPendu.deps.json
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\Parti_6\exo_6.3_jeuDuPendu\JeuDuPendu\bin\Debug\net6.0\JeuDuPendu.runtimeconfig.json
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\Parti_6\exo_6.3_jeuDuPendu\JeuDuPendu\bin\Debug\net6.0\JeuDuPendu.dll
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\Parti_6\exo_6.3_jeuDuPendu\JeuDuPendu\bin\Debug\net6.0\JeuDuPendu.pdb
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\Parti_6\exo_6.3_jeuDuPendu\JeuDuPendu\obj\Debug\net6.0\JeuDuPendu.csproj.AssemblyReference.cache
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\Parti_6\exo_6.3_jeuDuPendu\JeuDuPendu\obj\Debug\net6.0\JeuDuPendu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\Parti_6\exo_6.3_jeuDuPendu\JeuDuPendu\obj\Debug\net6.0\JeuDuPendu.AssemblyInfoInputs.cache
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\Parti_6\exo_6.3_jeuDuPendu\JeuDuPendu\obj\Debug\net6.0\JeuDuPendu.AssemblyInfo.cs
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\Parti_6\exo_6.3_jeuDuPendu\JeuDuPendu\obj\Debug\net6.0\JeuDuPendu.csproj.CoreCompileInputs.cache
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\Parti_6\exo_6.3_jeuDuPendu\JeuDuPendu\obj\Debug\net6.0\JeuDuPendu.dll
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\Parti_6\exo_6.3_jeuDuPendu\JeuDuPendu\obj\Debug\net6.0\refint\JeuDuPendu.dll
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\Parti_6\exo_6.3_jeuDuPendu\JeuDuPendu\obj\Debug\net6.0\JeuDuPendu.pdb
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\Parti_6\exo_6.3_jeuDuPendu\JeuDuPendu\obj\Debug\net6.0\JeuDuPendu.genruntimeconfig.cache
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\Parti_6\exo_6.3_jeuDuPendu\JeuDuPendu\obj\Debug\net6.0\ref\JeuDuPendu.dll

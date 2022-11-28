@@ -1,0 +1,15 @@
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\ExercicesNombreCommun\ExercicesNombreCommun\bin\Debug\net6.0\ExercicesNombreCommun.exe
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\ExercicesNombreCommun\ExercicesNombreCommun\bin\Debug\net6.0\ExercicesNombreCommun.deps.json
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\ExercicesNombreCommun\ExercicesNombreCommun\bin\Debug\net6.0\ExercicesNombreCommun.runtimeconfig.json
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\ExercicesNombreCommun\ExercicesNombreCommun\bin\Debug\net6.0\ExercicesNombreCommun.dll
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\ExercicesNombreCommun\ExercicesNombreCommun\bin\Debug\net6.0\ExercicesNombreCommun.pdb
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\ExercicesNombreCommun\ExercicesNombreCommun\obj\Debug\net6.0\ExercicesNombreCommun.csproj.AssemblyReference.cache
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\ExercicesNombreCommun\ExercicesNombreCommun\obj\Debug\net6.0\ExercicesNombreCommun.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\ExercicesNombreCommun\ExercicesNombreCommun\obj\Debug\net6.0\ExercicesNombreCommun.AssemblyInfoInputs.cache
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\ExercicesNombreCommun\ExercicesNombreCommun\obj\Debug\net6.0\ExercicesNombreCommun.AssemblyInfo.cs
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\ExercicesNombreCommun\ExercicesNombreCommun\obj\Debug\net6.0\ExercicesNombreCommun.csproj.CoreCompileInputs.cache
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\ExercicesNombreCommun\ExercicesNombreCommun\obj\Debug\net6.0\ExercicesNombreCommun.dll
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\ExercicesNombreCommun\ExercicesNombreCommun\obj\Debug\net6.0\refint\ExercicesNombreCommun.dll
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\ExercicesNombreCommun\ExercicesNombreCommun\obj\Debug\net6.0\ExercicesNombreCommun.pdb
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\ExercicesNombreCommun\ExercicesNombreCommun\obj\Debug\net6.0\ExercicesNombreCommun.genruntimeconfig.cache
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\ExercicesNombreCommun\ExercicesNombreCommun\obj\Debug\net6.0\ref\ExercicesNombreCommun.dll

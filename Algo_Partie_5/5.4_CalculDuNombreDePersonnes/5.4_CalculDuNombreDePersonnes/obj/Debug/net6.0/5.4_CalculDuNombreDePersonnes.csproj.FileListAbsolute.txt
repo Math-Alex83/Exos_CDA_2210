@@ -1,0 +1,15 @@
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\5.4_CalculDuNombreDePersonnes\5.4_CalculDuNombreDePersonnes\bin\Debug\net6.0\5.4_CalculDuNombreDePersonnes.exe
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\5.4_CalculDuNombreDePersonnes\5.4_CalculDuNombreDePersonnes\bin\Debug\net6.0\5.4_CalculDuNombreDePersonnes.deps.json
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\5.4_CalculDuNombreDePersonnes\5.4_CalculDuNombreDePersonnes\bin\Debug\net6.0\5.4_CalculDuNombreDePersonnes.runtimeconfig.json
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\5.4_CalculDuNombreDePersonnes\5.4_CalculDuNombreDePersonnes\bin\Debug\net6.0\5.4_CalculDuNombreDePersonnes.dll
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\5.4_CalculDuNombreDePersonnes\5.4_CalculDuNombreDePersonnes\bin\Debug\net6.0\5.4_CalculDuNombreDePersonnes.pdb
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\5.4_CalculDuNombreDePersonnes\5.4_CalculDuNombreDePersonnes\obj\Debug\net6.0\5.4_CalculDuNombreDePersonnes.csproj.AssemblyReference.cache
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\5.4_CalculDuNombreDePersonnes\5.4_CalculDuNombreDePersonnes\obj\Debug\net6.0\5.4_CalculDuNombreDePersonnes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\5.4_CalculDuNombreDePersonnes\5.4_CalculDuNombreDePersonnes\obj\Debug\net6.0\5.4_CalculDuNombreDePersonnes.AssemblyInfoInputs.cache
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\5.4_CalculDuNombreDePersonnes\5.4_CalculDuNombreDePersonnes\obj\Debug\net6.0\5.4_CalculDuNombreDePersonnes.AssemblyInfo.cs
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\5.4_CalculDuNombreDePersonnes\5.4_CalculDuNombreDePersonnes\obj\Debug\net6.0\5.4_CalculDuNombreDePersonnes.csproj.CoreCompileInputs.cache
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\5.4_CalculDuNombreDePersonnes\5.4_CalculDuNombreDePersonnes\obj\Debug\net6.0\5.4_CalculDuNombreDePersonnes.dll
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\5.4_CalculDuNombreDePersonnes\5.4_CalculDuNombreDePersonnes\obj\Debug\net6.0\refint\5.4_CalculDuNombreDePersonnes.dll
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\5.4_CalculDuNombreDePersonnes\5.4_CalculDuNombreDePersonnes\obj\Debug\net6.0\5.4_CalculDuNombreDePersonnes.pdb
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\5.4_CalculDuNombreDePersonnes\5.4_CalculDuNombreDePersonnes\obj\Debug\net6.0\5.4_CalculDuNombreDePersonnes.genruntimeconfig.cache
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\5.4_CalculDuNombreDePersonnes\5.4_CalculDuNombreDePersonnes\obj\Debug\net6.0\ref\5.4_CalculDuNombreDePersonnes.dll

@@ -1,0 +1,15 @@
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\3.2_BarnabeFaitSesCourses\3.2_BarnabeFaitSesCourses\bin\Debug\net6.0\3.2_BarnabeFaitSesCourses.exe
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\3.2_BarnabeFaitSesCourses\3.2_BarnabeFaitSesCourses\bin\Debug\net6.0\3.2_BarnabeFaitSesCourses.deps.json
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\3.2_BarnabeFaitSesCourses\3.2_BarnabeFaitSesCourses\bin\Debug\net6.0\3.2_BarnabeFaitSesCourses.runtimeconfig.json
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\3.2_BarnabeFaitSesCourses\3.2_BarnabeFaitSesCourses\bin\Debug\net6.0\3.2_BarnabeFaitSesCourses.dll
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\3.2_BarnabeFaitSesCourses\3.2_BarnabeFaitSesCourses\bin\Debug\net6.0\3.2_BarnabeFaitSesCourses.pdb
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\3.2_BarnabeFaitSesCourses\3.2_BarnabeFaitSesCourses\obj\Debug\net6.0\3.2_BarnabeFaitSesCourses.csproj.AssemblyReference.cache
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\3.2_BarnabeFaitSesCourses\3.2_BarnabeFaitSesCourses\obj\Debug\net6.0\3.2_BarnabeFaitSesCourses.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\3.2_BarnabeFaitSesCourses\3.2_BarnabeFaitSesCourses\obj\Debug\net6.0\3.2_BarnabeFaitSesCourses.AssemblyInfoInputs.cache
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\3.2_BarnabeFaitSesCourses\3.2_BarnabeFaitSesCourses\obj\Debug\net6.0\3.2_BarnabeFaitSesCourses.AssemblyInfo.cs
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\3.2_BarnabeFaitSesCourses\3.2_BarnabeFaitSesCourses\obj\Debug\net6.0\3.2_BarnabeFaitSesCourses.csproj.CoreCompileInputs.cache
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\3.2_BarnabeFaitSesCourses\3.2_BarnabeFaitSesCourses\obj\Debug\net6.0\3.2_BarnabeFaitSesCourses.dll
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\3.2_BarnabeFaitSesCourses\3.2_BarnabeFaitSesCourses\obj\Debug\net6.0\refint\3.2_BarnabeFaitSesCourses.dll
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\3.2_BarnabeFaitSesCourses\3.2_BarnabeFaitSesCourses\obj\Debug\net6.0\3.2_BarnabeFaitSesCourses.pdb
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\3.2_BarnabeFaitSesCourses\3.2_BarnabeFaitSesCourses\obj\Debug\net6.0\3.2_BarnabeFaitSesCourses.genruntimeconfig.cache
+C:\Users\Stagiaire\Depots-codes\Visual_Studio_C#_CDA2210\3.2_BarnabeFaitSesCourses\3.2_BarnabeFaitSesCourses\obj\Debug\net6.0\ref\3.2_BarnabeFaitSesCourses.dll
