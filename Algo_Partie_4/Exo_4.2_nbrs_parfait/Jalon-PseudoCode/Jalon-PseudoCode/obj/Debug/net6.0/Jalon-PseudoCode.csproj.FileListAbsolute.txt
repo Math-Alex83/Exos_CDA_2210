@@ -1,0 +1,5 @@
+C:\Users\Stagiaire\Exercices_CDA_2210\Depots-codes\Visual_Studio_C#_CDA2210\Algo_Partie_4\Exo_4.2_nbrs_parfait\Jalon-PseudoCode\Jalon-PseudoCode\obj\Debug\net6.0\Jalon-PseudoCode.csproj.AssemblyReference.cache
+C:\Users\Stagiaire\Exercices_CDA_2210\Depots-codes\Visual_Studio_C#_CDA2210\Algo_Partie_4\Exo_4.2_nbrs_parfait\Jalon-PseudoCode\Jalon-PseudoCode\obj\Debug\net6.0\Jalon-PseudoCode.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stagiaire\Exercices_CDA_2210\Depots-codes\Visual_Studio_C#_CDA2210\Algo_Partie_4\Exo_4.2_nbrs_parfait\Jalon-PseudoCode\Jalon-PseudoCode\obj\Debug\net6.0\Jalon-PseudoCode.AssemblyInfoInputs.cache
+C:\Users\Stagiaire\Exercices_CDA_2210\Depots-codes\Visual_Studio_C#_CDA2210\Algo_Partie_4\Exo_4.2_nbrs_parfait\Jalon-PseudoCode\Jalon-PseudoCode\obj\Debug\net6.0\Jalon-PseudoCode.AssemblyInfo.cs
+C:\Users\Stagiaire\Exercices_CDA_2210\Depots-codes\Visual_Studio_C#_CDA2210\Algo_Partie_4\Exo_4.2_nbrs_parfait\Jalon-PseudoCode\Jalon-PseudoCode\obj\Debug\net6.0\Jalon-PseudoCode.csproj.CoreCompileInputs.cache

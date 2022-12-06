@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jalon-PseudoCode", "Jalon-PseudoCode\Jalon-PseudoCode.csproj", "{914CED86-7B63-4BCB-81D5-78287C342038}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JalonSuiteDeFibonacci", "..\..\..\..\..\..\Depots-codes\Visual_Studio_C#_CDA2210\Partie.4\JalonSuiteDeFibonacci\JalonSuiteDeFibonacci.csproj", "{63719EC0-B5D2-4B54-BFC8-744E7979F86F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{914CED86-7B63-4BCB-81D5-78287C342038}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{914CED86-7B63-4BCB-81D5-78287C342038}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{914CED86-7B63-4BCB-81D5-78287C342038}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{914CED86-7B63-4BCB-81D5-78287C342038}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63719EC0-B5D2-4B54-BFC8-744E7979F86F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63719EC0-B5D2-4B54-BFC8-744E7979F86F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63719EC0-B5D2-4B54-BFC8-744E7979F86F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63719EC0-B5D2-4B54-BFC8-744E7979F86F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {548FD92E-DEBC-4FB8-9F10-F31BB477222E}
+	EndGlobalSection
+EndGlobal
