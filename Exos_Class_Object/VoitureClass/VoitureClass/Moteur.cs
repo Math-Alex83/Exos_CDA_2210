@@ -6,22 +6,25 @@ using System.Threading.Tasks;
 
 namespace VoitureClass
 {
-    public class Moteur
+    internal class Moteur
     {
-        private bool moteurAdemarrer;
+        // private bool moteurAdemarrer; -> Correspond au retour de MettreLeContact
         private bool moteurTourne;
         private bool faitAvancerLesRoues;
         /// <summary>
         /// constructeur Moteur
         /// </summary>
         public Moteur()
-        {}
+        {
+            moteurTourne = false;
+            faitAvancerLesRoues = false;
+        }
        
         /// <summary>
         /// methode pour faire tourner le moteur
         /// </summary>
         /// <returns>boolean</returns>
-        public bool MoteurTourne() 
+        public bool MettreLeContact() 
         {
             /*if (moteurAdemarrer == true)
             {
@@ -31,28 +34,40 @@ namespace VoitureClass
             {
                 return false;
             }*/
-            if (!moteurAdemarrer)
+            if (!moteurTourne)
             {
-                moteurAdemarrer = true;
+                moteurTourne = true;
                 return true;
             }
             return false;
 
         }
+
         /// <summary>
         /// methode pour faire avancer les roues
         /// </summary>
         /// <returns>boolean</returns>
-        public bool FaitAvancerLesRoues()
+        public bool FaitAvancerLesRoues(Roue r1, Roue r2, Roue r3, Roue r4)
         {
-            if (faitAvancerLesRoues==true)
-            {
-                return true;
-            }
-            else
-            {
+            if (faitAvancerLesRoues)
                 return false;
-            }
+            faitAvancerLesRoues = r1.RoueAvance() && r2.RoueAvance() && r3.RoueAvance() && r4.RoueAvance();
+            return faitAvancerLesRoues;
+
         }
+
+        public bool ArreterLesRoues(Roue r1, Roue r2, Roue r3, Roue r4)
+        {
+            if (!faitAvancerLesRoues)
+                return false;
+            faitAvancerLesRoues = !(r1.Stopper() && r2.Stopper() && r3.Stopper() && r4.Stopper());
+            return faitAvancerLesRoues;
+        }
+
+        public bool Demarrer()
+        {
+            throw new NotImplementedException();
+        }
+
     }
 }

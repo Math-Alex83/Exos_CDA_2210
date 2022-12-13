@@ -8,23 +8,28 @@ namespace VoitureClass
 {
     public class Voiture
     {
-        bool avance;
-        bool estArretee;
-        bool monMoteur;
-        /// <summary>
-        /// Constructeur par défault de la classe Voiture
-        /// </summary>
+        private Moteur sonMoteur;
+        private Dictionary<string, Roue> mesRoues;
+
         public Voiture()
         {
+            mesRoues = new Dictionary<string, Roue>();
+            mesRoues.Add("rag",new Roue());
+            mesRoues.Add("rad", new Roue());
+            mesRoues.Add("rarg", new Roue());
+            mesRoues.Add("rard", new Roue());
+            mesRoues.Add("rds", new Roue());
         }
 
         public bool Demarrer()
         {
-            return (monMoteur)? false : true && (monMoteur=true);
+            return sonMoteur.Demarrer();
         }
 
-
-
+        public bool Avancer()
+        {
+            return sonMoteur.FaitAvancerLesRoues(mesRoues["rag"], mesRoues["rad"], mesRoues["rarg"], mesRoues["rard"]);
+        }
 
 
     }

@@ -6,26 +6,30 @@ using System.Threading.Tasks;
 
 namespace VoitureClass
 {
-     class Roue
+    internal class Roue
     {
-        bool estRoueAvance = false;
-        bool estRoueStop = false;
+        bool roule;
 
         public Roue()
-        {}
+        {
+            roule = false;
+            
+        }
 
         public bool RoueAvance()
         {
-            if (this.estRoueAvance) // est égal à (estRoueAvance==true)
-            {
-                return false;
-            }
-            else
-            {
-                return false;
-            }
+            roule = true;
+            return true;
         }
-        public
+
+        public bool Stopper()
+        {
+            roule = false;
+            return true;
+        }
+
+
+
 
     }
 }

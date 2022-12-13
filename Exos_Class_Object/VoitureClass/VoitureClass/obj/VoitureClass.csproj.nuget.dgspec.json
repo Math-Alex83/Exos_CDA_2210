@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Stagiaire\\Exercices_CDA_2210\\Depots-codes\\Visual_Studio_C#_CDA2210\\Exos_Class_Object\\VoitureClass\\VoitureClass\\VoitureClass.csproj": {}
+    "C:\\Users\\matha\\Clone_CDA_2210\\Exos_CDA_2210\\Exos_Class_Object\\VoitureClass\\VoitureClass\\VoitureClass.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Stagiaire\\Exercices_CDA_2210\\Depots-codes\\Visual_Studio_C#_CDA2210\\Exos_Class_Object\\VoitureClass\\VoitureClass\\VoitureClass.csproj": {
+    "C:\\Users\\matha\\Clone_CDA_2210\\Exos_CDA_2210\\Exos_Class_Object\\VoitureClass\\VoitureClass\\VoitureClass.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Stagiaire\\Exercices_CDA_2210\\Depots-codes\\Visual_Studio_C#_CDA2210\\Exos_Class_Object\\VoitureClass\\VoitureClass\\VoitureClass.csproj",
+        "projectUniqueName": "C:\\Users\\matha\\Clone_CDA_2210\\Exos_CDA_2210\\Exos_Class_Object\\VoitureClass\\VoitureClass\\VoitureClass.csproj",
         "projectName": "VoitureClass",
-        "projectPath": "C:\\Users\\Stagiaire\\Exercices_CDA_2210\\Depots-codes\\Visual_Studio_C#_CDA2210\\Exos_Class_Object\\VoitureClass\\VoitureClass\\VoitureClass.csproj",
-        "packagesPath": "C:\\Users\\Stagiaire\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Stagiaire\\Exercices_CDA_2210\\Depots-codes\\Visual_Studio_C#_CDA2210\\Exos_Class_Object\\VoitureClass\\VoitureClass\\obj\\",
+        "projectPath": "C:\\Users\\matha\\Clone_CDA_2210\\Exos_CDA_2210\\Exos_Class_Object\\VoitureClass\\VoitureClass\\VoitureClass.csproj",
+        "packagesPath": "C:\\Users\\matha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\matha\\Clone_CDA_2210\\Exos_CDA_2210\\Exos_Class_Object\\VoitureClass\\VoitureClass\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Stagiaire\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\matha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
