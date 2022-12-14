@@ -8,65 +8,56 @@ namespace VoitureClass
 {
     internal class Moteur
     {
-        // private bool moteurAdemarrer; -> Correspond au retour de MettreLeContact
-        private bool moteurTourne;
-        private bool faitAvancerLesRoues;
+        private bool moteurEnMarche;
+        private bool roueEnMouvement;
+
+        public bool MoteurEnMarche { get => moteurEnMarche; } //set => moteurEnMarche = value; }
+
         /// <summary>
-        /// constructeur Moteur
+        /// constructeur Moteur par défault
         /// </summary>
         public Moteur()
         {
-            moteurTourne = false;
-            faitAvancerLesRoues = false;
+            string typeDeCarburant = "Disel";
+            string cylindree = "120 Cv";
+            string typeDeTraction = "Traction Avant";
+            moteurEnMarche = false;
         }
-       
-        /// <summary>
-        /// methode pour faire tourner le moteur
-        /// </summary>
-        /// <returns>boolean</returns>
-        public bool MettreLeContact() 
+        internal bool MoteurTourne()
         {
-            /*if (moteurAdemarrer == true)
+            if (moteurEnMarche)
             {
+                return false;
+            }
+            else
+            {
+                moteurEnMarche = true;
+                return true;
+            }
+        }
+        public bool MoteurArret()
+        {
+            if (!moteurEnMarche)
+            {
+                return false;
+            }
+            else
+            {
+                moteurEnMarche = false;
+                return true;
+            }
+        }
+        public bool EntraineLesRoues(Roue r1, Roue r2, Roue r3, Roue r4)
+        {
+            if (moteurEnMarche)
+            {
+                roueEnMouvement = true;
                 return true;
             }
             else
             {
                 return false;
-            }*/
-            if (!moteurTourne)
-            {
-                moteurTourne = true;
-                return true;
             }
-            return false;
-
-        }
-
-        /// <summary>
-        /// methode pour faire avancer les roues
-        /// </summary>
-        /// <returns>boolean</returns>
-        public bool FaitAvancerLesRoues(Roue r1, Roue r2, Roue r3, Roue r4)
-        {
-            if (faitAvancerLesRoues)
-                return false;
-            faitAvancerLesRoues = r1.RoueAvance() && r2.RoueAvance() && r3.RoueAvance() && r4.RoueAvance();
-            return faitAvancerLesRoues;
-
-        }
-
-        public bool ArreterLesRoues(Roue r1, Roue r2, Roue r3, Roue r4)
-        {
-            if (!faitAvancerLesRoues)
-                return false;
-            faitAvancerLesRoues = !(r1.Stopper() && r2.Stopper() && r3.Stopper() && r4.Stopper());
-            return faitAvancerLesRoues;
-        }
-
-        public bool Demarrer()
-        {
-            throw new NotImplementedException();
         }
 
     }

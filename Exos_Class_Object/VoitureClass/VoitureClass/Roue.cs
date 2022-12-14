@@ -8,28 +8,24 @@ namespace VoitureClass
 {
     internal class Roue
     {
-        bool roule;
+        bool roueEnMouvement;
 
         public Roue()
         {
-            roule = false;
+            roueEnMouvement = false;
             
         }
 
         public bool RoueAvance()
         {
-            roule = true;
+            roueEnMouvement = true;
             return true;
         }
 
-        public bool Stopper()
+        public bool RoueStop()
         {
-            roule = false;
+            roueEnMouvement = false;
             return true;
         }
-
-
-
-
     }
 }

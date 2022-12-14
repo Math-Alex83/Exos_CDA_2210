@@ -9,26 +9,68 @@ namespace VoitureClass
     public class Voiture
     {
         private Moteur sonMoteur;
-        private Dictionary<string, Roue> mesRoues;
+        private Dictionary<string, Roue> sesRoues;
 
         public Voiture()
         {
-            mesRoues = new Dictionary<string, Roue>();
-            mesRoues.Add("rag",new Roue());
-            mesRoues.Add("rad", new Roue());
-            mesRoues.Add("rarg", new Roue());
-            mesRoues.Add("rard", new Roue());
-            mesRoues.Add("rds", new Roue());
+            string marque;
+            string modele;
+            string couleur;
+
+            sesRoues = new Dictionary<string, Roue>();
+            GetSesRoues().Add("rag", new Roue());
+            GetSesRoues1().Add("rad", new Roue());
+            GetSesRoues2().Add("rarg", new Roue());
+            GetSesRoues3().Add("rard", new Roue());
+            GetSesRoues4().Add("rds", new Roue());
+
+        }
+
+        private Dictionary<string, Roue> GetSesRoues4()
+        {
+            return sesRoues;
+        }
+
+        private Dictionary<string, Roue> GetSesRoues3()
+        {
+            return sesRoues;
+        }
+
+        private Dictionary<string, Roue> GetSesRoues2()
+        {
+            return sesRoues;
+        }
+
+        private Dictionary<string, Roue> GetSesRoues1()
+        {
+            return sesRoues;
+        }
+
+        private Dictionary<string, Roue> GetSesRoues()
+        {
+            return sesRoues;
         }
 
         public bool Demarrer()
-        {
-            return sonMoteur.Demarrer();
-        }
+        {           
+            return sonMoteur.MoteurTourne();
 
+        }
+        public bool CouperContact()
+        {
+            if (moteurEnMarche)
+            {
+                moteurEnMarche = false;
+                return true;
+            }
+            else
+            {
+
+            }
+        }
         public bool Avancer()
         {
-            return sonMoteur.FaitAvancerLesRoues(mesRoues["rag"], mesRoues["rad"], mesRoues["rarg"], mesRoues["rard"]);
+            return sonMoteur.EntraineLesRoues(sesRoues["rag"], sesRoues["rad"], sesRoues["rarg"], sesRoues["rard"]);
         }
 
 
