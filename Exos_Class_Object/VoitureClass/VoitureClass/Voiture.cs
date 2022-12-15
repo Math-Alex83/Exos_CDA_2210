@@ -9,70 +9,57 @@ namespace VoitureClass
     public class Voiture
     {
         private Moteur sonMoteur;
-        private Dictionary<string, Roue> sesRoues;
+        private Roue sesRoues;
+        private Dictionary<string, Roue> dicRoues;//{ get; }
 
         public Voiture()
         {
             string marque;
             string modele;
             string couleur;
+            dicRoues = new Dictionary<string, Roue>();
 
-            sesRoues = new Dictionary<string, Roue>();
-            GetSesRoues().Add("rag", new Roue());
-            GetSesRoues1().Add("rad", new Roue());
-            GetSesRoues2().Add("rarg", new Roue());
-            GetSesRoues3().Add("rard", new Roue());
-            GetSesRoues4().Add("rds", new Roue());
+
+            dicRoues.Add("rag", new Roue());
+            dicRoues.Add("rad", new Roue());
+            dicRoues.Add("rarg", new Roue());
+            dicRoues.Add("rard", new Roue());
+            dicRoues.Add("rds", new Roue());
 
         }
-
-        private Dictionary<string, Roue> GetSesRoues4()
-        {
-            return sesRoues;
-        }
-
-        private Dictionary<string, Roue> GetSesRoues3()
-        {
-            return sesRoues;
-        }
-
-        private Dictionary<string, Roue> GetSesRoues2()
-        {
-            return sesRoues;
-        }
-
-        private Dictionary<string, Roue> GetSesRoues1()
-        {
-            return sesRoues;
-        }
-
-        private Dictionary<string, Roue> GetSesRoues()
-        {
-            return sesRoues;
-        }
-
+        /// <summary>
+        /// Pour démarrer le moteur
+        /// </summary>
+        /// <returns></returns>
         public bool Demarrer()
-        {           
+        {
             return sonMoteur.MoteurTourne();
 
         }
+        /// <summary>
+        /// Pour couper le moteur
+        /// </summary>
+        /// <returns></returns>
         public bool CouperContact()
         {
-            if (moteurEnMarche)
-            {
-                moteurEnMarche = false;
-                return true;
-            }
-            else
-            {
-
-            }
+            return sonMoteur.MoteurArret();
         }
+        /// <summary>
+        /// Pour faire avancer les roues
+        /// </summary>
+        /// <returns></returns>
         public bool Avancer()
         {
-            return sonMoteur.EntraineLesRoues(sesRoues["rag"], sesRoues["rad"], sesRoues["rarg"], sesRoues["rard"]);
+            return sonMoteur.EntraineLesRoues(dicRoues["rag"], dicRoues["rad"], dicRoues["rarg"], dicRoues["rard"]);
         }
-
+        /// <summary>
+        /// Pour arreter les roues
+        /// </summary>
+        /// <returns></returns>
+        public bool Freiner()
+        {
+            return sesRoues.RoueArret();
+        }
 
     }
 }

@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace VoitureClass
 {
-    internal class Moteur
+    public class Moteur
     {
-        private bool moteurEnMarche;
+        private bool moteurEnMarche { get; set; }
         private bool roueEnMouvement;
 
         public bool MoteurEnMarche { get => moteurEnMarche; } //set => moteurEnMarche = value; }
@@ -23,7 +23,11 @@ namespace VoitureClass
             string typeDeTraction = "Traction Avant";
             moteurEnMarche = false;
         }
-        internal bool MoteurTourne()
+        /// <summary>
+        /// Mise en route du moteur au démarrage
+        /// </summary>
+        /// <returns></returns>
+        public bool MoteurTourne()
         {
             if (moteurEnMarche)
             {
@@ -31,10 +35,14 @@ namespace VoitureClass
             }
             else
             {
-                moteurEnMarche = true;
+                this.moteurEnMarche = true;
                 return true;
             }
         }
+        /// <summary>
+        /// Mise à l'arret du moteur à la coupure du contact
+        /// </summary>
+        /// <returns></returns>
         public bool MoteurArret()
         {
             if (!moteurEnMarche)
@@ -47,6 +55,14 @@ namespace VoitureClass
                 return true;
             }
         }
+        /// <summary>
+        /// Fait avancer les roues
+        /// </summary>
+        /// <param name="r1"></param>
+        /// <param name="r2"></param>
+        /// <param name="r3"></param>
+        /// <param name="r4"></param>
+        /// <returns></returns>
         public bool EntraineLesRoues(Roue r1, Roue r2, Roue r3, Roue r4)
         {
             if (moteurEnMarche)

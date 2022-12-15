@@ -6,23 +6,29 @@ using System.Threading.Tasks;
 
 namespace VoitureClass
 {
-    internal class Roue
+    public class Roue
     {
-        bool roueEnMouvement;
+        private bool roueEnMouvement { get; set; }
 
         public Roue()
         {
             roueEnMouvement = false;
-            
-        }
 
+        }
+        /// <summary>
+        /// Fait avancer les roues à la demande EntraineLesRoues
+        /// </summary>
+        /// <returns></returns>
         public bool RoueAvance()
         {
             roueEnMouvement = true;
             return true;
         }
-
-        public bool RoueStop()
+        /// <summary>
+        /// Arret les roues à la demande Freiner
+        /// </summary>
+        /// <returns></returns>
+        public bool RoueArret()
         {
             roueEnMouvement = false;
             return true;
