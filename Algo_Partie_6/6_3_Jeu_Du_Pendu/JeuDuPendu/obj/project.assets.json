@@ -8,23 +8,26 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Stagiaire\\.nuget\\packages\\": {},
+    "C:\\Users\\MAknouche\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Stagiaire\\Depots-codes\\Visual_Studio_C#_CDA2210\\Parti_6\\exo_6.3_jeuDuPendu\\JeuDuPendu\\JeuDuPendu.csproj",
+      "projectUniqueName": "C:\\Users\\MAknouche\\CDA_2210\\Depot_Codes\\Exos_CDA_2210\\Algo_Partie_6\\6_3_Jeu_Du_Pendu\\JeuDuPendu\\JeuDuPendu.csproj",
       "projectName": "JeuDuPendu",
-      "projectPath": "C:\\Users\\Stagiaire\\Depots-codes\\Visual_Studio_C#_CDA2210\\Parti_6\\exo_6.3_jeuDuPendu\\JeuDuPendu\\JeuDuPendu.csproj",
-      "packagesPath": "C:\\Users\\Stagiaire\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Stagiaire\\Depots-codes\\Visual_Studio_C#_CDA2210\\Parti_6\\exo_6.3_jeuDuPendu\\JeuDuPendu\\obj\\",
+      "projectPath": "C:\\Users\\MAknouche\\CDA_2210\\Depot_Codes\\Exos_CDA_2210\\Algo_Partie_6\\6_3_Jeu_Du_Pendu\\JeuDuPendu\\JeuDuPendu.csproj",
+      "packagesPath": "C:\\Users\\MAknouche\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\MAknouche\\CDA_2210\\Depot_Codes\\Exos_CDA_2210\\Algo_Partie_6\\6_3_Jeu_Du_Pendu\\JeuDuPendu\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Stagiaire\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\MAknouche\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
