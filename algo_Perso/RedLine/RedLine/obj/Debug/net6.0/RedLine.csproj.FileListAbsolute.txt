@@ -1,0 +1,15 @@
+C:\Users\matha\Clone_CDA_2210\Exos_CDA_2210\algo_Perso\RedLine\RedLine\obj\Debug\net6.0\RedLine.csproj.AssemblyReference.cache
+C:\Users\matha\Clone_CDA_2210\Exos_CDA_2210\algo_Perso\RedLine\RedLine\obj\Debug\net6.0\RedLine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matha\Clone_CDA_2210\Exos_CDA_2210\algo_Perso\RedLine\RedLine\obj\Debug\net6.0\RedLine.AssemblyInfoInputs.cache
+C:\Users\matha\Clone_CDA_2210\Exos_CDA_2210\algo_Perso\RedLine\RedLine\obj\Debug\net6.0\RedLine.AssemblyInfo.cs
+C:\Users\matha\Clone_CDA_2210\Exos_CDA_2210\algo_Perso\RedLine\RedLine\obj\Debug\net6.0\RedLine.csproj.CoreCompileInputs.cache
+C:\Users\matha\Clone_CDA_2210\Exos_CDA_2210\algo_Perso\RedLine\RedLine\bin\Debug\net6.0\RedLine.exe
+C:\Users\matha\Clone_CDA_2210\Exos_CDA_2210\algo_Perso\RedLine\RedLine\bin\Debug\net6.0\RedLine.deps.json
+C:\Users\matha\Clone_CDA_2210\Exos_CDA_2210\algo_Perso\RedLine\RedLine\bin\Debug\net6.0\RedLine.runtimeconfig.json
+C:\Users\matha\Clone_CDA_2210\Exos_CDA_2210\algo_Perso\RedLine\RedLine\bin\Debug\net6.0\RedLine.dll
+C:\Users\matha\Clone_CDA_2210\Exos_CDA_2210\algo_Perso\RedLine\RedLine\bin\Debug\net6.0\RedLine.pdb
+C:\Users\matha\Clone_CDA_2210\Exos_CDA_2210\algo_Perso\RedLine\RedLine\obj\Debug\net6.0\RedLine.dll
+C:\Users\matha\Clone_CDA_2210\Exos_CDA_2210\algo_Perso\RedLine\RedLine\obj\Debug\net6.0\refint\RedLine.dll
+C:\Users\matha\Clone_CDA_2210\Exos_CDA_2210\algo_Perso\RedLine\RedLine\obj\Debug\net6.0\RedLine.pdb
+C:\Users\matha\Clone_CDA_2210\Exos_CDA_2210\algo_Perso\RedLine\RedLine\obj\Debug\net6.0\RedLine.genruntimeconfig.cache
+C:\Users\matha\Clone_CDA_2210\Exos_CDA_2210\algo_Perso\RedLine\RedLine\obj\Debug\net6.0\ref\RedLine.dll
