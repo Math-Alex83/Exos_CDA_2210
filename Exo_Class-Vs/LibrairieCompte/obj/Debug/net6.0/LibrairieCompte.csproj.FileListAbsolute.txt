@@ -1,0 +1,12 @@
+C:\Users\MAknouche\source\repos\LibrairieCompte\bin\Debug\net6.0\LibrairieCompte.deps.json
+C:\Users\MAknouche\source\repos\LibrairieCompte\bin\Debug\net6.0\LibrairieCompte.dll
+C:\Users\MAknouche\source\repos\LibrairieCompte\bin\Debug\net6.0\LibrairieCompte.pdb
+C:\Users\MAknouche\source\repos\LibrairieCompte\obj\Debug\net6.0\LibrairieCompte.csproj.AssemblyReference.cache
+C:\Users\MAknouche\source\repos\LibrairieCompte\obj\Debug\net6.0\LibrairieCompte.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MAknouche\source\repos\LibrairieCompte\obj\Debug\net6.0\LibrairieCompte.AssemblyInfoInputs.cache
+C:\Users\MAknouche\source\repos\LibrairieCompte\obj\Debug\net6.0\LibrairieCompte.AssemblyInfo.cs
+C:\Users\MAknouche\source\repos\LibrairieCompte\obj\Debug\net6.0\LibrairieCompte.csproj.CoreCompileInputs.cache
+C:\Users\MAknouche\source\repos\LibrairieCompte\obj\Debug\net6.0\LibrairieCompte.dll
+C:\Users\MAknouche\source\repos\LibrairieCompte\obj\Debug\net6.0\refint\LibrairieCompte.dll
+C:\Users\MAknouche\source\repos\LibrairieCompte\obj\Debug\net6.0\LibrairieCompte.pdb
+C:\Users\MAknouche\source\repos\LibrairieCompte\obj\Debug\net6.0\ref\LibrairieCompte.dll
