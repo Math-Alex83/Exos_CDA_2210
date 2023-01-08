@@ -1,0 +1,15 @@
+C:\Users\matha\Clone_CDA_2210\Exos_CDA_2210\algo_Perso\ExempleException\bin\Debug\net6.0\ExempleException.exe
+C:\Users\matha\Clone_CDA_2210\Exos_CDA_2210\algo_Perso\ExempleException\bin\Debug\net6.0\ExempleException.deps.json
+C:\Users\matha\Clone_CDA_2210\Exos_CDA_2210\algo_Perso\ExempleException\bin\Debug\net6.0\ExempleException.runtimeconfig.json
+C:\Users\matha\Clone_CDA_2210\Exos_CDA_2210\algo_Perso\ExempleException\bin\Debug\net6.0\ExempleException.dll
+C:\Users\matha\Clone_CDA_2210\Exos_CDA_2210\algo_Perso\ExempleException\bin\Debug\net6.0\ExempleException.pdb
+C:\Users\matha\Clone_CDA_2210\Exos_CDA_2210\algo_Perso\ExempleException\obj\Debug\net6.0\ExempleException.csproj.AssemblyReference.cache
+C:\Users\matha\Clone_CDA_2210\Exos_CDA_2210\algo_Perso\ExempleException\obj\Debug\net6.0\ExempleException.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matha\Clone_CDA_2210\Exos_CDA_2210\algo_Perso\ExempleException\obj\Debug\net6.0\ExempleException.AssemblyInfoInputs.cache
+C:\Users\matha\Clone_CDA_2210\Exos_CDA_2210\algo_Perso\ExempleException\obj\Debug\net6.0\ExempleException.AssemblyInfo.cs
+C:\Users\matha\Clone_CDA_2210\Exos_CDA_2210\algo_Perso\ExempleException\obj\Debug\net6.0\ExempleException.csproj.CoreCompileInputs.cache
+C:\Users\matha\Clone_CDA_2210\Exos_CDA_2210\algo_Perso\ExempleException\obj\Debug\net6.0\ExempleException.dll
+C:\Users\matha\Clone_CDA_2210\Exos_CDA_2210\algo_Perso\ExempleException\obj\Debug\net6.0\refint\ExempleException.dll
+C:\Users\matha\Clone_CDA_2210\Exos_CDA_2210\algo_Perso\ExempleException\obj\Debug\net6.0\ExempleException.pdb
+C:\Users\matha\Clone_CDA_2210\Exos_CDA_2210\algo_Perso\ExempleException\obj\Debug\net6.0\ExempleException.genruntimeconfig.cache
+C:\Users\matha\Clone_CDA_2210\Exos_CDA_2210\algo_Perso\ExempleException\obj\Debug\net6.0\ref\ExempleException.dll

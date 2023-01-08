@@ -10,3 +10,15 @@ C:\Users\MAknouche\source\repos\LibrairieCompte\obj\Debug\net6.0\LibrairieCompte
 C:\Users\MAknouche\source\repos\LibrairieCompte\obj\Debug\net6.0\refint\LibrairieCompte.dll
 C:\Users\MAknouche\source\repos\LibrairieCompte\obj\Debug\net6.0\LibrairieCompte.pdb
 C:\Users\MAknouche\source\repos\LibrairieCompte\obj\Debug\net6.0\ref\LibrairieCompte.dll
+C:\Users\matha\Clone_CDA_2210\Exos_CDA_2210\Exo_Class-Vs\LibrairieCompte\bin\Debug\net6.0\LibrairieCompte.deps.json
+C:\Users\matha\Clone_CDA_2210\Exos_CDA_2210\Exo_Class-Vs\LibrairieCompte\bin\Debug\net6.0\LibrairieCompte.dll
+C:\Users\matha\Clone_CDA_2210\Exos_CDA_2210\Exo_Class-Vs\LibrairieCompte\bin\Debug\net6.0\LibrairieCompte.pdb
+C:\Users\matha\Clone_CDA_2210\Exos_CDA_2210\Exo_Class-Vs\LibrairieCompte\obj\Debug\net6.0\LibrairieCompte.csproj.AssemblyReference.cache
+C:\Users\matha\Clone_CDA_2210\Exos_CDA_2210\Exo_Class-Vs\LibrairieCompte\obj\Debug\net6.0\LibrairieCompte.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matha\Clone_CDA_2210\Exos_CDA_2210\Exo_Class-Vs\LibrairieCompte\obj\Debug\net6.0\LibrairieCompte.AssemblyInfoInputs.cache
+C:\Users\matha\Clone_CDA_2210\Exos_CDA_2210\Exo_Class-Vs\LibrairieCompte\obj\Debug\net6.0\LibrairieCompte.AssemblyInfo.cs
+C:\Users\matha\Clone_CDA_2210\Exos_CDA_2210\Exo_Class-Vs\LibrairieCompte\obj\Debug\net6.0\LibrairieCompte.csproj.CoreCompileInputs.cache
+C:\Users\matha\Clone_CDA_2210\Exos_CDA_2210\Exo_Class-Vs\LibrairieCompte\obj\Debug\net6.0\LibrairieCompte.dll
+C:\Users\matha\Clone_CDA_2210\Exos_CDA_2210\Exo_Class-Vs\LibrairieCompte\obj\Debug\net6.0\refint\LibrairieCompte.dll
+C:\Users\matha\Clone_CDA_2210\Exos_CDA_2210\Exo_Class-Vs\LibrairieCompte\obj\Debug\net6.0\LibrairieCompte.pdb
+C:\Users\matha\Clone_CDA_2210\Exos_CDA_2210\Exo_Class-Vs\LibrairieCompte\obj\Debug\net6.0\ref\LibrairieCompte.dll
