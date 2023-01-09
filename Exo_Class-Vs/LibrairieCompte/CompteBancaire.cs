@@ -14,11 +14,14 @@ namespace LibrairieCompte
         private string id_Compte;
         private string nom;
         private string prenom;
-        private float solde;
-        private float decouvertAutorise;
+        private double solde;
+        private double decouvertAutorise;
 
-        public float Solde { get => solde;  }
-
+        public double Solde { get => solde;  }
+        public double DecouvertAutorise { get => decouvertAutorise; }
+        public string Prenom { get => prenom; }
+        public string Nom { get => nom; }
+        public string Id_Compte { get => id_Compte; }
         /// <summary>
         /// Constructeur avec parametre 
         /// </summary>
@@ -27,7 +30,7 @@ namespace LibrairieCompte
         /// <param name="_prenom"></param>
         /// <param name="_solde"></param>
         /// <param name="_decouvertAutorise"></param>
-        public CompteBancaire(string _id_Compte, string _nom, string _prenom, float _solde, float _decouvertAutorise)
+        public CompteBancaire(string _id_Compte, string _nom, string _prenom, double _solde, double _decouvertAutorise)
         {
             
             if (_decouvertAutorise > 0)
@@ -63,7 +66,7 @@ namespace LibrairieCompte
         /// </summary>
         /// <param name="_montant"></param>
         /// <returns>boolean</returns>
-        public bool Crediter(float _montant)
+        public bool Crediter(double _montant)
         {
             if (_montant>0)
             {
@@ -81,7 +84,7 @@ namespace LibrairieCompte
         /// </summary>
         /// <param name="_montant"></param>
         /// <returns>boolean</returns>
-        public bool Debiter(float _montant)
+        public bool Debiter(double _montant)
         {
             if ( _montant >= 0 && (this.solde - _montant) >= this.decouvertAutorise)
             {
@@ -100,7 +103,7 @@ namespace LibrairieCompte
         /// <param name="CompteDestinataire"></param>
         /// <param name="_montant"></param>
         /// <returns>boolean</returns>
-        public bool Transferer(CompteBancaire CompteDestinataire, float _montant)
+        public bool Transferer(CompteBancaire CompteDestinataire, double _montant)
         {
             if (Debiter(_montant))
             {                
