@@ -119,7 +119,8 @@ namespace LibrairieCompte
         /// Affichage infos compte bancaire actuel
         /// </summary>
         /// <returns>String</returns>
-        public override string ToString() { 
+        public override string ToString() 
+        { 
 
             return String.Format("id_compte : {0}, nom : {1}, prenom : {2}, solde: {3}, decouvertAutorise : {4}",
                         id_Compte, nom, prenom, solde, decouvertAutorise);
