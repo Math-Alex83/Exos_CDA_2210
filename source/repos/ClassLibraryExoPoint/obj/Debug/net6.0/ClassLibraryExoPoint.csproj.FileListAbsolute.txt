@@ -1,0 +1,12 @@
+C:\Users\MAknouche\source\repos\ClassLibraryExoPoint\bin\Debug\net6.0\ClassLibraryExoPoint.deps.json
+C:\Users\MAknouche\source\repos\ClassLibraryExoPoint\bin\Debug\net6.0\ClassLibraryExoPoint.dll
+C:\Users\MAknouche\source\repos\ClassLibraryExoPoint\bin\Debug\net6.0\ClassLibraryExoPoint.pdb
+C:\Users\MAknouche\source\repos\ClassLibraryExoPoint\obj\Debug\net6.0\ClassLibraryExoPoint.csproj.AssemblyReference.cache
+C:\Users\MAknouche\source\repos\ClassLibraryExoPoint\obj\Debug\net6.0\ClassLibraryExoPoint.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MAknouche\source\repos\ClassLibraryExoPoint\obj\Debug\net6.0\ClassLibraryExoPoint.AssemblyInfoInputs.cache
+C:\Users\MAknouche\source\repos\ClassLibraryExoPoint\obj\Debug\net6.0\ClassLibraryExoPoint.AssemblyInfo.cs
+C:\Users\MAknouche\source\repos\ClassLibraryExoPoint\obj\Debug\net6.0\ClassLibraryExoPoint.csproj.CoreCompileInputs.cache
+C:\Users\MAknouche\source\repos\ClassLibraryExoPoint\obj\Debug\net6.0\ClassLibraryExoPoint.dll
+C:\Users\MAknouche\source\repos\ClassLibraryExoPoint\obj\Debug\net6.0\refint\ClassLibraryExoPoint.dll
+C:\Users\MAknouche\source\repos\ClassLibraryExoPoint\obj\Debug\net6.0\ClassLibraryExoPoint.pdb
+C:\Users\MAknouche\source\repos\ClassLibraryExoPoint\obj\Debug\net6.0\ref\ClassLibraryExoPoint.dll

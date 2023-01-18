@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ConsolApp_Point/1.0.0": {
+        "dependencies": {
+          "ClassLibraryExoPoint": "1.0.0"
+        },
+        "runtime": {
+          "ConsolApp_Point.dll": {}
+        }
+      },
+      "ClassLibraryExoPoint/1.0.0": {
+        "runtime": {
+          "ClassLibraryExoPoint.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConsolApp_Point/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ClassLibraryExoPoint/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

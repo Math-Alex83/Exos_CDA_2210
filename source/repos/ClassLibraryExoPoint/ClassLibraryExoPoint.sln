@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibraryExoPoint", "ClassLibraryExoPoint.csproj", "{BF140B06-1F38-4B68-A60B-3A68C16675C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Éléments de solution", "Éléments de solution", "{8F7BB7A1-8DD0-4A7F-835E-FE04AC80373A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsolApp_Point", "..\ConsolApp_Point\ConsolApp_Point.csproj", "{7DE9CCBB-F713-4A9A-84A9-DFA2928E8818}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF140B06-1F38-4B68-A60B-3A68C16675C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF140B06-1F38-4B68-A60B-3A68C16675C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF140B06-1F38-4B68-A60B-3A68C16675C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF140B06-1F38-4B68-A60B-3A68C16675C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DE9CCBB-F713-4A9A-84A9-DFA2928E8818}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DE9CCBB-F713-4A9A-84A9-DFA2928E8818}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DE9CCBB-F713-4A9A-84A9-DFA2928E8818}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DE9CCBB-F713-4A9A-84A9-DFA2928E8818}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F53A3B7E-FC8C-472F-B519-043A16C6AD56}
+	EndGlobalSection
+EndGlobal

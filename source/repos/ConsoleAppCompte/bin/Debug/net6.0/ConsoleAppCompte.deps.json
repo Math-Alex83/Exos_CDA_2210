@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ConsoleAppCompte/1.0.0": {
+        "dependencies": {
+          "LibrairieCompte": "1.0.0"
+        },
+        "runtime": {
+          "ConsoleAppCompte.dll": {}
+        }
+      },
+      "LibrairieCompte/1.0.0": {
+        "runtime": {
+          "LibrairieCompte.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConsoleAppCompte/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LibrairieCompte/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
