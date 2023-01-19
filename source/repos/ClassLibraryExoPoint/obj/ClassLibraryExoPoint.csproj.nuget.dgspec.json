@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MAknouche\\source\\repos\\ClassLibraryExoPoint\\ClassLibraryExoPoint.csproj": {}
+    "C:\\Users\\MAknouche\\CDA_2210\\Depot_Codes\\Exos_CDA_2210\\source\\repos\\ClassLibraryExoPoint\\ClassLibraryExoPoint.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MAknouche\\source\\repos\\ClassLibraryExoPoint\\ClassLibraryExoPoint.csproj": {
+    "C:\\Users\\MAknouche\\CDA_2210\\Depot_Codes\\Exos_CDA_2210\\source\\repos\\ClassLibraryExoPoint\\ClassLibraryExoPoint.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MAknouche\\source\\repos\\ClassLibraryExoPoint\\ClassLibraryExoPoint.csproj",
+        "projectUniqueName": "C:\\Users\\MAknouche\\CDA_2210\\Depot_Codes\\Exos_CDA_2210\\source\\repos\\ClassLibraryExoPoint\\ClassLibraryExoPoint.csproj",
         "projectName": "ClassLibraryExoPoint",
-        "projectPath": "C:\\Users\\MAknouche\\source\\repos\\ClassLibraryExoPoint\\ClassLibraryExoPoint.csproj",
+        "projectPath": "C:\\Users\\MAknouche\\CDA_2210\\Depot_Codes\\Exos_CDA_2210\\source\\repos\\ClassLibraryExoPoint\\ClassLibraryExoPoint.csproj",
         "packagesPath": "C:\\Users\\MAknouche\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MAknouche\\source\\repos\\ClassLibraryExoPoint\\obj\\",
+        "outputPath": "C:\\Users\\MAknouche\\CDA_2210\\Depot_Codes\\Exos_CDA_2210\\source\\repos\\ClassLibraryExoPoint\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

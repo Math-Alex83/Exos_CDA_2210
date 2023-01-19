@@ -1,0 +1,12 @@
+C:\Users\MAknouche\CDA_2210\Depot_Codes\Exos_CDA_2210\Exo_Class-Vs\Exo-ClassFraction\ClassFraction\bin\Debug\net6.0\ClassFraction.deps.json
+C:\Users\MAknouche\CDA_2210\Depot_Codes\Exos_CDA_2210\Exo_Class-Vs\Exo-ClassFraction\ClassFraction\bin\Debug\net6.0\ClassFraction.dll
+C:\Users\MAknouche\CDA_2210\Depot_Codes\Exos_CDA_2210\Exo_Class-Vs\Exo-ClassFraction\ClassFraction\bin\Debug\net6.0\ClassFraction.pdb
+C:\Users\MAknouche\CDA_2210\Depot_Codes\Exos_CDA_2210\Exo_Class-Vs\Exo-ClassFraction\ClassFraction\obj\Debug\net6.0\ClassFraction.csproj.AssemblyReference.cache
+C:\Users\MAknouche\CDA_2210\Depot_Codes\Exos_CDA_2210\Exo_Class-Vs\Exo-ClassFraction\ClassFraction\obj\Debug\net6.0\ClassFraction.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MAknouche\CDA_2210\Depot_Codes\Exos_CDA_2210\Exo_Class-Vs\Exo-ClassFraction\ClassFraction\obj\Debug\net6.0\ClassFraction.AssemblyInfoInputs.cache
+C:\Users\MAknouche\CDA_2210\Depot_Codes\Exos_CDA_2210\Exo_Class-Vs\Exo-ClassFraction\ClassFraction\obj\Debug\net6.0\ClassFraction.AssemblyInfo.cs
+C:\Users\MAknouche\CDA_2210\Depot_Codes\Exos_CDA_2210\Exo_Class-Vs\Exo-ClassFraction\ClassFraction\obj\Debug\net6.0\ClassFraction.csproj.CoreCompileInputs.cache
+C:\Users\MAknouche\CDA_2210\Depot_Codes\Exos_CDA_2210\Exo_Class-Vs\Exo-ClassFraction\ClassFraction\obj\Debug\net6.0\ClassFraction.dll
+C:\Users\MAknouche\CDA_2210\Depot_Codes\Exos_CDA_2210\Exo_Class-Vs\Exo-ClassFraction\ClassFraction\obj\Debug\net6.0\refint\ClassFraction.dll
+C:\Users\MAknouche\CDA_2210\Depot_Codes\Exos_CDA_2210\Exo_Class-Vs\Exo-ClassFraction\ClassFraction\obj\Debug\net6.0\ClassFraction.pdb
+C:\Users\MAknouche\CDA_2210\Depot_Codes\Exos_CDA_2210\Exo_Class-Vs\Exo-ClassFraction\ClassFraction\obj\Debug\net6.0\ref\ClassFraction.dll
