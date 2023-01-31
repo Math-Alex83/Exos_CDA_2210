@@ -1,0 +1,15 @@
+C:\Users\matha\Clone_CDA_2210\Exos_CDA_2210\algo_Perso\codingGame\bin\Debug\net6.0\codingGame.exe
+C:\Users\matha\Clone_CDA_2210\Exos_CDA_2210\algo_Perso\codingGame\bin\Debug\net6.0\codingGame.deps.json
+C:\Users\matha\Clone_CDA_2210\Exos_CDA_2210\algo_Perso\codingGame\bin\Debug\net6.0\codingGame.runtimeconfig.json
+C:\Users\matha\Clone_CDA_2210\Exos_CDA_2210\algo_Perso\codingGame\bin\Debug\net6.0\codingGame.dll
+C:\Users\matha\Clone_CDA_2210\Exos_CDA_2210\algo_Perso\codingGame\bin\Debug\net6.0\codingGame.pdb
+C:\Users\matha\Clone_CDA_2210\Exos_CDA_2210\algo_Perso\codingGame\obj\Debug\net6.0\codingGame.csproj.AssemblyReference.cache
+C:\Users\matha\Clone_CDA_2210\Exos_CDA_2210\algo_Perso\codingGame\obj\Debug\net6.0\codingGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matha\Clone_CDA_2210\Exos_CDA_2210\algo_Perso\codingGame\obj\Debug\net6.0\codingGame.AssemblyInfoInputs.cache
+C:\Users\matha\Clone_CDA_2210\Exos_CDA_2210\algo_Perso\codingGame\obj\Debug\net6.0\codingGame.AssemblyInfo.cs
+C:\Users\matha\Clone_CDA_2210\Exos_CDA_2210\algo_Perso\codingGame\obj\Debug\net6.0\codingGame.csproj.CoreCompileInputs.cache
+C:\Users\matha\Clone_CDA_2210\Exos_CDA_2210\algo_Perso\codingGame\obj\Debug\net6.0\codingGame.dll
+C:\Users\matha\Clone_CDA_2210\Exos_CDA_2210\algo_Perso\codingGame\obj\Debug\net6.0\refint\codingGame.dll
+C:\Users\matha\Clone_CDA_2210\Exos_CDA_2210\algo_Perso\codingGame\obj\Debug\net6.0\codingGame.pdb
+C:\Users\matha\Clone_CDA_2210\Exos_CDA_2210\algo_Perso\codingGame\obj\Debug\net6.0\codingGame.genruntimeconfig.cache
+C:\Users\matha\Clone_CDA_2210\Exos_CDA_2210\algo_Perso\codingGame\obj\Debug\net6.0\ref\codingGame.dll
