@@ -26,7 +26,7 @@ DROP TABLE IF EXISTS livres;
 DROP TABLE IF EXISTS etats_livres;
 DROP TABLE IF EXISTS auteurs;
 DROP TABLE IF EXISTS editeurs; 
-
+DROP TABLE IF EXISTS clients;
 -- Création des tables de données
 CREATE TABLE editeurs
 (
@@ -72,6 +72,41 @@ CREATE TABLE livres_auteurs
 
 ALTER TABLE livres_auteurs
 	ADD FOREIGN KEY (auteur_id) REFERENCES auteurs(auteur_id),
-	CONSTRAINT FK_TOTO FOREIGN KEY (livre_id) REFERENCES livres(livre_id);
+	CONSTRAINT FK_TOTO FOREIGN KEY (livre_id) REFERENCES livres(livre_id)
+;
+
+CREATE TABLE clients(
+   client_id INT IDENTITY,
+   client_nom VARCHAR(100) NOT NULL,
+   client_prenom VARCHAR(100) NOT NULL,
+   client_caution DECIMAL(5,2) NOT NULL CHECK(client_caution > 10 AND client_caution < 100),
+   adresse_id INT NOT NULL,
+   PRIMARY KEY(client_id),
+   FOREIGN KEY(adresse_id) REFERENCES adresses(adresse_id)
+);
+
+CREATE TABLE emprunts(
+   emprunt_id INT IDENTITY,
+   emprunt_date DATETIME2 NOT NULL,
+   emprunt_date_retour DATE,
+   livre_id INT NOT NULL,
+   client_id INT NOT NULL,
+   PRIMARY KEY(emprunt_id),
+   FOREIGN KEY(livre_id) REFERENCES livres(livre_id),
+   FOREIGN KEY(client_id) REFERENCES clients(client_id)
+);
+
+CREATE TABLE adresses(
+   adresse_id INT IDENTITY,
+   adresse_num SMALLINT NOT NULL,
+   adresse_extension VARCHAR(10),
+   adresse_voie VARCHAR(10) NOT NULL,
+   adresse_complement VARCHAR(50),
+   adresse_ville VARCHAR(50) NOT NULL,
+   adresse_code_postal NVARCHAR(5) NOT NULL,
+   PRIMARY KEY(adresse_id)
+);
+
+
 
 --ALTER TABLE auteursADD PRIMARY KEY (auteur_id);
