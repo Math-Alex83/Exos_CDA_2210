@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Cities">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="CRM-UC-3355\SQLEXPRESS:CitiesCours">
+          <Created>2023-02-15T11:51:07.0915753+01:00</Created>
+          <Type>SQL</Type>
+          <Server>CRM-UC-3355\SQLEXPRESS</Server>
+          <UserName>CitiesCours</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName />
+        </ConnectionNode>
+        <ConnectionNode Name="CRM-UC-3355\SQLEXPRESS:math_cities">
+          <Created>2023-02-15T11:51:11.2573788+01:00</Created>
+          <Type>SQL</Type>
+          <Server>CRM-UC-3355\SQLEXPRESS</Server>
+          <UserName>math_cities</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>cities</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="DDL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:CRM-UC-3355\SQLEXPRESS:False:math_cities</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>CRM-UC-3355\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName>math_cities</AssociatedConnUserName>
+          <FullPath>DDL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DML.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:CRM-UC-3355\SQLEXPRESS:False:math_cities</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>CRM-UC-3355\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName>math_cities</AssociatedConnUserName>
+          <FullPath>DML.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DQL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:CRM-UC-3355\SQLEXPRESS:False:math_cities</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>CRM-UC-3355\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName>math_cities</AssociatedConnUserName>
+          <FullPath>DQL.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
