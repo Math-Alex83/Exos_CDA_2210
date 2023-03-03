@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SQL Server ECF0203">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="CRM-UC-3355\SQLEXPRESS:ECF0203">
+          <Created>2023-03-02T08:29:32.6594702+01:00</Created>
+          <Type>SQL</Type>
+          <Server>CRM-UC-3355\SQLEXPRESS</Server>
+          <UserName>ECF0203</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName />
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="DDL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:CRM-UC-3355\SQLEXPRESS:False:ECF0203</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>CRM-UC-3355\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName>ECF0203</AssociatedConnUserName>
+          <FullPath>DDL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DML.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:CRM-UC-3355\SQLEXPRESS:False:ECF0203</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>CRM-UC-3355\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName>ECF0203</AssociatedConnUserName>
+          <FullPath>DML.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DQL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:CRM-UC-3355\SQLEXPRESS:False:ECF0203</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>CRM-UC-3355\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName>ECF0203</AssociatedConnUserName>
+          <FullPath>DQL.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
