@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Bibli_Addition/1.0.0": {
+        "runtime": {
+          "Bibli_Addition.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Bibli_Addition/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
