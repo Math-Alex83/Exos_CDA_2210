@@ -18,4 +18,3 @@ C:\Users\MAknouche\CDA_2210\Exos_CDA_2210\WinForm\WinForm_Addition\obj\Debug\net
 C:\Users\MAknouche\CDA_2210\Exos_CDA_2210\WinForm\WinForm_Addition\obj\Debug\net6.0-windows\WinForm_Addition.genruntimeconfig.cache
 C:\Users\MAknouche\CDA_2210\Exos_CDA_2210\WinForm\WinForm_Addition\obj\Debug\net6.0-windows\ref\WinForm_Addition.dll
 C:\Users\MAknouche\CDA_2210\Exos_CDA_2210\WinForm\WinForm_Addition\obj\Debug\net6.0-windows\WinForm_Addition.Ladditionnator.resources
-C:\Users\MAknouche\CDA_2210\Exos_CDA_2210\WinForm\WinForm_Addition\obj\Debug\net6.0-windows\WinForm_Addition.Form1.resources

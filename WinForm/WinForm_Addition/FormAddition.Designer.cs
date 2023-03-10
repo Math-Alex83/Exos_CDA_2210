@@ -280,6 +280,7 @@
             this.Controls.Add(this.toucheCalculer);
             this.Controls.Add(this.toucheVider);
             this.Controls.Add(this.textBox1);
+            this.IsMdiContainer = true;
             this.MaximumSize = new System.Drawing.Size(300, 300);
             this.MinimumSize = new System.Drawing.Size(300, 300);
             this.Name = "Ladditionnator";

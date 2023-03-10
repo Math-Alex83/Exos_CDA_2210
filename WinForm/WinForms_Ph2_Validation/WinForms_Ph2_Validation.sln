@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinForms_Ph2_Validation", "WinForms_Ph2_Validation.csproj", "{1DF02434-AB42-4A86-A16E-CF86FAD4D786}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B02DA29D-8CD2-49EC-B4C6-287F25D78D31} = {B02DA29D-8CD2-49EC-B4C6-287F25D78D31}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biblio_Controleur", "..\Biblio_Controleur\Biblio_Controleur.csproj", "{B02DA29D-8CD2-49EC-B4C6-287F25D78D31}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1DF02434-AB42-4A86-A16E-CF86FAD4D786}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DF02434-AB42-4A86-A16E-CF86FAD4D786}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DF02434-AB42-4A86-A16E-CF86FAD4D786}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DF02434-AB42-4A86-A16E-CF86FAD4D786}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B02DA29D-8CD2-49EC-B4C6-287F25D78D31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B02DA29D-8CD2-49EC-B4C6-287F25D78D31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B02DA29D-8CD2-49EC-B4C6-287F25D78D31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B02DA29D-8CD2-49EC-B4C6-287F25D78D31}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8ED4974A-2A89-4397-ABD5-A922BC2AA538}
+	EndGlobalSection
+EndGlobal

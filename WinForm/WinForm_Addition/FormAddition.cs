@@ -15,7 +15,7 @@ namespace WinForm_Addition
 
     public partial class Ladditionnator : Form
     {
-        public int calculer;
+   
         public Addition monAddition;
 
         public Ladditionnator()
@@ -27,37 +27,42 @@ namespace WinForm_Addition
 
         private void toucheCalculer_Click(object sender, EventArgs e)
         {
-            this.textBox1.Text = String.Format(" = " + calculer + " + ");
+           // this.textBox1.Text = String.Format(" = " + calculer + " + ");
             this.textBox1.Text = String.Format(" = " + monAddition.Calculer() + " + ");
 
         }
 
         private void toucheVider_Click(object sender, EventArgs e)
         {
-            this.textBox1.Clear();
-            calculer = 0;
             
+            this.textBox1.Clear(); // vide la texteBox
+            //monAddition.Vider(); // vide les valeur contenues dans la liste
+            monAddition = new Addition();
+
         }
 
         private void boutons_ensemble(object sender, EventArgs e)
         {
+            
             /* Button boutons_ensemble = (Button)sender;
              boutons_ensemble = sender as Button;*/
-
+            
             int valeur = 0;
 
             if(sender is Button boutons_ensemble)
             {
                 this.textBox1.Text += boutons_ensemble.Text + " + ";
                 valeur = Convert.ToInt32(boutons_ensemble.Text);
-                calculer += valeur;
-                monAddition.Add(valeur);
+   
+                monAddition.Add(valeur); // ajoute la valeur saisie dans la liste
             }
             else
             {
                 MessageBox.Show("Erreur de calcul", "ERREUR !", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             
+
+
         }
 
 

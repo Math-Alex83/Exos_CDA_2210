@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using FormAddition.cs;
 
 namespace Bibli_Addition
 {
@@ -23,7 +22,8 @@ namespace Bibli_Addition
 
         public void Add(int nb)
         {
-            mesNbs.Add(nb);
+             mesNbs.Add(nb);
+
         }
 
         /// <summary>
@@ -38,6 +38,16 @@ namespace Bibli_Addition
                 resultat += nb;
             }
             return resultat;
+        }
+        
+
+        /// <summary>
+        /// Méthode pour vider la Liste
+        /// </summary>
+        public void Vider()
+        {
+            mesNbs.Clear();
+
         }
     }
 }
