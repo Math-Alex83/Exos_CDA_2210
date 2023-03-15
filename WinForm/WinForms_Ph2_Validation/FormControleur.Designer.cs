@@ -40,14 +40,16 @@
             this.labCP = new System.Windows.Forms.Label();
             this.errorNomProvider = new System.Windows.Forms.ErrorProvider(this.components);
             this.textBoxMontant = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.errorDateProvider = new System.Windows.Forms.ErrorProvider(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.errorNomProvider)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorDateProvider)).BeginInit();
             this.SuspendLayout();
             // 
             // textBoxNom
             // 
             this.textBoxNom.Location = new System.Drawing.Point(97, 13);
             this.textBoxNom.Name = "textBoxNom";
-            this.textBoxNom.ReadOnly = true;
             this.textBoxNom.Size = new System.Drawing.Size(150, 23);
             this.textBoxNom.TabIndex = 2;
             this.textBoxNom.TextChanged += new System.EventHandler(this.textBoxNom_TextChanged);
@@ -70,6 +72,7 @@
             // 
             // buttonValider
             // 
+            this.buttonValider.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonValider.Location = new System.Drawing.Point(261, 191);
             this.buttonValider.Name = "buttonValider";
             this.buttonValider.Size = new System.Drawing.Size(75, 23);
@@ -144,11 +147,27 @@
             this.textBoxMontant.TabIndex = 21;
             this.textBoxMontant.TextChanged += new System.EventHandler(this.textBoxMontant_TextChanged);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Location = new System.Drawing.Point(216, 73);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(79, 15);
+            this.label1.TabIndex = 23;
+            this.label1.Text = "JJ/MM/AAAA";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // errorDateProvider
+            // 
+            this.errorDateProvider.ContainerControl = this;
+            // 
             // FormControleur
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(358, 285);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.textBoxMontant);
             this.Controls.Add(this.labCP);
             this.Controls.Add(this.labMontant);
@@ -165,6 +184,7 @@
             this.Name = "FormControleur";
             this.Text = "FormControleur";
             ((System.ComponentModel.ISupportInitialize)(this.errorNomProvider)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorDateProvider)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -182,5 +202,7 @@
         private Label labCP;
         private ErrorProvider errorNomProvider;
         private TextBox textBoxMontant;
+        private Label label1;
+        private ErrorProvider errorDateProvider;
     }
 }

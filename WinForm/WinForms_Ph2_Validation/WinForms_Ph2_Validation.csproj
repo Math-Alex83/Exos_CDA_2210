@@ -8,4 +8,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Biblio_Controleur\Biblio_Controleur.csproj" />
+  </ItemGroup>
+
 </Project>

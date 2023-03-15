@@ -15,3 +15,6 @@ C:\Users\MAknouche\CDA_2210\Exos_CDA_2210\WinForm\WinForms_Ph2_Validation\obj\De
 C:\Users\MAknouche\CDA_2210\Exos_CDA_2210\WinForm\WinForms_Ph2_Validation\obj\Debug\net6.0-windows\WinForms_Ph2_Validation.pdb
 C:\Users\MAknouche\CDA_2210\Exos_CDA_2210\WinForm\WinForms_Ph2_Validation\obj\Debug\net6.0-windows\WinForms_Ph2_Validation.genruntimeconfig.cache
 C:\Users\MAknouche\CDA_2210\Exos_CDA_2210\WinForm\WinForms_Ph2_Validation\obj\Debug\net6.0-windows\ref\WinForms_Ph2_Validation.dll
+C:\Users\MAknouche\CDA_2210\Exos_CDA_2210\WinForm\WinForms_Ph2_Validation\bin\Debug\net6.0-windows\Biblio_Controleur.dll
+C:\Users\MAknouche\CDA_2210\Exos_CDA_2210\WinForm\WinForms_Ph2_Validation\bin\Debug\net6.0-windows\Biblio_Controleur.pdb
+C:\Users\MAknouche\CDA_2210\Exos_CDA_2210\WinForm\WinForms_Ph2_Validation\obj\Debug\net6.0-windows\WinForms_Ph2_Validation.csproj.CopyComplete

@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0-windows7.0": {}
+    "net6.0-windows7.0": {
+      "Biblio_Controleur/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Biblio_Controleur.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Biblio_Controleur.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Biblio_Controleur/1.0.0": {
+      "type": "project",
+      "path": "../Biblio_Controleur/Biblio_Controleur.csproj",
+      "msbuildProject": "../Biblio_Controleur/Biblio_Controleur.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0-windows7.0": []
+    "net6.0-windows7.0": [
+      "Biblio_Controleur >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\MAknouche\\.nuget\\packages\\": {},
@@ -40,7 +59,11 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\MAknouche\\CDA_2210\\Exos_CDA_2210\\WinForm\\Biblio_Controleur\\Biblio_Controleur.csproj": {
+              "projectPath": "C:\\Users\\MAknouche\\CDA_2210\\Exos_CDA_2210\\WinForm\\Biblio_Controleur\\Biblio_Controleur.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.VisualBasic;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,7 +16,6 @@ namespace WinForms_Ph2_Validation
         public FormControleur()
         {
             InitializeComponent();
-            this.errorNomProvider.SetError(this.textBoxNom, "Champ Vide");
         }
 
 
@@ -23,12 +23,23 @@ namespace WinForms_Ph2_Validation
 
         private void labNom_Click(object sender, EventArgs e)
         {
+            
 
         }
 
         private void textBoxNom_TextChanged(object sender, EventArgs e)
         {
+            if (!ClassControle.ControleNom(textBoxNom.Text))
+            {
+                errorNomProvider.SetError(textBoxNom, 
+                    "Veuillez saisir votre nom en toutes lettres, jusqu'à 30 caractère Max.");
 
+            }
+            else
+            {
+                errorNomProvider.SetError(textBoxNom, "");
+
+            }
         }
 
         // DATE
@@ -39,7 +50,15 @@ namespace WinForms_Ph2_Validation
 
         private void textBoxDate_TextChanged(object sender, EventArgs e)
         {
+            if(!ClassControle.ControleDate(textBoxDate.Text))
+            {
+                errorDateProvider.SetError(textBoxDate,"Forma de la Date est incorrecte.");
 
+            }
+            else
+            {
+                errorDateProvider.SetError(textBoxDate,"");
+            }
         }
 
         // MONTANT
@@ -67,6 +86,22 @@ namespace WinForms_Ph2_Validation
         // VALIDER
         private void buttonValider_Click(object sender, EventArgs e)
         {
+            if(ClassControle.ControleNom(textBoxNom.Text) 
+                && ClassControle.ControleDate(textBoxDate.Text)
+                && ClassControle.ControleMontant(textBoxMontant.Text))
+            {
+                MessageBox.Show(
+                    "Nom : "+ textBoxNom.Text +"\r\n" 
+                    + "Date : "+ textBoxDate.Text +"\r\n"
+                    + "Montant : "+ textBoxMontant.Text + "\r\n"
+                    + "Code Postal : "+ textBoxCP.Text);
+            }
+            else
+            {
+                errorNomProvider.SetError(this.textBoxNom, 
+                    "Une érreure de saisie s'est produite");
+
+            }
 
         }
 
@@ -77,5 +112,9 @@ namespace WinForms_Ph2_Validation
 
         }
 
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
