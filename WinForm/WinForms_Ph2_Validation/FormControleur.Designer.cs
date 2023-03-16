@@ -42,8 +42,12 @@
             this.textBoxMontant = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.errorDateProvider = new System.Windows.Forms.ErrorProvider(this.components);
+            this.errorMontantProvider = new System.Windows.Forms.ErrorProvider(this.components);
+            this.errorCPProvider = new System.Windows.Forms.ErrorProvider(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.errorNomProvider)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorDateProvider)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorMontantProvider)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorCPProvider)).BeginInit();
             this.SuspendLayout();
             // 
             // textBoxNom
@@ -162,6 +166,14 @@
             // 
             this.errorDateProvider.ContainerControl = this;
             // 
+            // errorMontantProvider
+            // 
+            this.errorMontantProvider.ContainerControl = this;
+            // 
+            // errorCPProvider
+            // 
+            this.errorCPProvider.ContainerControl = this;
+            // 
             // FormControleur
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -183,8 +195,11 @@
             this.IsMdiContainer = true;
             this.Name = "FormControleur";
             this.Text = "FormControleur";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormControleur_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.errorNomProvider)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorDateProvider)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorMontantProvider)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorCPProvider)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -204,5 +219,7 @@
         private TextBox textBoxMontant;
         private Label label1;
         private ErrorProvider errorDateProvider;
+        private ErrorProvider errorMontantProvider;
+        private ErrorProvider errorCPProvider;
     }
 }

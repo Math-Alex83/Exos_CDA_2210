@@ -13,7 +13,7 @@ namespace WinForms_Ph2_Validation
     {
         public static bool ControleNom(string _nom)
         {
-            return Regex.Match(_nom, @"^[a-zA-Z]{1,30}").Success;
+            return Regex.Match(_nom, @"^[a-zA-Z]{0,30}$").Success;
         }
 
         public static bool ControleDate(string date)
@@ -33,7 +33,9 @@ namespace WinForms_Ph2_Validation
         public static bool ControleMontant(string montant)
         {
             
-            return Regex.Match(montant, @"^[0-9]{6,6}$").Success; // OUPS!!! ça c'est pour code postal ^^'
+            return Regex.Match(montant, @"^[0-9]{1,6}(?:[.,][0-9]{2})?$").Success; 
+            // ? <-- seul est = à {0,1}
+            // ?: <-- Groupe de non capture (Regex101 ne sépare pas les deux parties, il test toute la Regex.
 
         }
 
