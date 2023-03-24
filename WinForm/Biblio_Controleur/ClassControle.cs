@@ -3,33 +3,40 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection.Metadata;
+using System.Reflection.Metadata.Ecma335;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
-namespace WinForms_Ph2_Validation
+namespace Biblio_Controleur
 {
     public class ClassControle
     {
         public static bool ControleNom(string _nom)
         {
-            return Regex.Match(_nom, @"^[a-zA-Z]{0,30}$").Success;
+            return Regex.Match(_nom, @"^(?=^[A-z/é/ä/â/é/è/ë/ê/ç/ï/ö/ô]+(?:-[A-z]+)*$).{1,30}$").Success;
         }
 
         public static bool ControleDate(string date)
         {
             DateTime userDate;
 
-            if (DateTime.TryParse(date, out userDate) && userDate > DateTime.Today)
+            if (DateTime.TryParse(date, out userDate))
             {
-                return true;
+                    if (userDate > DateTime.Today)
+                    {
+                        return true;
+                    }
+                    else
+                    {
+                        return false;
+                    }
             }
             else
             {
                 return false;
             }
         }
-
         public static bool ControleMontant(string montant)
         {
             

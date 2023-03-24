@@ -1,4 +1,5 @@
-﻿using Microsoft.VisualBasic;
+﻿using Biblio_Controleur;
+using Microsoft.VisualBasic;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -21,9 +22,6 @@ namespace WinForms_Ph2_Validation
 
         // NOM
 
-        private void labNom_Click(object sender, EventArgs e)
-        {
-        }
 
         private void textBoxNom_TextChanged(object sender, EventArgs e)
         {
@@ -39,35 +37,15 @@ namespace WinForms_Ph2_Validation
         }
 
         // DATE
-        private void labDate_Click(object sender, EventArgs e)
-        {
-        }
+
 
         private void textBoxDate_TextChanged(object sender, EventArgs e)
         {
-            /*
-            if(!ClassControle.ControleDate(textBoxDate.Text))
-            {
-                errorDateProvider.SetError(textBoxDate,
-                    "Format de la Date est incorrecte.");
-               // MessageBox.Show("Format de date invalide"); ça être caca prout !! affiche le message à chaque touche, beurk!!!
-            }
-            else
-            {
-                errorDateProvider.SetError(textBoxDate,"");
-            }
-            */
-
             DateTime userDate;
-            if (!DateTime.TryParse(textBoxDate.Text, out userDate))
-            {
-                errorDateProvider.SetError(textBoxDate,"Format de date invalide,"+"\r\n" +
-                    "veuillez ressaisir la date au format jj/mm/aaaa ou jj/mm/aa s'il vous plaît.");
-            }
+            DateTime.TryParse(textBoxDate.Text, out userDate);
 
-            else if (DateTime.TryParse(textBoxDate.Text, out userDate))
+            if (!ClassControle.ControleDate(textBoxDate.Text))
             {
-                DateTime.TryParse(textBoxDate.Text, out userDate);
                 if (userDate < DateTime.Today)
                 {
                     errorDateProvider.SetError(textBoxDate, "Date invalide," + "\r\n" +
@@ -77,23 +55,32 @@ namespace WinForms_Ph2_Validation
                 {
                     errorDateProvider.SetError(textBoxDate, "");
                 }
+
             }
+
+            else if (!ClassControle.ControleDate(textBoxDate.Text))
+            {
+                errorDateProvider.SetError(textBoxDate, "Format de date invalide," + "\r\n" +
+                    "veuillez ressaisir la date au format jj/mm/aaaa ou jj/mm/aa s'il vous plaît.");
+            }
+            
             else
             {
                 errorDateProvider.SetError(textBoxDate, "");
             }
+
+
+
         }
 
         // MONTANT
-        private void labMontant_Click(object sender, EventArgs e)
-        {
-        }
+
 
         private void textBoxMontant_TextChanged(object sender, EventArgs e)
         {
-            if(!ClassControle.ControleMontant(textBoxMontant.Text))
+            if (!ClassControle.ControleMontant(textBoxMontant.Text))
             {
-                errorMontantProvider.SetError(textBoxMontant, 
+                errorMontantProvider.SetError(textBoxMontant,
                     "Le format du Montant saisi est incorrect.");
             }
             else
@@ -103,14 +90,11 @@ namespace WinForms_Ph2_Validation
         }
 
         //CODE POSTAL
-        private void labCP_Click(object sender, EventArgs e)
-        {
-        }
         private void textBoxCP_TextChanged(object sender, EventArgs e)
         {
             if (!ClassControle.ControleCP(textBoxCP.Text))
             {
-                errorCPProvider.SetError(textBoxCP, 
+                errorCPProvider.SetError(textBoxCP,
                     "Le format du Code Postasl saisi est incorrect.");
             }
             else
@@ -128,31 +112,6 @@ namespace WinForms_Ph2_Validation
         /// <param name="e"></param>
         private void buttonValider_Click(object sender, EventArgs e)
         {
-            /*
-                        if (ClassControle.ControleNom(textBoxNom.Text)
-                            && ClassControle.ControleDate(textBoxDate.Text)
-                            && ClassControle.ControleMontant(textBoxMontant.Text)
-                            && ClassControle.ControleCP(textBoxCP.Text)
-                            )
-                        {
-                            MessageBox.Show(
-                                "Nom : " + textBoxNom.Text + "\r\n"
-                                + "Date : " + textBoxDate.Text + "\r\n"
-                                + "Montant : " + textBoxMontant.Text + "\r\n"
-                                + "Code Postal : " + textBoxCP.Text + "\r\n"
-                                , "Validation effectuée");
-                        }
-                        else
-                        {
-                            errorNomProvider.SetError(textBoxNom,
-                                "Une erreur de saisie s'est produite");
-                            errorDateProvider.SetError(textBoxDate,
-                                "Une erreur de saisie s'est produite");
-                            errorMontantProvider.SetError(textBoxMontant,
-                                "Une erreur de saisie s'est produite");
-                            errorCPProvider.SetError(textBoxCP,
-                                "Une erreur de saisie s'est produite");
-                        }*/
             if (ClassControle.ControleNom(textBoxNom.Text)
                 && ClassControle.ControleDate(textBoxDate.Text)
                 && ClassControle.ControleMontant(textBoxMontant.Text)
@@ -166,19 +125,18 @@ namespace WinForms_Ph2_Validation
                     + "Code Postal : " + textBoxCP.Text + "\r\n"
                     , "Validation effectuée");
             }
-            else if(!ClassControle.ControleNom(textBoxNom.Text))
+            else if (!ClassControle.ControleNom(textBoxNom.Text))
             {
                 errorNomProvider.SetError(textBoxNom,
-                                "Une erreur de saisie s'est produite");
+                                "Le Nom ne doit pas comporter de chiffres ni de carractère spéciaux");
             }
-           
+
             DateTime userDate;
             if (!DateTime.TryParse(textBoxDate.Text, out userDate))
             {
                 errorDateProvider.SetError(textBoxDate, "Format de date invalide," + "\r\n" +
                     "veuillez ressaisir la date au format jj/mm/aaaa ou jj/mm/aa s'il vous plaît.");
             }
-
             else if (DateTime.TryParse(textBoxDate.Text, out userDate))
             {
                 DateTime.TryParse(textBoxDate.Text, out userDate);
@@ -198,6 +156,31 @@ namespace WinForms_Ph2_Validation
                 errorCPProvider.SetError(textBoxCP,
                                 "Une erreur de saisie s'est produite");
             }
+            /*
+                       if (ClassControle.ControleNom(textBoxNom.Text)
+                           && ClassControle.ControleDate(textBoxDate.Text)
+                           && ClassControle.ControleMontant(textBoxMontant.Text)
+                           && ClassControle.ControleCP(textBoxCP.Text)
+                           )
+                       {
+                           MessageBox.Show(
+                               "Nom : " + textBoxNom.Text + "\r\n"
+                               + "Date : " + textBoxDate.Text + "\r\n"
+                               + "Montant : " + textBoxMontant.Text + "\r\n"
+                               + "Code Postal : " + textBoxCP.Text + "\r\n"
+                               , "Validation effectuée");
+                       }
+                       else
+                       {
+                           errorNomProvider.SetError(textBoxNom,
+                               "Une erreur de saisie s'est produite");
+                           errorDateProvider.SetError(textBoxDate,
+                               "Une erreur de saisie s'est produite");
+                           errorMontantProvider.SetError(textBoxMontant,
+                               "Une erreur de saisie s'est produite");
+                           errorCPProvider.SetError(textBoxCP,
+                               "Une erreur de saisie s'est produite");
+                       }*/
         }
 
         // EFFACER OK 
@@ -218,13 +201,9 @@ namespace WinForms_Ph2_Validation
             errorCPProvider.Clear();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-        }
-
         private void FormControleur_FormClosing(object sender, FormClosingEventArgs e)
         {
-           // e.Cancel = true; // Annule la fermeture de la forme ( X = annulé )
+            // e.Cancel = true; // Annule la fermeture de la forme ( X = annulé )
         }
     }
 }

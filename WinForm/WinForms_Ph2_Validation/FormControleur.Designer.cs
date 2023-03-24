@@ -104,7 +104,6 @@
             this.labNom.Size = new System.Drawing.Size(34, 15);
             this.labNom.TabIndex = 15;
             this.labNom.Text = "Nom";
-            this.labNom.Click += new System.EventHandler(this.labNom_Click);
             // 
             // labDate
             // 
@@ -115,7 +114,6 @@
             this.labDate.Size = new System.Drawing.Size(31, 15);
             this.labDate.TabIndex = 17;
             this.labDate.Text = "Date";
-            this.labDate.Click += new System.EventHandler(this.labDate_Click);
             // 
             // labMontant
             // 
@@ -126,7 +124,6 @@
             this.labMontant.Size = new System.Drawing.Size(53, 15);
             this.labMontant.TabIndex = 18;
             this.labMontant.Text = "Montant";
-            this.labMontant.Click += new System.EventHandler(this.labMontant_Click);
             // 
             // labCP
             // 
@@ -137,7 +134,6 @@
             this.labCP.Size = new System.Drawing.Size(70, 15);
             this.labCP.TabIndex = 19;
             this.labCP.Text = "Code Postal";
-            this.labCP.Click += new System.EventHandler(this.labCP_Click);
             // 
             // errorNomProvider
             // 
@@ -160,7 +156,6 @@
             this.label1.Size = new System.Drawing.Size(79, 15);
             this.label1.TabIndex = 23;
             this.label1.Text = "JJ/MM/AAAA";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // errorDateProvider
             // 
