@@ -1,6 +1,7 @@
 ﻿using Microsoft.VisualBasic;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Reflection.Metadata;
 using System.Reflection.Metadata.Ecma335;
@@ -20,22 +21,34 @@ namespace Biblio_Controleur
         public static bool ControleDate(string date)
         {
             DateTime userDate;
+            string format = "dd/mm/yyyy";
 
-            if (DateTime.TryParse(date, out userDate))
+            if (DateTime.TryParseExact(date,format,CultureInfo.InvariantCulture,System.Globalization.DateTimeStyles.None, out userDate))
             {
-                    if (userDate > DateTime.Today)
-                    {
-                        return true;
-                    }
-                    else
-                    {
-                        return false;
-                    }
+                return true;
             }
             else
             {
                 return false;
             }
+
+
+
+            //if (DateTime.TryParse(date, out userDate))
+            //{
+            //        if (userDate > DateTime.Today)
+            //        {
+            //            return true;
+            //        }
+            //        else
+            //        {
+            //            return false;
+            //        }
+            //}
+            //else
+            //{
+            //    return false;
+            //}
         }
         public static bool ControleMontant(string montant)
         {
