@@ -1,0 +1,17 @@
+C:\Users\MAknouche\CDA_2210\Exos_CDA_2210\WinForm\WFOpeListBox\bin\Debug\net6.0-windows\WFOpeListBox.exe
+C:\Users\MAknouche\CDA_2210\Exos_CDA_2210\WinForm\WFOpeListBox\bin\Debug\net6.0-windows\WFOpeListBox.deps.json
+C:\Users\MAknouche\CDA_2210\Exos_CDA_2210\WinForm\WFOpeListBox\bin\Debug\net6.0-windows\WFOpeListBox.runtimeconfig.json
+C:\Users\MAknouche\CDA_2210\Exos_CDA_2210\WinForm\WFOpeListBox\bin\Debug\net6.0-windows\WFOpeListBox.dll
+C:\Users\MAknouche\CDA_2210\Exos_CDA_2210\WinForm\WFOpeListBox\bin\Debug\net6.0-windows\WFOpeListBox.pdb
+C:\Users\MAknouche\CDA_2210\Exos_CDA_2210\WinForm\WFOpeListBox\obj\Debug\net6.0-windows\WFOpeListBox.csproj.AssemblyReference.cache
+C:\Users\MAknouche\CDA_2210\Exos_CDA_2210\WinForm\WFOpeListBox\obj\Debug\net6.0-windows\WFOpeListBox.OpeListeBox.resources
+C:\Users\MAknouche\CDA_2210\Exos_CDA_2210\WinForm\WFOpeListBox\obj\Debug\net6.0-windows\WFOpeListBox.csproj.GenerateResource.cache
+C:\Users\MAknouche\CDA_2210\Exos_CDA_2210\WinForm\WFOpeListBox\obj\Debug\net6.0-windows\WFOpeListBox.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MAknouche\CDA_2210\Exos_CDA_2210\WinForm\WFOpeListBox\obj\Debug\net6.0-windows\WFOpeListBox.AssemblyInfoInputs.cache
+C:\Users\MAknouche\CDA_2210\Exos_CDA_2210\WinForm\WFOpeListBox\obj\Debug\net6.0-windows\WFOpeListBox.AssemblyInfo.cs
+C:\Users\MAknouche\CDA_2210\Exos_CDA_2210\WinForm\WFOpeListBox\obj\Debug\net6.0-windows\WFOpeListBox.csproj.CoreCompileInputs.cache
+C:\Users\MAknouche\CDA_2210\Exos_CDA_2210\WinForm\WFOpeListBox\obj\Debug\net6.0-windows\WFOpeListBox.dll
+C:\Users\MAknouche\CDA_2210\Exos_CDA_2210\WinForm\WFOpeListBox\obj\Debug\net6.0-windows\refint\WFOpeListBox.dll
+C:\Users\MAknouche\CDA_2210\Exos_CDA_2210\WinForm\WFOpeListBox\obj\Debug\net6.0-windows\WFOpeListBox.pdb
+C:\Users\MAknouche\CDA_2210\Exos_CDA_2210\WinForm\WFOpeListBox\obj\Debug\net6.0-windows\WFOpeListBox.genruntimeconfig.cache
+C:\Users\MAknouche\CDA_2210\Exos_CDA_2210\WinForm\WFOpeListBox\obj\Debug\net6.0-windows\ref\WFOpeListBox.dll
