@@ -4,7 +4,8 @@ namespace CerealsApiCours.Models
 {
     public class Cereal
     {
-        // Par convention une clé primaire est obligatoire et unique donc pas besoin de rajouter [Required]
+        // Par convention une clé primaire est obligatoire et unique donc pas besoin de rajouter [Required] , [Key] pour spécifier que c'est une clé.
+
         [Key]
         public int CerealId { get; set; }
 
