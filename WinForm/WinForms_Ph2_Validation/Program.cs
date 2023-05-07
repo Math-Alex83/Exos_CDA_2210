@@ -1,4 +1,4 @@
-namespace WinForms_Ph2_Validation
+ namespace WinForms_Ph2_Validation
 {
     internal static class Program
     {
