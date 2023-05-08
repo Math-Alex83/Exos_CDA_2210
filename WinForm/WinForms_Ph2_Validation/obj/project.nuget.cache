@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "uAW1zd6lR1iQCFg38WPvulLeeTN1/IO6a5TQWk5oTRfEIX+4GfVB9J41l35p2hywAGO3sdGRgqDaYfqMxQf64A==",
+=======
+  "dgSpecHash": "zoNaJQ75e1GGSxfY+B06wb6PZNQtvZhy28oMLPX5AUggUV7rIi7WvVKdm0ccRK4lasKyori7FM5/8v4bmPSMdQ==",
+>>>>>>> e95d8601afa6f43b395901352fa5b2d4a00d7988
   "success": true,
   "projectFilePath": "C:\\Users\\matha\\Clone_CDA_2210\\Exos_CDA_2210\\WinForm\\WinForms_Ph2_Validation\\WinForms_Ph2_Validation.csproj",
   "expectedPackageFiles": [],

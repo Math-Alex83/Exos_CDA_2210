@@ -4,5 +4,8 @@
     <Compile Update="FormControleur.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="FormEditerVirementBancaire.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

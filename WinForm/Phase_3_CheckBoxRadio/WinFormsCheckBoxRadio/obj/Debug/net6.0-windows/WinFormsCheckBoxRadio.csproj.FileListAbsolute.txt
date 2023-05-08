@@ -1,0 +1,17 @@
+C:\Users\MAknouche\CDA_2210\Exos_CDA_2210\WinForm\Phase_3_CheckBoxRadio\WinFormsCheckBoxRadio\bin\Debug\net6.0-windows\WinFormsCheckBoxRadio.exe
+C:\Users\MAknouche\CDA_2210\Exos_CDA_2210\WinForm\Phase_3_CheckBoxRadio\WinFormsCheckBoxRadio\bin\Debug\net6.0-windows\WinFormsCheckBoxRadio.deps.json
+C:\Users\MAknouche\CDA_2210\Exos_CDA_2210\WinForm\Phase_3_CheckBoxRadio\WinFormsCheckBoxRadio\bin\Debug\net6.0-windows\WinFormsCheckBoxRadio.runtimeconfig.json
+C:\Users\MAknouche\CDA_2210\Exos_CDA_2210\WinForm\Phase_3_CheckBoxRadio\WinFormsCheckBoxRadio\bin\Debug\net6.0-windows\WinFormsCheckBoxRadio.dll
+C:\Users\MAknouche\CDA_2210\Exos_CDA_2210\WinForm\Phase_3_CheckBoxRadio\WinFormsCheckBoxRadio\bin\Debug\net6.0-windows\WinFormsCheckBoxRadio.pdb
+C:\Users\MAknouche\CDA_2210\Exos_CDA_2210\WinForm\Phase_3_CheckBoxRadio\WinFormsCheckBoxRadio\obj\Debug\net6.0-windows\WinFormsCheckBoxRadio.csproj.AssemblyReference.cache
+C:\Users\MAknouche\CDA_2210\Exos_CDA_2210\WinForm\Phase_3_CheckBoxRadio\WinFormsCheckBoxRadio\obj\Debug\net6.0-windows\WinFormsCheckBoxRadio.FormCheckBoxRadio.resources
+C:\Users\MAknouche\CDA_2210\Exos_CDA_2210\WinForm\Phase_3_CheckBoxRadio\WinFormsCheckBoxRadio\obj\Debug\net6.0-windows\WinFormsCheckBoxRadio.csproj.GenerateResource.cache
+C:\Users\MAknouche\CDA_2210\Exos_CDA_2210\WinForm\Phase_3_CheckBoxRadio\WinFormsCheckBoxRadio\obj\Debug\net6.0-windows\WinFormsCheckBoxRadio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MAknouche\CDA_2210\Exos_CDA_2210\WinForm\Phase_3_CheckBoxRadio\WinFormsCheckBoxRadio\obj\Debug\net6.0-windows\WinFormsCheckBoxRadio.AssemblyInfoInputs.cache
+C:\Users\MAknouche\CDA_2210\Exos_CDA_2210\WinForm\Phase_3_CheckBoxRadio\WinFormsCheckBoxRadio\obj\Debug\net6.0-windows\WinFormsCheckBoxRadio.AssemblyInfo.cs
+C:\Users\MAknouche\CDA_2210\Exos_CDA_2210\WinForm\Phase_3_CheckBoxRadio\WinFormsCheckBoxRadio\obj\Debug\net6.0-windows\WinFormsCheckBoxRadio.csproj.CoreCompileInputs.cache
+C:\Users\MAknouche\CDA_2210\Exos_CDA_2210\WinForm\Phase_3_CheckBoxRadio\WinFormsCheckBoxRadio\obj\Debug\net6.0-windows\WinFormsCheckBoxRadio.dll
+C:\Users\MAknouche\CDA_2210\Exos_CDA_2210\WinForm\Phase_3_CheckBoxRadio\WinFormsCheckBoxRadio\obj\Debug\net6.0-windows\refint\WinFormsCheckBoxRadio.dll
+C:\Users\MAknouche\CDA_2210\Exos_CDA_2210\WinForm\Phase_3_CheckBoxRadio\WinFormsCheckBoxRadio\obj\Debug\net6.0-windows\WinFormsCheckBoxRadio.pdb
+C:\Users\MAknouche\CDA_2210\Exos_CDA_2210\WinForm\Phase_3_CheckBoxRadio\WinFormsCheckBoxRadio\obj\Debug\net6.0-windows\WinFormsCheckBoxRadio.genruntimeconfig.cache
+C:\Users\MAknouche\CDA_2210\Exos_CDA_2210\WinForm\Phase_3_CheckBoxRadio\WinFormsCheckBoxRadio\obj\Debug\net6.0-windows\ref\WinFormsCheckBoxRadio.dll

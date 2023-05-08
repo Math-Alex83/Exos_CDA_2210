@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "WinForms_Ph2_Validation/1.0.0": {
+        "dependencies": {
+          "Biblio_Controleur": "1.0.0"
+        },
         "runtime": {
           "WinForms_Ph2_Validation.dll": {}
+        }
+      },
+      "Biblio_Controleur/1.0.0": {
+        "runtime": {
+          "Biblio_Controleur.dll": {}
         }
       }
     }
   },
   "libraries": {
     "WinForms_Ph2_Validation/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Biblio_Controleur/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

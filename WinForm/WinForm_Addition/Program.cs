@@ -12,7 +12,6 @@ namespace WinForm_Addition
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
             Application.Run(new Ladditionnator());
-            Console.WriteLine("t'es null !!");
 
         }
     }
