@@ -4,14 +4,100 @@
     "C:\\Users\\MAknouche\\CDA_2210\\Exos_CDA_2210\\ApiBdd\\ApiUserMoi\\ApiUserMoi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MAknouche\\CDA_2210\\Exos_CDA_2210\\ApiBdd\\ApiUserMoi\\ApiUserMoi.csproj": {
+    "C:\\Users\\MAknouche\\CDA_2210\\Exos_CDA_2210\\ApiBdd\\ApiUserMoi.Db\\ApiUserMoi.Db.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MAknouche\\CDA_2210\\Exos_CDA_2210\\ApiBdd\\ApiUserMoi\\ApiUserMoi.csproj",
-        "projectName": "ApiUserMoi",
-        "projectPath": "C:\\Users\\MAknouche\\CDA_2210\\Exos_CDA_2210\\ApiBdd\\ApiUserMoi\\ApiUserMoi.csproj",
+        "projectUniqueName": "C:\\Users\\MAknouche\\CDA_2210\\Exos_CDA_2210\\ApiBdd\\ApiUserMoi.Db\\ApiUserMoi.Db.csproj",
+        "projectName": "ApiUserMoi.Db",
+        "projectPath": "C:\\Users\\MAknouche\\CDA_2210\\Exos_CDA_2210\\ApiBdd\\ApiUserMoi.Db\\ApiUserMoi.Db.csproj",
         "packagesPath": "C:\\Users\\MAknouche\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MAknouche\\CDA_2210\\Exos_CDA_2210\\ApiBdd\\ApiUserMoi\\obj\\",
+        "outputPath": "C:\\Users\\MAknouche\\CDA_2210\\Exos_CDA_2210\\ApiBdd\\ApiUserMoi.Db\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\MAknouche\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\MAknouche\\CDA_2210\\Exos_CDA_2210\\ApiBdd\\ApiUserMoi.Models\\ApiUserMoi.Models.csproj": {
+                "projectPath": "C:\\Users\\MAknouche\\CDA_2210\\Exos_CDA_2210\\ApiBdd\\ApiUserMoi.Models\\ApiUserMoi.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\MAknouche\\CDA_2210\\Exos_CDA_2210\\ApiBdd\\ApiUserMoi.Models\\ApiUserMoi.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\MAknouche\\CDA_2210\\Exos_CDA_2210\\ApiBdd\\ApiUserMoi.Models\\ApiUserMoi.Models.csproj",
+        "projectName": "ApiUserMoi.Models",
+        "projectPath": "C:\\Users\\MAknouche\\CDA_2210\\Exos_CDA_2210\\ApiBdd\\ApiUserMoi.Models\\ApiUserMoi.Models.csproj",
+        "packagesPath": "C:\\Users\\MAknouche\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MAknouche\\CDA_2210\\Exos_CDA_2210\\ApiBdd\\ApiUserMoi.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -45,6 +131,123 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\MAknouche\\CDA_2210\\Exos_CDA_2210\\ApiBdd\\ApiUserMoi\\ApiUserMoi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\MAknouche\\CDA_2210\\Exos_CDA_2210\\ApiBdd\\ApiUserMoi\\ApiUserMoi.csproj",
+        "projectName": "ApiUserMoi",
+        "projectPath": "C:\\Users\\MAknouche\\CDA_2210\\Exos_CDA_2210\\ApiBdd\\ApiUserMoi\\ApiUserMoi.csproj",
+        "packagesPath": "C:\\Users\\MAknouche\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MAknouche\\CDA_2210\\Exos_CDA_2210\\ApiBdd\\ApiUserMoi\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\MAknouche\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\MAknouche\\CDA_2210\\Exos_CDA_2210\\ApiBdd\\ApiUserMoi.Db\\ApiUserMoi.Db.csproj": {
+                "projectPath": "C:\\Users\\MAknouche\\CDA_2210\\Exos_CDA_2210\\ApiBdd\\ApiUserMoi.Db\\ApiUserMoi.Db.csproj"
+              },
+              "C:\\Users\\MAknouche\\CDA_2210\\Exos_CDA_2210\\ApiBdd\\ApiUserMoi.Models\\ApiUserMoi.Models.csproj": {
+                "projectPath": "C:\\Users\\MAknouche\\CDA_2210\\Exos_CDA_2210\\ApiBdd\\ApiUserMoi.Models\\ApiUserMoi.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.13, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
