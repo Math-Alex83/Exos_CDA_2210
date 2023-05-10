@@ -91,7 +91,7 @@ namespace ApiUserMoi.Controllers
           {
               return Problem("Entity set 'UserDbContext.Users'  is null.");
           }
-            user.PassWord = user.PassWord.ToPassword();
+            user.Password = user.Password.ToPassword();
             _context.Users.Add(user);
             await _context.SaveChangesAsync();
 

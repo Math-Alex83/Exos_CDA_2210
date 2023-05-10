@@ -16,7 +16,7 @@ namespace ApiUserMoi.Models
 
 
         [Required(ErrorMessage ="Le mots de passe est dans.....")]
-        public string? PassWord { get; set; }
+        public string? Password { get; set; }
 
 
     }

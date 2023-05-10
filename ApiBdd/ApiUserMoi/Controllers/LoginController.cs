@@ -2,6 +2,7 @@
 using ApiUserMoi.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace ApiUserMoi.Controllers
 {
@@ -16,16 +17,18 @@ namespace ApiUserMoi.Controllers
         }
 
         [HttpPost]
-        public User? Login(User userToLogin)
+        public async Task<ActionResult<User?>> Login(User userToLogin)
         {
-            // return new User();
-            if ( CheckPassword)
-            {
-                return _context.Users.FirstOrDefault(u => u.UserName ==
-                userToLogin.UserName &&
-                u.PassWord == userToLogin.PassWord
-                );
-            }
+
+            User? user = 
+                await _context.Users.FirstOrDefaultAsync(
+                u => u.UserName == userToLogin.UserName );
+
+            return _context.Users.FirstOrDefault(u => u.UserName ==
+            userToLogin.UserName &&
+            u.Password == userToLogin.Password
+            );
+            
 
         }
 
