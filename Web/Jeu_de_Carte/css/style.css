@@ -1,0 +1,10 @@
+table
+{
+    border-collapse: collapse; /*pour fusionner les bordures*/
+}
+
+th,td
+{
+   border : 1px blue solid;
+   padding: 5px;  
+}

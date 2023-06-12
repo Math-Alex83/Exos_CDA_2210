@@ -49,11 +49,26 @@ for(let ville of json)
 
 }
 
-monBouton.addEventListener('click', function() {
+monBouton.addEventListener('click', function() 
+{
     let valeur = saisie.value;
     console.log(valeur);
 
     let resultat = json.filter(ville => ville.codePostal == valeur);
     console.log(resultat);
-    document.getElementById("divSuggestions").innerHTML = resultat.toString();
+   
+    document.getElementById("divSuggestions").innerHTML = "";
+
+     for(let ville of resultat) 
+     {
+        console.log(ville);
+        document.getElementById("divSuggestions").innerHTML += 
+        "<p>"
+        +"Code Postal : "+ville.codePostal
+        +" ; "
+        +"Code Commune : "+ville.codeCommune
+        +" ; "+"Commune : "+ville.nomCommune
+        +" ( "+ville.libelleAcheminement+" )"
+        +"</p>"
+     }
 })
