@@ -1,7 +1,7 @@
 
 
 // 1) Création du lien vers le fichier Json. https://arfp.github.io/tp/web/frontend/cardgame/cardgame.json
-/*console.log('je fonctionne 1');
+console.log('je fonctionne 1');
 
 const reponse = await fetch('https://arfp.github.io/tp/web/frontend/cardgame/cardgame.json');
 console.log(reponse);
@@ -9,12 +9,28 @@ console.log(reponse);
 const json = await reponse.json();
 console.log(json);
 
+const tabbody = document.getElementById('tabbody');
+
 async function cards() {
     for (let card of json) {
 
-        document.getElementById("id2").innerHTML +=
-            "<p>" + card.id + "</p>"
-        document.getElementById("name2").innerHTML +=
+        let tr = document.createElement('tr')
+
+        tr.innerHTML += "<td>" + card.id + "</td>"
+        tr.innerHTML += "<td>" + card.name + "</td>"
+        tr.innerHTML += "<td>" + card.level + "</td>"
+        tr.innerHTML += "<td>" + (card.description != undefined ? card.description : "") + "</td>"
+        tr.innerHTML += "<td>" + card.power + "</td>"
+        tr.innerHTML += "<td>" + card.attack + "</td>"
+        tr.innerHTML += "<td>" + card.armor + "</td>"
+        tr.innerHTML += "<td>" + card.damage + "</td>"
+        tr.innerHTML += "<td>" + card.mitigation + "</td>"
+        tr.innerHTML += "<td>" + card.played + "</td>"
+        tr.innerHTML += "<td>" + card.victory + "</td>"
+        tr.innerHTML += "<td>" + card.defeat + "</td>"
+        tr.innerHTML += "<td>" + card.draw + "</td>"
+
+       /* document.getElementById("name2").innerHTML +=
             "<p>" + card.name + "</p>"
         document.getElementById("level2").innerHTML +=
             "<p>" + card.level + "</p>"
@@ -38,11 +54,14 @@ async function cards() {
             "<p>" + card.defeat + "</p>"
         document.getElementById("draw2").innerHTML +=
             "<p>" + card.draw + "</p>"
+        */
+
+        tabbody.appendChild(tr);
     }
 }
 cards();
-*/
 
+/*
 import { CollectionCartes } from "./CollectionCartes.js";
 import { Carte } from "./Carte.js";
 
@@ -60,10 +79,6 @@ function generateBody(){
 }
 
 
-/**
- * 
- * @param {Carte} carte 
- */
 function generateLineWithValue(carte){
     let tr = document.createElement('tr');
     carte.getValues().forEach(d=>{
@@ -73,3 +88,4 @@ function generateLineWithValue(carte){
     });
     return tr;
 }
+*/

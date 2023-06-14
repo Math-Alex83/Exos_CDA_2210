@@ -1,15 +1,19 @@
-class Carte{
-    constructor(data){
+
+/*
+class Carte
+{
+    constructor(data)
+    {
         Object.assign(this, data);
     }
-
-    getKeys(){
+    getKeys()
+    {
         return Object.keys(this);
     }
-
-    getValues(){
+    getValues()
+    {
         return Object.values(this);
     }
 }
-
 export {Carte};
+*/
