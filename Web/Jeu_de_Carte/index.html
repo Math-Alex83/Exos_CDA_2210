@@ -20,42 +20,42 @@
         <tr> 1 ligne dans la table    
         <th> 1 cellule d'entête dans la table-->
         <table>
-                <thead id="entete">
-                    <tr>
-                        <th id="id">Id</th>
-                        <th id="name">Name</th>
-                        <th id="level">Level</th>
-                        <th id="description">Description</th>
-                        <th id="power">Power</th>
-                        <th id="attack">Attack</th>
-                        <th id="armor">Armor</th>
-                        <th id="damage">Damage</th>
-                        <th id="mitigation">Mitigation</th>
-                        <th id="played">Played</th>
-                        <th id="victory">Victory</th>
-                        <th id="defeat">Defeat</th>
-                        <th id="draw">Draw</th>
-                    </tr>
-                </thead>
-            <tbody id = "tabbody">
-              <!--  <tr>
-                    <th id="id2"></th>
-                    <th id="name2"></th>
-                    <th id="level2"></th>
-                    <th id="description2"></th>
-                    <th id="power2"></th>
-                    <th id="attack2"></th>
-                    <th id="armor2"></th>
-                    <th id="damage2"></th>
-                    <th id="mitigation2"></th>
-                    <th id="played2"></th>
-                    <th id="victory2"></th>
-                    <th id="defeat2"></th>
-                    <th id="draw2"></th>
-                </tr> -->
+            <thead id="tabEntete">
+                <!--création manuelle d'une ligne d'entête dans le head du tableau -->
+                <tr>
+                    <th id="id">Id</th>
+                    <th id="name">Name</th>
+                    <th id="level">Level</th>
+                    <th id="description">Description</th>
+                    <th id="power">Power</th>
+                    <th id="attack">Attack</th>
+                    <th id="armor">Armor</th>
+                    <th id="damage">Damage</th>
+                    <th id="mitigation">Mitigation</th>
+                    <th id="played">Played</th>
+                    <th id="victory">Victory</th>
+                    <th id="defeat">Defeat</th>
+                    <th id="draw">Draw</th>
+                </tr>
+            </thead>
 
+            <tbody id = "tabBody">
+                <!--Les valeurs sont injectées dynamiquement ici depuis le main.js -> function cards -->
             </tbody>
-            <tfoot>
+            <tfoot id=" tabFoot">
+             <!--A la suite de ce tableau, afficher les informations complètes des cartes suivantes [.sort()]-->
+
+                <!--La carte possédant le plus de puissance d’attaque-->
+                <tr id="maxAttack"></tr>
+
+                <!--La carte possédant le plus d’armure-->
+                <tr id="maxArmor"></tr>
+
+                <!--La carte ayant le plus de parties jouées-->
+                <tr id="maxPlayed"></tr>
+
+                <!--La carte ayant le plus grand nombre de victoires-->
+                <tr id="maxVictory"></tr>
 
             </tfoot>
         </table>

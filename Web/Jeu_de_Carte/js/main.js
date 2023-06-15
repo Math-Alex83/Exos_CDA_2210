@@ -9,7 +9,7 @@ console.log(reponse);
 const json = await reponse.json();
 console.log(json);
 
-const tabbody = document.getElementById('tabbody');
+const tabbody = document.getElementById('tabBody');
 
 async function cards() {
     for (let card of json) {
@@ -30,32 +30,6 @@ async function cards() {
         tr.innerHTML += "<td>" + card.defeat + "</td>"
         tr.innerHTML += "<td>" + card.draw + "</td>"
 
-       /* document.getElementById("name2").innerHTML +=
-            "<p>" + card.name + "</p>"
-        document.getElementById("level2").innerHTML +=
-            "<p>" + card.level + "</p>"
-        document.getElementById("description2").innerHTML +=
-            "<p>" +""+"</p>"
-        document.getElementById("power2").innerHTML +=
-            "<p>" + card.power + "</p>"
-        document.getElementById("attack2").innerHTML +=
-            "<p>" + card.attack + "</p>"
-        document.getElementById("armor2").innerHTML +=
-            "<p>" + card.armor + "</p>"
-        document.getElementById("damage2").innerHTML +=
-            "<p>" + card.damage + "</p>"
-        document.getElementById("mitigation2").innerHTML +=
-            "<p>" + card.mitigation + "</p>"
-        document.getElementById("played2").innerHTML +=
-            "<p>" + card.played + "</p>"
-        document.getElementById("victory2").innerHTML +=
-            "<p>" + card.victory + "</p>"
-        document.getElementById("defeat2").innerHTML +=
-            "<p>" + card.defeat + "</p>"
-        document.getElementById("draw2").innerHTML +=
-            "<p>" + card.draw + "</p>"
-        */
-
         tabbody.appendChild(tr);
     }
 }
@@ -72,7 +46,7 @@ await maCollection.load().then(()=>{
 });
 
 function generateBody(){
-    let tabbody= document.querySelector('#tabbody');
+    let tabBody= document.querySelector('#tabBody');
     maCollection.datas.forEach(d=>{
         tabbody.appendChild(generateLineWithValue(d));
     });
