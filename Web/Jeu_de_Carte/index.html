@@ -6,62 +6,73 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <!--type=module va attendre le chargement complet de la page web AVANT d'executer JavaScript ET d'utiliser import et export -->
     <script src="/js/main.js" type="module"></script>
     <title>Jeu de carte</title>
 </head>
 
 <body>
     <h1>Jeu de carte</h1>
-    <form action="" methode="GET">
+    <!-- <form action="" methode="GET"> n'a d'intéret que pour les projets interactifs / transmission de données -->
 
-        <!--CREATION DU TABLEAU-->
-        <!--RAPPEL 
+    <!--CREATION DU TABLEAU-->
+    <!--RAPPEL 
         <table> definit une table
         <tr> 1 ligne dans la table    
-        <th> 1 cellule d'entête dans la table-->
-        <table>
-            <thead id="tabEntete">
-                <!--création manuelle d'une ligne d'entête dans le head du tableau -->
-                <tr>
-                    <th id="id">Id</th>
-                    <th id="name">Name</th>
-                    <th id="level">Level</th>
-                    <th id="description">Description</th>
-                    <th id="power">Power</th>
-                    <th id="attack">Attack</th>
-                    <th id="armor">Armor</th>
-                    <th id="damage">Damage</th>
-                    <th id="mitigation">Mitigation</th>
-                    <th id="played">Played</th>
-                    <th id="victory">Victory</th>
-                    <th id="defeat">Defeat</th>
-                    <th id="draw">Draw</th>
-                </tr>
-            </thead>
+        <th> 1 cellule d'entête dans la table
+        <td> tableau data (valeur)
+    -->
 
-            <tbody id = "tabBody">
-                <!--Les valeurs sont injectées dynamiquement ici depuis le main.js -> function cards -->
-            </tbody>
-            <tfoot id=" tabFoot">
-             <!--A la suite de ce tableau, afficher les informations complètes des cartes suivantes [.sort()]-->
+    <table>
+        <thead id="tabEntete">
+            <!--création manuelle d'une ligne d'entête dans le head du tableau -->
+            <tr>
+                <th id="id">Id</th>
+                <th id="name">Name</th>
+                <th id="level">Level</th>
+                <th id="description">Description</th>
+                <th id="power">Power</th>
+                <th id="attack">Attack</th>
+                <th id="armor">Armor</th>
+                <th id="damage">Damage</th>
+                <th id="mitigation">Mitigation</th>
+                <th id="played">Played</th>
+                <th id="victory">Victory</th>
+                <th id="defeat">Defeat</th>
+                <th id="draw">Draw</th>
+            </tr>
+        </thead>
 
+        <tbody id="tabBody">
+            <!--Les valeurs sont injectées dynamiquement ici depuis le main.js -> function cards -->
+        </tbody>
+        <tfoot id=" tabFoot">
+            <!--A la suite de ce tableau, afficher les informations complètes des cartes suivantes [.sort()]-->
+            <tr>
                 <!--La carte possédant le plus de puissance d’attaque-->
-                <tr id="maxAttack"></tr>
+                <th>Carte avec le plus d'attaque</th>
 
+            </tr>
+            <td id="maxAttack">coucou</td>
+            <tr>
                 <!--La carte possédant le plus d’armure-->
-                <tr id="maxArmor"></tr>
+                <th>Carte avec le plus d'armure</th>
+            </tr>
+            <td id="maxArmor"></td>
 
+            <tr>
                 <!--La carte ayant le plus de parties jouées-->
-                <tr id="maxPlayed"></tr>
-
+                <th>Carte avec le plus de parties jouées</th>
+            </tr>
+            <td id="maxPlayed"></td>
+            <tr>
                 <!--La carte ayant le plus grand nombre de victoires-->
-                <tr id="maxVictory"></tr>
-
-            </tfoot>
-        </table>
-       
+                <th>Carte avec le plus de victoires</tdh>
+            </tr>
+            <td id="maxVictory"></td>
+        </tfoot>
+    </table>
     </form>
-
 </body>
 
 </html>

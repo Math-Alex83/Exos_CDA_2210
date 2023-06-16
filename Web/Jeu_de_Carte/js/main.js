@@ -1,12 +1,12 @@
 
 
 // 1) Création du lien vers le fichier Json. https://arfp.github.io/tp/web/frontend/cardgame/cardgame.json
-console.log('je fonctionne 1');
-
+// fetch() est une méthode asyncrone, il nécessite donc l'opérateur await.
 const reponse = await fetch('https://arfp.github.io/tp/web/frontend/cardgame/cardgame.json');
 console.log(reponse);
 
-const json = await reponse.json();
+// 3 méthodes de récupération de fichier, il faut savoir de quel type est le fichier. Json, Xml ou Text. ici c'est du Json.(le Json est un format Text).
+const json = await reponse.json(); // converti le Json en donnée JavaScript
 console.log(json);
 
 const tabbody = document.getElementById('tabBody');
