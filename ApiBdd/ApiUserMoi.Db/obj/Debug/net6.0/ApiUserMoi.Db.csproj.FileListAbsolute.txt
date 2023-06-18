@@ -1,0 +1,17 @@
+C:\Users\MAknouche\CDA_2210\Exos_CDA_2210\ApiBdd\ApiUserMoi.Db\obj\Debug\net6.0\ApiUserMoi.Db.csproj.AssemblyReference.cache
+C:\Users\MAknouche\CDA_2210\Exos_CDA_2210\ApiBdd\ApiUserMoi.Db\obj\Debug\net6.0\ApiUserMoi.Db.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MAknouche\CDA_2210\Exos_CDA_2210\ApiBdd\ApiUserMoi.Db\obj\Debug\net6.0\ApiUserMoi.Db.AssemblyInfoInputs.cache
+C:\Users\MAknouche\CDA_2210\Exos_CDA_2210\ApiBdd\ApiUserMoi.Db\obj\Debug\net6.0\ApiUserMoi.Db.AssemblyInfo.cs
+C:\Users\MAknouche\CDA_2210\Exos_CDA_2210\ApiBdd\ApiUserMoi.Db\obj\Debug\net6.0\ApiUserMoi.Db.csproj.CoreCompileInputs.cache
+C:\Users\MAknouche\CDA_2210\Exos_CDA_2210\ApiBdd\ApiUserMoi.Db\bin\Debug\net6.0\ApiUserMoi.Db.deps.json
+C:\Users\MAknouche\CDA_2210\Exos_CDA_2210\ApiBdd\ApiUserMoi.Db\bin\Debug\net6.0\ApiUserMoi.Db.runtimeconfig.json
+C:\Users\MAknouche\CDA_2210\Exos_CDA_2210\ApiBdd\ApiUserMoi.Db\bin\Debug\net6.0\ApiUserMoi.Db.dll
+C:\Users\MAknouche\CDA_2210\Exos_CDA_2210\ApiBdd\ApiUserMoi.Db\bin\Debug\net6.0\ApiUserMoi.Db.pdb
+C:\Users\MAknouche\CDA_2210\Exos_CDA_2210\ApiBdd\ApiUserMoi.Db\bin\Debug\net6.0\ApiUserMoi.Models.dll
+C:\Users\MAknouche\CDA_2210\Exos_CDA_2210\ApiBdd\ApiUserMoi.Db\bin\Debug\net6.0\ApiUserMoi.Models.pdb
+C:\Users\MAknouche\CDA_2210\Exos_CDA_2210\ApiBdd\ApiUserMoi.Db\obj\Debug\net6.0\ApiUserMoi.Db.csproj.CopyComplete
+C:\Users\MAknouche\CDA_2210\Exos_CDA_2210\ApiBdd\ApiUserMoi.Db\obj\Debug\net6.0\ApiUserMoi.Db.dll
+C:\Users\MAknouche\CDA_2210\Exos_CDA_2210\ApiBdd\ApiUserMoi.Db\obj\Debug\net6.0\refint\ApiUserMoi.Db.dll
+C:\Users\MAknouche\CDA_2210\Exos_CDA_2210\ApiBdd\ApiUserMoi.Db\obj\Debug\net6.0\ApiUserMoi.Db.pdb
+C:\Users\MAknouche\CDA_2210\Exos_CDA_2210\ApiBdd\ApiUserMoi.Db\obj\Debug\net6.0\ApiUserMoi.Db.genruntimeconfig.cache
+C:\Users\MAknouche\CDA_2210\Exos_CDA_2210\ApiBdd\ApiUserMoi.Db\obj\Debug\net6.0\ref\ApiUserMoi.Db.dll

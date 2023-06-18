@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "2tBIAdrUDEq9vXi25wzRlchHRAE+Gght0kas9v22sru5Tyb52J4/6RnmV2IZllzq7GW3k0javdPL8JX1XcNfVg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\MAknouche\\CDA_2210\\Exos_CDA_2210\\ApiBdd\\BankTrasaction.Models\\BankTrasaction.Models.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MAknouche\\.nuget\\packages\\mathnet.numerics\\5.0.0\\mathnet.numerics.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

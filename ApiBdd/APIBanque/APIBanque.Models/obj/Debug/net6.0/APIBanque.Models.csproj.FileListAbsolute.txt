@@ -1,0 +1,14 @@
+C:\Users\matha\OneDrive\Desktop\Test\APIBanque\APIBanque.Models\bin\Debug\net6.0\APIBanque.Models.deps.json
+C:\Users\matha\OneDrive\Desktop\Test\APIBanque\APIBanque.Models\bin\Debug\net6.0\APIBanque.Models.runtimeconfig.json
+C:\Users\matha\OneDrive\Desktop\Test\APIBanque\APIBanque.Models\bin\Debug\net6.0\APIBanque.Models.dll
+C:\Users\matha\OneDrive\Desktop\Test\APIBanque\APIBanque.Models\bin\Debug\net6.0\APIBanque.Models.pdb
+C:\Users\matha\OneDrive\Desktop\Test\APIBanque\APIBanque.Models\obj\Debug\net6.0\APIBanque.Models.csproj.AssemblyReference.cache
+C:\Users\matha\OneDrive\Desktop\Test\APIBanque\APIBanque.Models\obj\Debug\net6.0\APIBanque.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matha\OneDrive\Desktop\Test\APIBanque\APIBanque.Models\obj\Debug\net6.0\APIBanque.Models.AssemblyInfoInputs.cache
+C:\Users\matha\OneDrive\Desktop\Test\APIBanque\APIBanque.Models\obj\Debug\net6.0\APIBanque.Models.AssemblyInfo.cs
+C:\Users\matha\OneDrive\Desktop\Test\APIBanque\APIBanque.Models\obj\Debug\net6.0\APIBanque.Models.csproj.CoreCompileInputs.cache
+C:\Users\matha\OneDrive\Desktop\Test\APIBanque\APIBanque.Models\obj\Debug\net6.0\APIBanque.Models.dll
+C:\Users\matha\OneDrive\Desktop\Test\APIBanque\APIBanque.Models\obj\Debug\net6.0\refint\APIBanque.Models.dll
+C:\Users\matha\OneDrive\Desktop\Test\APIBanque\APIBanque.Models\obj\Debug\net6.0\APIBanque.Models.pdb
+C:\Users\matha\OneDrive\Desktop\Test\APIBanque\APIBanque.Models\obj\Debug\net6.0\APIBanque.Models.genruntimeconfig.cache
+C:\Users\matha\OneDrive\Desktop\Test\APIBanque\APIBanque.Models\obj\Debug\net6.0\ref\APIBanque.Models.dll

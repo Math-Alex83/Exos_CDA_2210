@@ -1,0 +1,17 @@
+C:\Users\matha\OneDrive\Desktop\Test\APIBanque\APIBanque.Databases\bin\Debug\net6.0\APIBanque.Databases.deps.json
+C:\Users\matha\OneDrive\Desktop\Test\APIBanque\APIBanque.Databases\bin\Debug\net6.0\APIBanque.Databases.runtimeconfig.json
+C:\Users\matha\OneDrive\Desktop\Test\APIBanque\APIBanque.Databases\bin\Debug\net6.0\APIBanque.Databases.dll
+C:\Users\matha\OneDrive\Desktop\Test\APIBanque\APIBanque.Databases\bin\Debug\net6.0\APIBanque.Databases.pdb
+C:\Users\matha\OneDrive\Desktop\Test\APIBanque\APIBanque.Databases\bin\Debug\net6.0\APIBanque.Models.dll
+C:\Users\matha\OneDrive\Desktop\Test\APIBanque\APIBanque.Databases\bin\Debug\net6.0\APIBanque.Models.pdb
+C:\Users\matha\OneDrive\Desktop\Test\APIBanque\APIBanque.Databases\obj\Debug\net6.0\APIBanque.Databases.csproj.AssemblyReference.cache
+C:\Users\matha\OneDrive\Desktop\Test\APIBanque\APIBanque.Databases\obj\Debug\net6.0\APIBanque.Databases.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matha\OneDrive\Desktop\Test\APIBanque\APIBanque.Databases\obj\Debug\net6.0\APIBanque.Databases.AssemblyInfoInputs.cache
+C:\Users\matha\OneDrive\Desktop\Test\APIBanque\APIBanque.Databases\obj\Debug\net6.0\APIBanque.Databases.AssemblyInfo.cs
+C:\Users\matha\OneDrive\Desktop\Test\APIBanque\APIBanque.Databases\obj\Debug\net6.0\APIBanque.Databases.csproj.CoreCompileInputs.cache
+C:\Users\matha\OneDrive\Desktop\Test\APIBanque\APIBanque.Databases\obj\Debug\net6.0\APIBanque.Databases.csproj.CopyComplete
+C:\Users\matha\OneDrive\Desktop\Test\APIBanque\APIBanque.Databases\obj\Debug\net6.0\APIBanque.Databases.dll
+C:\Users\matha\OneDrive\Desktop\Test\APIBanque\APIBanque.Databases\obj\Debug\net6.0\refint\APIBanque.Databases.dll
+C:\Users\matha\OneDrive\Desktop\Test\APIBanque\APIBanque.Databases\obj\Debug\net6.0\APIBanque.Databases.pdb
+C:\Users\matha\OneDrive\Desktop\Test\APIBanque\APIBanque.Databases\obj\Debug\net6.0\APIBanque.Databases.genruntimeconfig.cache
+C:\Users\matha\OneDrive\Desktop\Test\APIBanque\APIBanque.Databases\obj\Debug\net6.0\ref\APIBanque.Databases.dll

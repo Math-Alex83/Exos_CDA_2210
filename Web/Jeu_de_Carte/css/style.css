@@ -1,0 +1,13 @@
+table
+{
+    border-collapse: collapse; /*pour fusionner les bordures*/
+    text-align: center;
+    border: 2px black solid;
+}
+
+th,tr
+{
+   border : 1px black solid;
+   padding: 5px; 
+ 
+}
