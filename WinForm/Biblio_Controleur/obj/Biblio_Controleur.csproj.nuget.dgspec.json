@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\matha\\Clone_CDA_2210\\Exos_CDA_2210\\WinForm\\Biblio_Controleur\\Biblio_Controleur.csproj": {}
+    "C:\\Users\\MAknouche\\CDA_2210\\Exos_CDA_2210\\WinForm\\Biblio_Controleur\\Biblio_Controleur.csproj": {}
   },
   "projects": {
-    "C:\\Users\\matha\\Clone_CDA_2210\\Exos_CDA_2210\\WinForm\\Biblio_Controleur\\Biblio_Controleur.csproj": {
+    "C:\\Users\\MAknouche\\CDA_2210\\Exos_CDA_2210\\WinForm\\Biblio_Controleur\\Biblio_Controleur.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\matha\\Clone_CDA_2210\\Exos_CDA_2210\\WinForm\\Biblio_Controleur\\Biblio_Controleur.csproj",
+        "projectUniqueName": "C:\\Users\\MAknouche\\CDA_2210\\Exos_CDA_2210\\WinForm\\Biblio_Controleur\\Biblio_Controleur.csproj",
         "projectName": "Biblio_Controleur",
-        "projectPath": "C:\\Users\\matha\\Clone_CDA_2210\\Exos_CDA_2210\\WinForm\\Biblio_Controleur\\Biblio_Controleur.csproj",
-        "packagesPath": "C:\\Users\\matha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\matha\\Clone_CDA_2210\\Exos_CDA_2210\\WinForm\\Biblio_Controleur\\obj\\",
+        "projectPath": "C:\\Users\\MAknouche\\CDA_2210\\Exos_CDA_2210\\WinForm\\Biblio_Controleur\\Biblio_Controleur.csproj",
+        "packagesPath": "C:\\Users\\MAknouche\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MAknouche\\CDA_2210\\Exos_CDA_2210\\WinForm\\Biblio_Controleur\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\matha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\MAknouche\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +27,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
