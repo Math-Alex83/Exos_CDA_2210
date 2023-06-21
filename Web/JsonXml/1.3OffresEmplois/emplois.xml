@@ -1,0 +1,25 @@
+<emplois>
+    <emploi>
+        <intitule>Developpeur</intitule>
+        <ville></ville>
+        <descriptionPoste>
+            <taches>
+                <tache></tache>
+            </taches>
+            <avantages>
+                <avantage></avantage>
+            </avantages>
+            <profilRecherche></profilRecherche>
+        </descriptionPoste>
+        <competences>
+            <competence></competence>
+            <competence></competence>
+            <competence></competence>
+            <competence></competence>
+            <competence></competence>
+        </competences>
+        <dateDebut></dateDebut>
+        <salaireAnnuel></salaireAnnuel>
+        <mail></mail>
+    </emploi>
+</emplois>
