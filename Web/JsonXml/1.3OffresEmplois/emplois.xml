@@ -1,25 +1,28 @@
 <emplois>
     <emploi>
-        <intitule>Developpeur</intitule>
-        <ville></ville>
+        <intitule>Developpeur PHP</intitule>
+        <ville>Paris</ville>
         <descriptionPoste>
             <taches>
-                <tache></tache>
+                <tache>Faire du PHP</tache>
             </taches>
             <avantages>
+                <avantage>Café offert</avantage>
+                <avantage>13ème mois</avantage>
+                <avantage>Primes fréquentes</avantage>
                 <avantage></avantage>
             </avantages>
-            <profilRecherche></profilRecherche>
+            <profilRecherche>Personne dynamique, motivée et autonome</profilRecherche>
         </descriptionPoste>
         <competences>
-            <competence></competence>
-            <competence></competence>
-            <competence></competence>
-            <competence></competence>
-            <competence></competence>
+            <competence>Experience de 10 ans en PHP demandée</competence>
+            <competence>Travail en équipe</competence>
+            <competence>Autonomie</competence>
+            <competence>Esprit d'anticipation</competence>
+            <competence>Communication</competence>
         </competences>
         <dateDebut></dateDebut>
-        <salaireAnnuel></salaireAnnuel>
-        <mail></mail>
+        <salaireAnnuel devise="Euros">40000</salaireAnnuel>
+        <mail>jaimelephp@gmail.com</mail>
     </emploi>
 </emplois>
