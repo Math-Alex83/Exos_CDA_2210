@@ -1,10 +1,13 @@
 namespace FormECF
 {
-    public partial class InscriptionStagiaireForm : Form
+    public partial class Form1 : Form
     {
-        public InscriptionStagiaireForm()
+        string formation;
+        public Form1()
         {
             InitializeComponent();
+            //buttonValider.Tag = radioButtonCDA.Text;
+            formation = " ";
         }
 
         private void textBoxNom_TextChanged(object sender, EventArgs e)
@@ -67,8 +70,8 @@ namespace FormECF
 
         private void textBoxDateFin_TextChanged(object sender, EventArgs e)
         {
-           
-            
+
+
         }
 
 
@@ -76,10 +79,27 @@ namespace FormECF
 
         public void radioButtonCDA_CheckedChanged(object sender, EventArgs e)
         {
-            if (radioButtonCDA.Checked)
+            //if (radioButtonCDA.Checked)
+            //{
+            //     labelHide.Text= radioButtonCDA.Text;
+            //}
+
+            if (((RadioButton)sender).Checked)
             {
-                 radioButtonCDA.ToString();
+                // This is the correct control.
+                RadioButton rb = (RadioButton)sender;
+                 formation = rb.Text;
             }
+
+
+
+
+
+
+
+
+
+
         }
 
         private void radioButtonDWWM_CheckedChanged(object sender, EventArgs e)
@@ -97,16 +117,21 @@ namespace FormECF
                 radioButtonABC.ToString();
             }
         }
-        
+
         private void buttonValider_Click(object sender, EventArgs e)
         {
             MessageBox.Show(
                    "Nom : " + textBoxNom.Text + "\r\n"
                    + "Prénom : " + textBoxPrenom.Text + "\r\n"
                    + "Date : " + textBoxDateDebut.Text + "\r\n"
-                   + "Montant : " + textBoxDateFin.Text + "\r\n"
-                   + "Formation : " + radioButton.ToString() + "\r\n"
-                   , "Stagiaire créé avec succes.");
+                   + "Date de fin : " + textBoxDateFin.Text + "\r\n"
+                   + "Formation : " + formation+ "\r\n"
+                   + "Stagiaire créé avec succes.");
+        }
+
+        private void labelHide_Click(object sender, EventArgs e)
+        {
+           
         }
     }
 }
