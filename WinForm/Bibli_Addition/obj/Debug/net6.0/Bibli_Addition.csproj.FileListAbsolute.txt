@@ -10,3 +10,15 @@ C:\Users\MAknouche\CDA_2210\Exos_CDA_2210\WinForm\Bibli_Addition\obj\Debug\net6.
 C:\Users\MAknouche\CDA_2210\Exos_CDA_2210\WinForm\Bibli_Addition\obj\Debug\net6.0\refint\Bibli_Addition.dll
 C:\Users\MAknouche\CDA_2210\Exos_CDA_2210\WinForm\Bibli_Addition\obj\Debug\net6.0\Bibli_Addition.pdb
 C:\Users\MAknouche\CDA_2210\Exos_CDA_2210\WinForm\Bibli_Addition\obj\Debug\net6.0\ref\Bibli_Addition.dll
+C:\Users\matha\Clone_CDA_2210\Exos_CDA_2210\WinForm\Bibli_Addition\bin\Debug\net6.0\Bibli_Addition.deps.json
+C:\Users\matha\Clone_CDA_2210\Exos_CDA_2210\WinForm\Bibli_Addition\bin\Debug\net6.0\Bibli_Addition.dll
+C:\Users\matha\Clone_CDA_2210\Exos_CDA_2210\WinForm\Bibli_Addition\bin\Debug\net6.0\Bibli_Addition.pdb
+C:\Users\matha\Clone_CDA_2210\Exos_CDA_2210\WinForm\Bibli_Addition\obj\Debug\net6.0\Bibli_Addition.csproj.AssemblyReference.cache
+C:\Users\matha\Clone_CDA_2210\Exos_CDA_2210\WinForm\Bibli_Addition\obj\Debug\net6.0\Bibli_Addition.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matha\Clone_CDA_2210\Exos_CDA_2210\WinForm\Bibli_Addition\obj\Debug\net6.0\Bibli_Addition.AssemblyInfoInputs.cache
+C:\Users\matha\Clone_CDA_2210\Exos_CDA_2210\WinForm\Bibli_Addition\obj\Debug\net6.0\Bibli_Addition.AssemblyInfo.cs
+C:\Users\matha\Clone_CDA_2210\Exos_CDA_2210\WinForm\Bibli_Addition\obj\Debug\net6.0\Bibli_Addition.csproj.CoreCompileInputs.cache
+C:\Users\matha\Clone_CDA_2210\Exos_CDA_2210\WinForm\Bibli_Addition\obj\Debug\net6.0\Bibli_Addition.dll
+C:\Users\matha\Clone_CDA_2210\Exos_CDA_2210\WinForm\Bibli_Addition\obj\Debug\net6.0\refint\Bibli_Addition.dll
+C:\Users\matha\Clone_CDA_2210\Exos_CDA_2210\WinForm\Bibli_Addition\obj\Debug\net6.0\Bibli_Addition.pdb
+C:\Users\matha\Clone_CDA_2210\Exos_CDA_2210\WinForm\Bibli_Addition\obj\Debug\net6.0\ref\Bibli_Addition.dll
