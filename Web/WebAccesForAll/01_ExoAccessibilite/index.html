@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr,FR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet HandiA11y</title>
+</head>
+<!--Contenu de la page-->
+<body>
+    <!--Titre et entête optionnels-->
+    <h1 id="tDoc">Projet HandiA11y</h1>
+    <h2 id="libelTitre">Création d'un site web accessible</h2>
+    <!--Création de la bannière contenant une image, une liste de menu et une barre de recherche-->
+    <thead role="banner">
+        <nav role="navigation" aria-label="Menu">
+            <img src="images/a11yNow.png" alt="Notre Logo">
+            <ul class="menu">
+                <li>
+                    <a href="index.html">Acceuil</a>
+                </li>
+                <li>
+                    <a href="a11y.html">A11y</a>
+                </li>
+                <li>
+                    <a href="handicaps.html">Handicaps</a>
+                </li>
+                <li>
+                    <a href="dons.html">Faire un don</a>
+                </li>
+                <li>
+                    <a href="apropos.html">Equipe</a>
+                </li>
+                <li>
+                    <div id="bouttonParamAcces" data-bouttonParamAcces-bouttonName="Paramètre d'accessibilité"
+                        data-bouttonParamAcces-parametre="{}">
+                        <button id=boutonParam data-bouttonParamAcces-button="true">Paramètre d'accessibilité</button>
+                    </div>
+                </li>
+            </ul>
+            <input type="search" id="site-search" name="r" placeholder="Zone de saisie">
+            <button>Rechercher</button>
+        </nav>
+    </thead>
+    <tbody>
+        <h2 id="titreBienvenue">Bienvenue sur HandiA11y</h2>
+        <p>
+            HandiA11y est un site spécialisé pour découvrir les bases de l'accessibilité web et les différents handicaps
+            à prendre en compte.
+        </p>
+        <h3 id="prq">Pourquoi "<abbr title="Accessibility" lang="en">A11y</abbr>" et pas "A11é" ?</h3>
+
+        <p>
+            A11É est une abréviation pour accessibilité où 11 représente le nombre de lettres entre le a et le é du mot
+            accessibilité.
+            Cette même abbréviation dans sa version anglaise est plus jolie à l'oreille : A11Y
+        </p>
+        <h3>Quelle est l'origine du mot HANDICAP ?</h3>
+        <p>
+            Le mot handicap trouve son origine dans l'anglais médiéval.
+            Il est dérivé de l'expression hand in cap, qui signifie main dans le chapeau.
+            À l'époque, cette expression était utilisée dans les jeux de hasard pour indiquer qu'un joueur était
+            désavantagé ou handicapé par rapport aux autres joueurs.
+            Au fil du temps, le terme a été adopté dans d'autres contextes pour décrire une situation où une personne
+            est désavantagée ou limitée dans ses capacités physiques,
+            mentales ou sociales.
+        </p>
+        <h2 id="titreWCAG">Le WCAG et les 4 principes A11y</h2>
+        <section id="4Principes">
+            <section id="perception">
+                <h3>Perceptible</h3>
+                <p>Les informations et les composants de l'interface utilisateur doivent être perceptibles pour tous les
+                    utilisateurs, y compris ceux ayant des limitations sensorielles.</p>
+            </section>
+            <section id="utilisable">
+                <h3>Utilisable</h3>
+                <p>Les composants de l'interface utilisateur doivent être utilisables par tous les utilisateurs, y
+                    compris ceux ayant des limitations physiques ou cognitives.</p>
+            </section>
+            <section id="comprehensible">
+                <h3>Compréhensible</h3>
+                <p>Les informations et les opérations doivent être compréhensibles pour tous les utilisateurs, y compris
+                    ceux ayant des limitations cognitives.</p>
+            </section>
+            <section id="robuste">
+                <h3>Robuste</h3>
+                <p>Le contenu doit être robuste et fonctionnel sur différentes plateformes, y compris les technologies
+                    d'assistance, pour tous les utilisateurs.</p>
+            </section>
+        </section>
+        <section class="tableau">
+            <table>
+                <!--legende du tableau de critères-->
+                <caption>Les critères WCAG 2.1 sous forme de tableau</caption>
+                <thead>
+                    <tr>
+                        <th >Principes</th>
+                        <th>Critères</th>
+                        <th>Correspondances</th>
+                        <th>Objectifs</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr role="perceptible">
+                        <th rowspan="4">Perceptible</th>
+                        <td>1.1</td>
+                        <td>Alternatives textuelles</td>
+                        <td>Fournir des alternatives textuelles pour tout contenu non textuel afin qu'il puisse être modifié dans d'autres formes comme les gros caractères, le braille, la parole, les symboles ou un langage plus simple.
+                        </td>
+                   
+                    </tr>
+                    <tr>
+                        <td>1.2</td>
+                        <td>Médias temporels	</td>
+                        <td>Fournir des alternatives aux médias temporels.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>1.3</td>
+                        <td>Adaptable</td>
+                        <td>Créez du contenu qui peut être présenté de différentes manières (par exemple une mise en page plus simple) sans perdre d'informations ou de structure.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>1.4</td>
+                        <td>Distinguable</td>
+                        <td>Facilitez la visualisation et l'écoute du contenu par les utilisateurs, notamment en séparant le premier plan de l'arrière-plan
+                        </td>
+                    </tr>
+                    <tr role="utilisable">
+                        
+                    </tr>
+                    <tr></tr>
+                    <tr></tr>
+                    <tr></tr>
+                    <tr></tr>
+                    <tr></tr>
+                    <tr></tr>
+                    <tr></tr>
+                    <tr></tr>
+                </tbody>
+            </table>
+        </section>
+
+    </tbody>
+
+
+</body>
+
+</html>
