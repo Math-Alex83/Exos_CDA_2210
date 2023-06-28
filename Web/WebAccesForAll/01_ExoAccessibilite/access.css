@@ -1,0 +1,69 @@
+/*créer des variables pour éviter de remettre plusieurs fois les mêmes codes couleur*/
+:root {
+    --col-wcag-bg: #9BC9F7;
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+h1,
+h2,
+h3 {
+    padding: 1rem;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+header {}
+
+body {
+    font-size: 1.6rem;
+}
+
+
+#sect-principes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wcag {
+    width: 23%;
+    border-collapse: collapse;
+    /*pour fusionner les bordures*/
+    text-align: left;
+    background-color: var(--col-wcag-bg);
+    padding: 0.5rem;
+    margin: 1rem;
+    border-radius: 0.4rem;
+    box-shadow: 0 1px 0.5rem rgb(46, 46, 46) !important;
+}
+
+#tabCriteres {
+    border-collapse: collapse;
+    /*pour fusionner les bordures*/
+    text-align: center;
+    border: 0.3rem black solid;
+}
+
+#conformite{
+    border-collapse: collapse;
+    /*pour fusionner les bordures*/
+    text-align: center;
+    border: 0.3rem black solid;
+}
+caption {
+    display: table-caption;
+    text-align: -webkit-center;
+}
+th,
+tr,
+td {
+    border: 0.2rem black solid;
+    padding: 0.5rem;
+}

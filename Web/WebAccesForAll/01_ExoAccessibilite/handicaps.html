@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="access.css">
+    <link rel="stylesheet" href="accessconfig/css/accessconfig.min.css" type="text/css" media="screen" />
+    <script src="accessconfig/js/accessconfig.min.js" type="text/javascript"></script>
+    <title>Projet HandiA11y-Handicaps</title>
+</head>
+<!--Contenu de la page-->
+
+<body>
+    <header class="banniere" role="baniere">
+    <!--Création de la bannière contenant une image, une liste de menu et une barre de recherche-->
+    <nav role="menu" aria-label="menu">
+        <img src="images/a11yNow.png" alt="Logo A11y Now">
+        <ul class="menu">
+            <li>
+                <a href="index.html">Acceuil</a>
+            </li>
+            <li>
+                <a href="a11y.html">A11y</a>
+            </li>
+            <li>
+                <a href="handicaps.html">Handicaps</a>
+            </li>
+            <li>
+                <a href="dons.html">Faire un don</a>
+            </li>
+            <li>
+                <a href="apropos.html">Equipe</a>
+            </li>
+                <!--Bouton de paramètres accessibilité-->
+                <li>
+                    <div id="accessconfig" data-accessconfig-buttonname="Paramètres d’accessibilité"
+                        data-accessconfig-params='{ "Prefix" : "a42-ac", "ContainerClass" : "","ModalCloseButton" : "","ModalTitle" : "","FormFieldset" : "","FormFieldsetLegend" : "","FormRadio" : ""}'>
+                    </div>
+
+                </li>
+        </ul>
+        <!--Barre de recherche-->
+        <div class="recherche" role="recherche">
+            <label for="site-search">Rechercher</label>
+            <input id="zoneRecherche" type="text" placeholder="Zone de saisie">
+            <button type="submit">Rechercher</button>
+        </div>
+    </nav>
+</header>
+<h1 id="tDoc">Symboles et types de handicaps</h1>
+
+</body>
+
+</html>
