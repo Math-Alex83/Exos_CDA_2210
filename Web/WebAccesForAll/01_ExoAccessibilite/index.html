@@ -8,19 +8,18 @@
     <link rel="stylesheet" href="access.css">
     <link rel="stylesheet" href="accessconfig/css/accessconfig.min.css" type="text/css" media="screen" />
     <script src="accessconfig/js/accessconfig.min.js" type="text/javascript"></script>
-    <title>Projet HandiA11y</title>
+    <title>Projet HandiA11y / Acceuil</title>
 </head>
 <!--Contenu de la page-->
 
 <body>
     <header class="banniere" role="baniere">
         <!--Titre et entête optionnels-->
-        <h1 id="tDoc">Projet HandiA11y / Acceuil</h1>
+        <h1 id="tDoc">Projet HandiA11y</h1>
         <!-- <h2 id="libelTitre">Création d'un site web accessible</h2> -->
-
+        <img src="images/a11yNow.png" alt="Logo A11y Now" id="logo">
         <!--Création de la bannière contenant une image, une liste de menu et une barre de recherche-->
-        <nav role="menu" aria-label="menu">
-            <img src="images/a11yNow.png" alt="Logo A11y Now">
+        <nav>            
             <ul class="menu">
                 <li>
                     <a href="index.html">Acceuil</a>
@@ -39,44 +38,49 @@
                 </li>
                 <!--Bouton de paramètres accessibilité-->
                 <li>
-                    <div id="accessconfig" data-accessconfig-buttonname="Paramètres d’accessibilité"
+                    <div id="accessconfig" data-accessconfig-buttonname="Paramètres d'accessibilité"
                         data-accessconfig-params='{ "Prefix" : "a42-ac", "ContainerClass" : "","ModalCloseButton" : "","ModalTitle" : "","FormFieldset" : "","FormFieldsetLegend" : "","FormRadio" : ""}'>
                     </div>
 
                 </li>
             </ul>
-            <!--Barre de recherche-->
-            <div class="recherche" role="recherche">
-                <label for="site-search">Rechercher</label>
-                <input id="zoneRecherche" type="text" placeholder="Zone de saisie">
-                <button type="submit">Rechercher</button>
-            </div>
+            
         </nav>
+        <!--Barre de recherche-->
+        <!-- Fieldset est adapté pour des portions de formulaires, il est un peu comme groupbox en winform -->
+        <fieldset class="recherche" role="recherche" id="headerSearch">
+            <legend>Zone de recherche</legend>
+            <label for="site-search">Rechercher</label>
+            <input id="site-search" type="text" placeholder="Zone de saisie">
+            <button type="submit">Rechercher</button>
+        </fieldset>
     </header>
     <main role="main">
-        <h2 id="titreBienvenue">Bienvenue sur HandiA11y</h2>
-        <p>
-            HandiA11y est un site spécialisé pour découvrir les bases de l'accessibilité web et les différents handicaps
-            à prendre en compte.
-        </p>
-        <h3 id="prq">Pourquoi "<abbr title="Accessibility" lang="en">A11y</abbr>" et pas "A11é" ?</h3>
+        <section id="presentation">
+            <h2 id="titreBienvenue">Bienvenue sur HandiA11y</h2>
+            <p>
+                HandiA11y est un site spécialisé pour découvrir les bases de l'accessibilité web et les différents handicaps
+                à prendre en compte.
+            </p>
+            <h3 id="prq">Pourquoi "<abbr title="Accessibility" lang="en">A11y</abbr>" et pas "A11é" ?</h3>
 
-        <p>
-            <abbr title="accessibilité" lang="fr">A11É</abbr> est une abréviation pour accessibilité où 11 représente le
-            nombre de lettres entre le a et le é du mot
-            accessibilité.
-            Cette même abbréviation dans sa version anglaise est plus jolie à l'oreille : A11Y
-        </p>
-        <h3>Quelle est l'origine du mot HANDICAP ?</h3>
-        <p>
-            Le mot handicap trouve son origine dans l'anglais médiéval.
-            Il est dérivé de l'expression hand in cap, qui signifie main dans le chapeau.
-            À l'époque, cette expression était utilisée dans les jeux de hasard pour indiquer qu'un joueur était
-            désavantagé ou handicapé par rapport aux autres joueurs.
-            Au fil du temps, le terme a été adopté dans d'autres contextes pour décrire une situation où une personne
-            est désavantagée ou limitée dans ses capacités physiques,
-            mentales ou sociales.
-        </p>
+            <p>
+                <abbr title="accessibilité" lang="fr">A11É</abbr> est une abréviation pour accessibilité où 11 représente le
+                nombre de lettres entre le a et le é du mot
+                accessibilité.
+                Cette même abbréviation dans sa version anglaise est plus jolie à l'oreille : A11Y
+            </p>
+            <h3>Quelle est l'origine du mot HANDICAP ?</h3>
+            <p>
+                Le mot handicap trouve son origine dans l'anglais médiéval.
+                Il est dérivé de l'expression hand in cap, qui signifie main dans le chapeau.
+                À l'époque, cette expression était utilisée dans les jeux de hasard pour indiquer qu'un joueur était
+                désavantagé ou handicapé par rapport aux autres joueurs.
+                Au fil du temps, le terme a été adopté dans d'autres contextes pour décrire une situation où une personne
+                est désavantagée ou limitée dans ses capacités physiques,
+                mentales ou sociales.
+            </p>
+        </section>
         <h2 id="titreWCAG">Le WCAG et les 4 principes A11y</h2>
         <section id="sect-principes">
             <section id="perception" class="wcag">
@@ -101,7 +105,7 @@
             </section>
         </section>
         <section class="tabCriteres">
-            <table id="tabCriteres">
+            <table id="tabCriteres" class="tableauxprincipaux">
                 <!--legende du tableau de critères-->
                 <caption>Les critères WCAG 2.1 sous forme de tableau</caption>
                 <thead>
@@ -202,7 +206,7 @@
             </table>
         </section>
         <section class="tabconformite">
-            <table id="conformite">
+            <table id="conformite" class="tableauxprincipaux">
                 <caption>Les 3 niveaux de conformité WCAG 2.1</caption>
                 <thead>
                     <tr>
@@ -213,27 +217,77 @@
                 <tbody>
                     <tr>
                         <th role="niveau-A">A</th>
-                        <td>Accessibilité de base, répondant aux besoins essentiels des utilisateurs handicapés ou en situation de handicap</td>
+                        <td>Accessibilité de base, répondant aux besoins essentiels des utilisateurs handicapés ou en
+                            situation de handicap</td>
                     </tr>
                     <tr>
                         <th role="niveau-AA">AA</th>
-                        <td>Accessibilité avancée, garantissant une meilleure expérience pour la majorité des utilisateurs handicapés ou en situation de handicap</td>
+                        <td>Accessibilité avancée, garantissant une meilleure expérience pour la majorité des
+                            utilisateurs handicapés ou en situation de handicap</td>
                     </tr>
                     <tr>
                         <th role="niveau-AAA">AAA</th>
-                        <td>Accessibilité maximale, offrant une expérience optimale pour tous les utilisateurs, y compris les utilisateurs handicapés</td>
+                        <td>Accessibilité maximale, offrant une expérience optimale pour tous les utilisateurs, y
+                            compris les utilisateurs handicapés</td>
                     </tr>
                 </tbody>
             </table>
         </section>
         <section class="failwcag">
             <h2 id="titrefailwcag">Most common WCAG failures by WebAIM</h2>
-            <caption>Graphique et tableaux des échecs les plus courants par WebAIM</caption>
-            <img src="WebAIM_milion 1.png" alt="Image graphique des échecs les plus courants par WebAIM, tableau avec données ci-dessous.">
-            
+            <figure>
+                <figcaption id="titregraph">Graphique et tableaux des échecs les plus courants par WebAIM</figcaption>
+                <img id="graphique" src="images/WebAIM_million 1.png"
+                    alt="Diagramme des echecs WebAim. Données ci-dessous">
+            </figure>
+            <captation id="titretabwebaim">Tableau des échecs les plus courants concernant l'accessibilité numérique
+            </captation>
+            <table id="tabgraphique" role="tableauwebaim" class="tableauxprincipaux">
+                
+                <thead>
+                    <tr>
+                        <th>WCAG Failure Type</th>
+                        <th># of home pages</th>
+                        <th>% of home pages</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Low contrast text</th>
+                        <td>852.868</td>
+                        <td>85.3%</td>
+                    </tr>
+                    <tr>
+                        <th>Missing alternatives text for images</th>
+                        <td>679,964</td>
+                        <td>68%</td>
+                    </tr>
+                    <tr>
+                        <th>Empty links</th>
+                        <td>581,408</td>
+                        <td>58.1%</td>
+                    </tr>
+                    <tr>
+                        <th>Missing from input labels</th>
+                        <td>528,482</td>
+                        <td>52.8%</td>
+                    </tr>
+                    <tr>
+                        <th>Missing document language</th>
+                        <td>329,612</td>
+                        <td>33.1%</td>
+                    </tr>
+                    <tr>
+                        <th>Empty buttons</th>
+                        <td>250,367</td>
+                        <td>25%</td>
+                    </tr>
+                </tbody>
+            </table>
         </section>
-
     </main>
 </body>
-
+<footer role="contentinfo">
+    <p>© 2023 HandiA11y. Tous droits réservés.</p>
+</footer>
 </html>

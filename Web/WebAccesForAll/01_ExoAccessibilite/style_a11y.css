@@ -1,0 +1,52 @@
+:root {
+    --col-wcag-bg: #9BC9F7;
+    --col-banner: #0065D1;
+    --text-banner:#fff;
+    --table-highlight: #6d6767;
+    --color-1: #ed3237;
+    --color-2: #f58634;
+    --color-3: #fff212;
+    --color-4: #00a859;
+    --color-5: #00afef;
+    --color-6: #3e4095;
+    --color-7: #815aa4;
+}
+html {
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+#logo{
+    width: 10rem;
+    height: 10rem;
+}
+
+header {
+    background: linear-gradient(90deg, var(--color-1) 14%, var(--color-2) 28%, var(--color-3) 42%, var(--color-4) 56%, var(--color-5) 70%, var(--color-6) 84%, var(--color-7) 100%);
+    color: var(--text-banner);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+body {
+    font-size: 1.6rem;
+    margin: 0;
+    
+}
+
+footer{
+    padding: .5rem;
+    background-color:var(--col-banner);
+    color: var(--text-banner);
+    text-align: center;
+}
+
+*{
+    box-sizing: border-box;
+    
+}
