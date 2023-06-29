@@ -1,25 +1,23 @@
 <!DOCTYPE html>
 <html lang="fr-FR">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel="stylesheet" href="accessconfig/css/accessconfig.min.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="style_a11y.css">
+    <!--lien vers fichier contenant le code js pour les paramètres accessibilité-->
     <script src="accessconfig/js/accessconfig.min.js" type="text/javascript"></script>
+    <!--fichier js bouton '#boutonfold' affichache code html -->
     <script src="a11y.js" type="module"></script>
     <title>Projet HandiA11y-A11y</title>
 </head>
 <!--Contenu de la page-->
-
 <body>
-    <header class="banniere" role="baniere">
+    <header role="banner">
         <img id="logo" src="images/a11yNow.png" alt="Logo A11y Now">
-
         <!--Création de la bannière contenant une image, une liste de menu et une barre de recherche-->
-        <nav role="menu" aria-label="menu">
+        <nav role="navigation" aria-label="menu principal">
             <ul class="menu">
                 <li>
                     <a href="acceuil.html">Acceuil</a>
@@ -51,13 +49,13 @@
         <!-- Fieldset est adapté pour des portions de formulaires, il est un peu comme groupbox en winform -->
         <fieldset class="recherche" role="recherche" id="headerSearch">
             <legend>Zone de recherche</legend>
-            <label for="site-search">Rechercher</label>
+            <label for="site-search" hidden>Rechercher</label>
             <input id="site-search" type="text" placeholder="Zone de saisie">
             <button type="submit">Rechercher</button>
         </fieldset>
 
     </header>
-    <main>
+    <main role="main">
         <h1 id="tDoc">Quelques bonnes pratiques d'accessibilité...</h1>
         <section class="main">
             <section classe="decoratif">
@@ -144,11 +142,12 @@
                     technologies d'assistance.</p>
             </section>
             <section class="ara">
+                <h2>Comment réaliser un audit d'accessibilité de votre site web ?</h2>
                 <img src="images/ara.png" alt="Image décorative d'un Ara">
                 <p>ARA vous propose une méthodologie pour réaliser 3 types d'audit</p>
-                <p>Rapide (25 critères du RGAA)</p>
-                <p>Complémentaire (50 critères du RGAA)</p>
-                <p>Complet dit de conformité (106 critères du RGAA)</p>
+                <p>Rapide (25 critères du <abbr title="Référentiel Général de l'Amélioration de l'Accessibilité" lang="fr">RGAA</abbr>)</p>
+                <p>Complémentaire (50 critères du <abbr title="Référentiel Général de l'Amélioration de l'Accessibilité" lang="fr">RGAA</abbr>)</p>
+                <p>Complet dit de conformité (106 critères du <abbr title="Référentiel Général de l'Amélioration de l'Accessibilité" lang="fr">RGAA</abbr>)</p>
                 <ul>
                     <li>
                         <a href="http://ara.numerique.gouv.fr/audits/nouveau">Lien pour effectuer un audit d'un site
