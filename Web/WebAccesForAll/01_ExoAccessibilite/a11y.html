@@ -5,35 +5,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <link rel="stylesheet" href="accessconfig/css/accessconfig.min.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="style_a11y.css">
     <script src="accessconfig/js/accessconfig.min.js" type="text/javascript"></script>
+    <script src="a11y.js" type="module"></script>
     <title>Projet HandiA11y-A11y</title>
 </head>
 <!--Contenu de la page-->
 
 <body>
     <header class="banniere" role="baniere">
-    <!--Création de la bannière contenant une image, une liste de menu et une barre de recherche-->
-    <nav role="menu" aria-label="menu">
-        <img src="images/a11yNow.png" alt="Logo A11y Now">
-        <ul class="menu">
-            <li>
-                <a href="index.html">Acceuil</a>
-            </li>
-            <li>
-                <a href="a11y.html">A11y</a>
-            </li>
-            <li>
-                <a href="handicaps.html">Handicaps</a>
-            </li>
-            <li>
-                <a href="dons.html">Faire un don</a>
-            </li>
-            <li>
-                <a href="apropos.html">Equipe</a>
-            </li>
+        <img id="logo" src="images/a11yNow.png" alt="Logo A11y Now">
+
+        <!--Création de la bannière contenant une image, une liste de menu et une barre de recherche-->
+        <nav role="menu" aria-label="menu">
+            <ul class="menu">
+                <li>
+                    <a href="acceuil.html">Acceuil</a>
+                </li>
+                <li>
+                    <a href="a11y.html">A11y</a>
+                </li>
+                <li>
+                    <a href="handicaps.html">Handicaps</a>
+                </li>
+                <li>
+                    <a href="dons.html">Faire un don</a>
+                </li>
+                <li>
+                    <a href="apropos.html">Equipe</a>
+                </li>
+                <li>
+                    <a href="planDuSite.html">Plan du site</a>
+                </li>
                 <!--Bouton de paramètres accessibilité-->
                 <li>
                     <div id="accessconfig" data-accessconfig-buttonname="Paramètres d’accessibilité"
@@ -41,20 +46,123 @@
                     </div>
 
                 </li>
-        </ul>
-        <!--Barre de recherche-->
-        <div class="recherche" role="recherche">
+            </ul>
+        </nav>
+        <!-- Fieldset est adapté pour des portions de formulaires, il est un peu comme groupbox en winform -->
+        <fieldset class="recherche" role="recherche" id="headerSearch">
+            <legend>Zone de recherche</legend>
             <label for="site-search">Rechercher</label>
-            <input id="zoneRecherche" type="text" placeholder="Zone de saisie">
+            <input id="site-search" type="text" placeholder="Zone de saisie">
             <button type="submit">Rechercher</button>
-        </div>
-    </nav>
-</header>
-<h1 id="tDoc">Quelques bonnes pratiques d'accessibilité...</h1>
+        </fieldset>
 
+    </header>
+    <main>
+        <h1 id="tDoc">Quelques bonnes pratiques d'accessibilité...</h1>
+        <section class="main">
+            <section classe="decoratif">
+                <img id="imgdeco" src="images/decorative-image.jpg" alt="image décorative">
+                <div>
+                    <h2>Que faire avec des images décoratives ?</h2>
+                    <p>Utiliser des attributs "alt" vides ou nuls afin d'éviter qu'elles soient lues par les
+                        technologies d'assistance.</p>
+                </div>
+            </section>
+            <section class="infos">
+                <img id="livre" src="images/informative-image.jpg"
+                    alt="Couverture du livre 'Accessibilité et handicap' de Joël ZAFFRAN au édition PUG, collection Handicap Vieillisssement Société.">
+                <h2>Quoi mettre dans les alternatives textuelles des images informatives ?</h2>
+                <p>Des descriptions appropriées pour fournir des informations équivalentes
+                    pour les utilisateurs qui ne peuvent pas voir les images. Les attributs title et aria-describedby ne
+                    sont pas indispensables !</p>
+            </section>
+            <section id="balises">
+                <img src="images/semantique-html.jpg" alt="image d'un bout de code sur la sémantique des balises html"
+                    aria-describedby="image Balise">
+                <h2>Balises HTML sémantiques</h2>
+                <p>Utiliser des balises HTML sémantiques appropriées (telles que &lt;header&gt;, &lt;nav&gt;,
+                    &lt;main&gt;, &lt;section&gt;, &lt;article&gt;, &lt;aside&gt;, &lt;footer&gt;)
+                    pour améliorer la structure et la compréhension du contenu par les technologies d'assistance.</p>
+                <button id="boutonfold" aria-expanded="false" aria-controls="imgBalise" data-fold="1">Afficher le
+                    contenu de l'image</button>
+                <div id="sectiontofold" class="fold">
+                    <p>Purement démonstratif, cette image affiche une page HTML avec les balises habituelles qui
+                        permettent de structurer le code de la page.</p>
+                    <pre class="text-centre">
+                    <code>
+                        &lt;!DOCTYPE html&gt;
+                        &lt;html lang="fr"&gt;
+                            &lt;head&gt;
+                                &lt;meta charset="UTF-8"&gt;
+                                &lt;title&gt;Exemple de Sémantique minimaliste HTML pour l'Accessibilité&lt;/title&gt;
+                        &lt;/head&gt;
+                        &lt;body&gt;
+                            &lt;header&gt;
+                                &lt;h1&gt;Titre de la page&lt;/h1&gt;
+                        &lt;/header&gt;
+                        &lt;nav&gt;
+                            &lt;ul&gt;
+                                &lt;li&gt; &lt;a href="#"&gt;Accueil&lt;/a&gt; &lt;/li&gt;
+                                &lt;li&gt; &lt;a href="#"&gt;À propos&lt;/a&gt; &lt;/li&gt;
+                                &lt;li&gt; &lt;a href="#"&gt;Services&lt;/a&gt; &lt;/li&gt;
+                                &lt;li&gt; &lt;a href="#"&gt;Contact&lt;/a&gt; &lt;/li&gt;
+                            &lt;/ul&gt;
+                        &lt;/nav&gt;
+                        &lt;main&gt;
+                            &lt;h2&gt;Contenu principal &lt;/h2&gt;
+                            &lt;p&gt;un paragraphe &lt;/p&gt;
+                            &lt;p&gt;un autre paragraphe &lt;/p&gt;
+                        &lt;/main&gt;
+                        &lt;footer&gt;
+                            &lt;p&gt;Copyright © 2023. Tous droits réservés. &lt;/p&gt;
+                        &lt;/footer&gt;
+                        &lt;/body&gt;
+                        &lt;/html&gt;
+                    </code>
+                </pre>
+                </div>
+            </section>
+            <section class="clavier">
+                <img src="images/image-clavier.png"
+                    alt="Représente explicitement les difficultées liés à certains handicape d'utiliser la souris.">
+                <h2>Donner l'accès au clavier</h2>
+                <p>S'assurer que toutes les fonctionnalités du site sont accessibles via le clavier par les personnes
+                    qui ne peuvent pas utiliser la souris.</p>
+            </section>
+            <section class="couleurs">
+                <img src="images/contraste-image.png"
+                    alt="Visuel sur l'utilisation de contraste pour améliorer la visibilité de certains contenu">
+                <h2>Régler les problèmes de contraste des couleurs</h2>
+                <p>Utiliser des combinaisons de couleurs offrant un contraste suffisant pour rendre le contenu lisible
+                    pour les personnes atteintes de déficience visuelle.</p>
+            </section>
+            <section class="formulaire">
+                <img src="images/image-formulaire.png" alt="Exemple de formulaire d'inscription">
+                <h2>Comment rendre les formulaires accessibles ?</h2>
+                <p>Il faut utiliser des balises HTML sémantiques telles que &lt;form&gt;, &lt;input&gt;, &lt;label&gt;,
+                    &lt;select&gt;, &lt;textarea&gt;, etc... pour améliorer la compréhension du contenu par les
+                    technologies d'assistance.</p>
+            </section>
+            <section class="ara">
+                <img src="images/ara.png" alt="Image décorative d'un Ara">
+                <p>ARA vous propose une méthodologie pour réaliser 3 types d'audit</p>
+                <p>Rapide (25 critères du RGAA)</p>
+                <p>Complémentaire (50 critères du RGAA)</p>
+                <p>Complet dit de conformité (106 critères du RGAA)</p>
+                <ul>
+                    <li>
+                        <a href="http://ara.numerique.gouv.fr/audits/nouveau">Lien pour effectuer un audit d'un site
+                            web</a>
+                    </li>
+                    <li>
+                        <a href="http://ara.numerique.gouv.fr/ressources/outils">Lien vers une liste d'outils pour
+                            tester l'accessibilité</a>
+                    </li>
+                </ul>
+            </section>
+        </section>
+    </main>
 </body>
-
-
 <footer role="contentinfo">
     <p>© 2023 HandiA11y. Tous droits réservés.</p>
 </footer>

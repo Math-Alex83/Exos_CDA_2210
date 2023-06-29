@@ -1,0 +1,668 @@
+#locale/de/symbols.dic
+#A part of NonVisual Desktop Access (NVDA)
+#Copyright (c) 2011-2021 NVDA Contributors
+#This file is covered by the GNU General Public License.
+
+complexSymbols:
+# identifier	regexp
+# Satzenden
+. sentence ending	(?<=[^\s.])\.(?=[\"'”’)\s]|$)
+! sentence ending	(?<=[^\s!])\!(?=[\"'”’)\s]|$)
+? sentence ending	(?<=[^\s?])\?(?=[\"'”’)\s]|$)
+# Phrasenenden
+; phrase ending	(?<=[^\s;]);(?=\s|$)
+: phrase ending	(?<=[^\s:]):(?=\s|$)
+# Andere
+Dezimaltrennzeichen	(?<![^\d -])\,(?=\d)
+' im Wort	(?<=[^\W_])['’]
+- im Wort	(?<=[^\W_])[-]
+Negative Ziffer	(?<!\w)[-−]{1}(?=[$£€¥.]?\d)
+Tausendertrennzeichen	(?<![^\d -])\.(?=\d{3}(\D|$))
+Datumstrennzeichen	(?<=\d\d)\.(?=\d\d)
+
+symbols:
+# identifier	replacement[[	level][	preserve]][	# display name]
+
+# Complex symbols
+. sentence ending	Punkt	all	always
+! sentence ending	Ausrufezeichen	all	always
+? sentence ending	Fragezeichen	all	always
+; phrase ending	Semikolon	most	always
+: phrase ending	Doppelpunkt	most	always
+Dezimaltrennzeichen		none	always
+' im Wort	Apostroph	all	norep
+Negative Ziffer	Minus	none	norep
+- im Wort	Bindestrich	all	norep
+... sentence ending	Auslassungspunkte	all	always
+… sentence ending	Auslassungspunkte	all	always
+Tausendertrennzeichen	
+Datumstrennzeichen	Punkt	none	norep
+
+# Leerzeichen
+\0	Leer	char	# null
+\t	Tab
+\n	Zeilenumbruch	char
+\f	Seitenwechsel	none
+\r	Neue Zeile	char
+ 	Leerzeichen	char
+ 	Geschütztes Leerzeichen	char
+
+# Standardzeichensetzung/-symbole
+!	Ausrufezeichen	all
+"	Anführungszeichen	most
+\#	Nummernzeichen	some
+$	Dollar	all	norep
+£	Pfund	all	norep
+€	Euro	all	norep
+¢	Cents	all	norep
+¥	Yen	all	norep
+₹	Rupie	some	norep
+ƒ	Gulden	all	norep
+¤	Währungszeichen	all	norep
+%	Prozent	some
+‰	Promille	some
+&	und	some
+'	Apostroph	all
+(	Runde Klammer auf	most	always
+)	Runde Klammer zu	most	always
+*	Stern	some
+,	Komma	all	always
+、	ideografisches Komma	all	always
+،	arabisches Komma	all	always
+-	Strich	most
+.	Punkt	some
+/	Schrägstrich	some
+:	Doppelpunkt	most	norep
+;	Semikolon	most
+؛	arabisches Semikolon	most
+?	Fragezeichen	all
+؟	arabisches Fragezeichen	all
+@	ät	some
+[	Eckige Klammer auf	most
+]	Eckige Klammer zu	most
+\\	Bäcksläsch	most
+^	Dach	most
+_	Unterstrich	most
+`	Gravis	most
+{	Geschweifte Klammer auf	most
+}	Geschweifte Klammer zu	most
+|	Senkrechter Strich	most
+¦	Unterbrochener Strich	most
+~	Tilde	most
+¡	Umgekehrtes Ausrufezeichen	some
+¿	Umgekehrtes Fragezeichen	some
+·	Mittelpunkt	most
+‚	Einfaches Anführungszeichen unten	most
+„	Typografisches Anführungszeichen links	most
+′	prim	some
+″	doppelte Primzahl	some
+‴	dreifache Primzahl	some
+⁗	Vierstrich	some
+
+# Andere Zeichen
+•	Aufzählungszeichen	some
+…	Punkt Punkt Punkt	all	always
+...	Punkt Punkt Punkt	all	always
+“	Anführungszeichen links	most
+”	Anführungszeichen rechts	most
+‘	Apostroph links	most
+’	Apostroph rechts	most
+–	Bindestrich	most	always
+—	Gedankenstrich	most
+­	Silbentrennzeichen	most
+⁃	Bindestrich-Aufzählungszeichen	none
+●	Kreis	most
+○	Weißer Kreis	most
+¨	Trema	most
+¯	Makron	most
+´	Akut	most
+¸	Cedille	most
+‎	von links nach rechts Markierung	char
+‏	von rechts nach links Markierung	char
+¶	Absatzmarke	most
+■	Großes, gefülltes, schwarzes Quadrat	some
+▪	Kleines, gefülltes, schwarzes Quadrat	some
+◾	Schwarzes mittelkleines Quadrat	some
+□	Weißes Quadrat	some
+◦	Weißes Aufzählungszeichen	some
+⇨	Weißer Pfeil nach rechts	some
+➔	Nach rechtsweisender Pfeil	some
+➢	Rechtsweisende Pfeilspitze	some
+❖	Schwarzes Karo ohne weißes X	some
+♣	Schwarzes Kreuz	some
+♦	Karo	some
+◆	Schwarzes Karo	some
+§	Paragraf	all
+°	Grad	some
+«	Doppelt gewinkelte Klammer auf	none
+»	Doppelt gewinkelte Klammer zu	none
+µ	Mikro	some
+⁰	hochgestellte 0	some
+¹	hochgestellte 1	some
+²	hochgestellte 2	some
+³	hochgestellte 3	some
+⁴	hochgestellte 4	some
+⁵	hochgestellte 5	some
+⁶	hochgestellte 6	some
+⁷	hochgestellte 7	some
+⁸	hochgestellte 8	some
+⁹	hochgestellte 9	some
+⁺	hochgestelltes plus	some
+⁼	hochgestelltes Gleichheitszeichen	some
+⁽	hochgestellte Klammer auf	some
+⁾	hochgestellte Klammer zu	some
+ⁿ	hochgestelltes n	some
+₀	tiefgestellte 0	some
+₁	tiefgestellte 1	some
+₂	tiefgestellte 2	some
+₃	tiefgestellte 3	some
+₄	tiefgestellte 4	some
+₅	tiefgestellte 5	some
+₆	tiefgestellte 6	some
+₇	tiefgestellte 7	some
+₈	tiefgestellte 8	some
+₉	tiefgestellte 9	some
+₊	tiefgestelltes plus	some
+₋	tiefgestelltes minus	some
+₌	tiefgestelltes Gleichheitszeichen	some
+₍	thiefgestellte runde Klammer auf	some
+₎	tiefgestellte runde Klammer zu	some
+®	Registriertes Warenzeichen	some
+™	Eingetragenes Warenzeichen	some
+©	Urheberrecht	some
+℠	Dienstleistungsmarke	some
+←	Pfeil nach links	some
+↑	Pfeil nach oben	some
+→	Pfeil nach rechts	some
+↓	Pfeil nach unten	some
+✓	Häkchen	some
+✔	Fettes Häkchen	some
+🡺	Nach rechtsweisender Pfeil	some
+†	Dolch	some
+‡	Doppel-Dolch	some
+‣	dreieckiges Aufzählungszeichen	none
+✗	X-förmige Aufzählungszeichen	none
+⊕	Eingekreistes Plus	none
+⊖	Eingekreistes Minus	none
+⇄	Pfeil nach rechts über Pfeil nach links	none
+⇒	Doppelter nach rechtsweisender Pfeil	none
+―	Waagerechter Strich
+،	Arabisches Komma
+、	Ideografisches Komma
+؛	Arabisches Semikolon
+؟	Arabisches Fragezeichen
+。	Ideografischer Punkt
+〈	Spitze Klammer auf
+〉	Spitze Klammer zu
+《	Doppelte, spitze Klammer auf
+》	Doppelte, spitze Klammer zu
+「	Eckige Klammer auf
+」	Eckige Klammer zu
+『	Weiße, eckige Klammer auf
+』	Weiße, eckige Klammer zu
+【	Schwarze, konkave Klammer auf
+】	Schwarze, konkave Klammer zu
+〔	Stumpfe Klammer auf
+〕	Stumpfe Klammer zu
+〖	Hohle, konkave Klammer auf
+〗	Hohle, konkave Klammer zu
+‧	Silbentrennzeichen
+‸	Dach
+⁂	Asterismus
+℗	Copyright-Zeichen für Audio-Aufnahme
+↚	Durchgestrichener Pfeil nach links
+↛	Durchgestrichener Pfeil nach rechts
+↜	Wellenförmiger Pfeil nach links
+↝	Wellenförmiger Pfeil nach rechts
+↢	Pfeilende nach links
+↣	Pfeilende nach rechts
+↤	Pfeil nach links von Strich wegführend
+↥	Pfeil nach oben von Strich wegführend
+↦	Pfeil nach rechts von Strich wegführend
+↧	Pfeil nach unten von Strich wegführend
+↭	Wellenförmiger Pfeil nach links und rechts
+↶	Halbkreisförmiger Pfeil gegen den Uhrzeigersinn nach oben
+↷	Halbkreisförmiger Pfeil im Uhrzeigersinn nach oben
+↺	Kreisförmiger Pfeil gegen den Uhrzeigersinn
+⇅	Nach oben und nach unten weisende Pfeile
+
+# Arithmetic Operators
++	plus	some
+−	minus	some
+×	mal	some
+⋅	mal	some
+⨯	mal	none
+∕	geteilt durch	some
+⁄	geteilt durch	some
+÷	geteilt durch	some
+∓	minus oder plus	some
+±	plus oder minus	some
+
+# Set Operations
+∖	Differenzmenge	none
+⊍	Multimengen-Multiplikation	none
+𝒫	Mathematischer Großbuchstabe Schreibschrift-P	none
+𝔓	Mathematischer Großbuchstabe Fraktur-P	none
+℘	Großbuchstabe Schreibschrift-P	none
+∁	Komplement der Menge	none
+
+# Set Relations and Constructions
+∅	Leere Menge	none
+⊂	ist Teilmenge von	none
+⊄	Keine Teilmenge von	none
+⊃	Obermenge von	none
+⊅	Keine Obermenge von	none
+⊆	Teilmenge von oder Gleichheit	none
+⊈	Weder Teilmenge von noch Gleichheit	none
+⊇	Obermenge von oder Gleichheit	none
+⊉	Weder Obermenge von noch Gleichheit	none
+⊌	Multimenge	none
+
+# Gleichheitszeichen
+=	gleich	some
+≃	Asymptotisch Gleichheit	none
+≄	Keine asymptotische Gleichheit	none
+≅	ungefähr gleich zu	none
+≆	ungefähr, aber nicht wirklich gleich	none
+≈	fast gleich	none
+≌	alle gleich	none
+≍	gleichwertig	none
+≭	nicht gleichwertig mit	none
+≎	geometrisch äquivalent zu	none
+≑	geometrisch gleich	none
+≚	gleichwinklig zu	none
+≬	zwischen	none
+≠	Nicht gleichwertig mit	none
+≡	identisch mit	none
+≣	genau äquivalent mit	none
+≢	nicht identisch mit	none
+∼	ähnlich mit	none
+≙	entspricht	none
+≟	fraglich gleich mit	none
+
+# Vergleichszeichen
+<	kleiner als	some
+>	größer als	some
+≤	gleich oder kleiner als	none
+≦	gleich oder kleiner als	none
+≪	viel kleiner als	none
+≥	größer als oder gleich wie	none
+≧	größer als oder gleich wie	none
+≫	viel größer als	none
+≶	kleiner oder größer als	none
+≷	größer oder kleiner als	none
+≮	nicht weniger als	none
+≯	nicht größer als	none
+
+# Functionen
+⁻	Hochgestelltes Minuszeichen	some
+∘	Ring-Operator	none
+∂	Partielles Differential	none
+∇	Nabla	none
+
+# Geometrie und Lineare Algebra
+⃗	Vektor zwischen	none
+△	Dreieck	none
+▭	Rechteck	none
+∟	Rechter Winkel	none
+∠	Winkel	none
+∥	parallel zu	none
+∦	nicht parallel zu	none
+⊥	senkrecht zu	none
+⟂	orthogonal zu	none
+‖	Vektornorm	none
+̂	normalisiert	none
+∿	Sinus	none
+∡	gemessener Winkel	none
+∢	Kugelwinkel	none
+
+# Logische Operatoren
+∀	für alle	none
+∃	es gibt	none
+∄	es gibt kein	none
+⇏	impliziert nicht	none
+⇐	wird impliziert durch	none
+
+# Andere mathematische Operatoren
+∈	Element von	none
+∉	kein Element von	none
+∊	kleines Element von	none
+∋	enthält als Mitglied	none
+∌	enthält nicht als Mitglied	none
+∍	klein enthält als Mitglied	none
+∎	Ende des Beweises	none
+∏	n-äres Produkt	none
+∐	n-äres Kuppelprodukt	none
+∑	n-äre Summation	none
+√	Quadratwurzel	none
+∛	Kubikwurzel	none
+∜	vierte Wurzel	none
+∝	proportional zu	none
+∞	unendlich	none
+∧	Logisches Und	none
+∨	Logisches Oder	none
+¬	Logisches Nicht	none
+∩	Schnittmenge	none
+∪	Vereinigungsmenge	none
+∫	Integral	none
+∬	Doppelintegral	none
+∭	Dreifachintegral	none
+∮	Kurvenintegral	none
+∯	Oberflächenintegral	none
+∰	Volumenintegral	none
+∱	Integral im Uhrzeiger	none
+∲	Kurvenintegral im Uhrzeiger	none
+∳	Konturintegral gegen den Uhrzeiger	none
+∴	folglich	none
+∵	weil	none
+∶	Verhältnis	none
+∷	Proportion	none
+∹	exzess	none
+∺	geometrische Proportion	none
+≀	Kranzprodukt	none
+≏	Unterschied zwischen	none
+≐	nähert sich der Grenze	none
+∙	Kreis-Operator	none
+∣	teilt	none
+∤	teilt nicht	none
+≔	Doppelpunkt ist gleich	none
+≕	ist gleich Doppelpunkt	none
+≺	geht voran	none
+≻	gelingt	none
+⊀	geht nicht voran	none
+⊁	gelingt nicht	none
+
+# Brüche U+2150 to U+215E
+¼	ein Viertel	none
+½	einhalb	none
+¾	dreiviertel	none
+⅐	ein Siebtel	none
+⅑	ein Neuntel	none
+⅒	ein Zehntel	none
+⅓	ein Drittel	none
+⅔	zwei Drittel	none
+⅕	ein Fünftel	none
+⅖	zwei Fünftel	none
+⅗	drei Fünftel	none
+⅘	vier Fünftel	none
+⅙	ein Sechstel	none
+⅚	fünf Sechstel	none
+⅛	ein Achtel	none
+⅜	drei Achtel	none
+⅝	fünf Achtel	none
+⅞	sieben Achtel	none
+
+# Number Sets
+𝔸	Mathematischer Großbuchstabe A mit Doppelstrich	none
+ℂ	Großbuchstabe C mit Doppelstrich	none
+ℑ	Großbuchstabe Fraktur-I	none
+ℍ	Großbuchstabe H mit Doppelstrich	none
+ℕ	Großbuchstabe N mit Doppelstrich	none
+𝕁	Mathematischer Großbuchstabe J mit Doppelstrich	none
+ℚ	Großbuchstabe Q mit Doppelstrich	none
+ℝ	Großbuchstabe R mit Doppelstrich	none
+ℜ	Großbuchstabe Fraktur-R	none
+ℤ	Großbuchstabe Z mit Doppelstrich	none
+ℵ	Alef-Symbol	none
+ℶ	Bet-Symbol	none
+
+# Sonstiges Technisch
+⌘	Mac-Befehlstaste	none
+
+# Unicode braille
+⠀	Braille-Leerzeichen	none
+⠁	Braillepunkt 1	none
+⠂	Braillepunkt 2	none
+⠃	Braillepunkte 1 2	none
+⠄	Braillepunkt 3	none
+⠅	Braillepunkte 1 3	none
+⠆	Braillepunkte 2 3	none
+⠇	Braillepunkte 1 2 3	none
+⠈	Braillepunkt 4	none
+⠉	Braillepunkte 1 4	none
+⠊	Braillepunkte 2 4	none
+⠋	Braillepunkte 1 2 4	none
+⠌	Braillepunkte 3 4	none
+⠍	Braillepunkte 1 3 4	none
+⠎	Braillepunkte 2 3 4	none
+⠏	Braillepunkte 1 2 3 4	none
+⠐	Braillepunkt 5	none
+⠑	Braillepunkte 1 5	none
+⠒	Braillepunkte 2 5	none
+⠓	Braillepunkte 1 2 5	none
+⠔	Braillepunkte 3 5	none
+⠕	Braillepunkte 1 3 5	none
+⠖	Braillepunkte 2 3 5	none
+⠗	Braillepunkte 1 2 3 5	none
+⠘	Braillepunkte 4 5	none
+⠙	Braillepunkte 1 4 5	none
+⠚	Braillepunkte 2 4 5	none
+⠛	Braillepunkte 1 2 4 5	none
+⠜	Braillepunkte 3 4 5	none
+⠝	Braillepunkte 1 3 4 5	none
+⠞	Braillepunkte 2 3 4 5	none
+⠟	Braillepunkte 1 2 3 4 5	none
+⠠	Braillepunkt 6	none
+⠡	Braillepunkte 1 6	none
+⠢	Braillepunkte 2 6	none
+⠣	Braillepunkte 1 2 6	none
+⠤	Braillepunkte 3 6	none
+⠥	Braillepunkte 1 3 6	none
+⠦	Braillepunkte 2 3 6	none
+⠧	Braillepunkte 1 2 3 6	none
+⠨	Braillepunkte 4 6	none
+⠩	Braillepunkte 1 4 6	none
+⠪	Braillepunkte 2 4 6	none
+⠫	Braillepunkte 1 2 4 6	none
+⠬	Braillepunkte 3 4 6	none
+⠭	Braillepunkte 1 3 4 6	none
+⠮	Braillepunkte 2 3 4 6	none
+⠯	Braillepunkte 1 2 3 4 6	none
+⠰	Braillepunkte 5 6	none
+⠱	Braillepunkte 1 5 6	none
+⠲	Braillepunkte 2 5 6	none
+⠳	Braillepunkte 1 2 5 6	none
+⠴	Braillepunkte 3 5 6	none
+⠵	Braillepunkte 1 3 5 6	none
+⠶	Braillepunkte 2 3 5 6	none
+⠷	Braillepunkte 1 2 3 5 6	none
+⠸	Braillepunkte 4 5 6	none
+⠹	Braillepunkte 1 4 5 6	none
+⠺	Braillepunkte 2 4 5 6	none
+⠻	Braillepunkte 1 2 4 5 6	none
+⠼	Braillepunkte 3 4 5 6	none
+⠽	Braillepunkte 1 3 4 5 6	none
+⠾	Braillepunkte 2 3 4 5 6	none
+⠿	Alle 6 Braillepunkte	none
+⡀	Braillepunkt 7	none
+⡁	Braillepunkte 1 7	none
+⡂	Braillepunkte 2 7	none
+⡃	Braillepunkte 1 2 7	none
+⡄	Braillepunkte 3 7	none
+⡅	Braillepunkte 1 3 7	none
+⡆	Braillepunkte 2 3 7	none
+⡇	Braillepunkte 1 2 3 7	none
+⡈	Braillepunkte 4 7	none
+⡉	Braillepunkte 1 4 7	none
+⡊	Braillepunkte 2 4 7	none
+⡋	Braillepunkte 1 2 4 7	none
+⡌	Braillepunkte 3 4 7	none
+⡍	Braillepunkte 1 3 4 7	none
+⡎	Braillepunkte 2 3 4 7	none
+⡏	Braillepunkte 1 2 3 4 7	none
+⡐	Braillepunkte 5 7	none
+⡑	Braillepunkte 1 5 7	none
+⡒	Braillepunkte 2 5 7	none
+⡓	Braillepunkte 1 2 5 7	none
+⡔	Braillepunkte 3 5 7	none
+⡕	Braillepunkte 1 3 5 7	none
+⡖	Braillepunkte 2 3 5 7	none
+⡗	Braillepunkte 1 2 3 5 7	none
+⡘	Braillepunkte 4 5 7	none
+⡙	Braillepunkte 1 4 5 7	none
+⡚	Braillepunkte 2 4 5 7	none
+⡛	Braillepunkte 1 2 4 5 7	none
+⡜	Braillepunkte 3 4 5 7	none
+⡝	Braillepunkte 1 3 4 5 7	none
+⡞	Braillepunkte 2 3 4 5 7	none
+⡟	Braillepunkte 1 2 3 4 5 7	none
+⡠	Braillepunkte 6 7	none
+⡡	Braillepunkte 1 6 7	none
+⡢	Braillepunkte 2 6 7	none
+⡣	Braillepunkte 1 2 6 7	none
+⡤	Braillepunkte 3 6 7	none
+⡥	Braillepunkte 1 3 6 7	none
+⡦	Braillepunkte 2 3 6 7	none
+⡧	Braillepunkte 1 2 3 6 7	none
+⡨	Braillepunkte 4 6 7	none
+⡩	Braillepunkte 1 4 6 7	none
+⡪	Braillepunkte 2 4 6 7	none
+⡫	Braillepunkte 1 2 4 6 7	none
+⡬	Braillepunkte 3 4 6 7	none
+⡭	Braillepunkte 1 3 4 6 7	none
+⡮	Braillepunkte 2 3 4 6 7	none
+⡯	Braillepunkte 1 2 3 4 6 7	none
+⡰	Braillepunkte 5 6 7	none
+⡱	Braillepunkte 1 5 6 7	none
+⡲	Braillepunkte 2 5 6 7	none
+⡳	Braillepunkte 1 2 5 6 7	none
+⡴	Braillepunkte 3 5 6 7	none
+⡵	Braillepunkte 1 3 5 6 7	none
+⡶	Braillepunkte 2 3 5 6 7	none
+⡷	Braillepunkte 1 2 3 5 6 7	none
+⡸	Braillepunkte 4 5 6 7	none
+⡹	Braillepunkte 1 4 5 6 7	none
+⡺	Braillepunkte 2 4 5 6 7	none
+⡻	Braillepunkte 1 2 4 5 6 7	none
+⡼	Braillepunkte 3 4 5 6 7	none
+⡽	Braillepunkte 1 3 4 5 6 7	none
+⡾	Braillepunkte 2 3 4 5 6 7	none
+⡿	Braillepunkte 1 2 3 4 5 6 7	none
+⢀	Braillepunkt 8	none
+⢁	Braillepunkte 1 8	none
+⢂	Braillepunkte 2 8	none
+⢃	Braillepunkte 1 2 8	none
+⢄	Braillepunkte 3 8	none
+⢅	Braillepunkte 1 3 8	none
+⢆	Braillepunkte 2 3 8	none
+⢇	Braillepunkte 1 2 3 8	none
+⢈	Braillepunkte 4 8	none
+⢉	Braillepunkte 1 4 8	none
+⢊	Braillepunkte 2 4 8	none
+⢋	Braillepunkte 1 2 4 8	none
+⢌	Braillepunkte 3 4 8	none
+⢍	Braillepunkte 1 3 4 8	none
+⢎	Braillepunkte 2 3 4 8	none
+⢏	Braillepunkte 1 2 3 4 8	none
+⢐	Braillepunkte 5 8	none
+⢑	Braillepunkte 1 5 8	none
+⢒	Braillepunkte 2 5 8	none
+⢓	Braillepunkte 1 2 5 8	none
+⢔	Braillepunkte 3 5 8	none
+⢕	Braillepunkte 1 3 5 8	none
+⢖	Braillepunkte 2 3 5 8	none
+⢗	Braillepunkte 1 2 3 5 8	none
+⢘	Braillepunkte 4 5 8	none
+⢙	Braillepunkte 1 4 5 8	none
+⢚	Braillepunkte 2 4 5 8	none
+⢛	Braillepunkte 1 2 4 5 8	none
+⢜	Braillepunkte 3 4 5 8	none
+⢝	Braillepunkte 1 3 4 5 8	none
+⢞	Braillepunkte 2 3 4 5 8	none
+⢟	Braillepunkte 1 2 3 4 5 8	none
+⢠	Braillepunkte 6 8	none
+⢡	Braillepunkte 1 6 8	none
+⢢	Braillepunkte 2 6 8	none
+⢣	Braillepunkte 1 2 6 8	none
+⢤	Braillepunkte 3 6 8	none
+⢥	Braillepunkte 1 3 6 8	none
+⢦	Braillepunkte 2 3 6 8	none
+⢧	Braillepunkte 1 2 3 6 8	none
+⢨	Braillepunkte 4 6 8	none
+⢩	Braillepunkte 1 4 6 8	none
+⢪	Braillepunkte 2 4 6 8	none
+⢫	Braillepunkte 1 2 4 6 8	none
+⢬	Braillepunkte 3 4 6 8	none
+⢭	Braillepunkte 1 3 4 6 8	none
+⢮	Braillepunkte 2 3 4 6 8	none
+⢯	Braillepunkte 1 2 3 4 6 8	none
+⢰	Braillepunkte 5 6 8	none
+⢱	Braillepunkte 1 5 6 8	none
+⢲	Braillepunkte 2 5 6 8	none
+⢳	Braillepunkte 1 2 5 6 8	none
+⢴	Braillepunkte 3 5 6 8	none
+⢵	Braillepunkte 1 3 5 6 8	none
+⢶	Braillepunkte 2 3 5 6 8	none
+⢷	Braillepunkte 1 2 3 5 6 8	none
+⢸	Braillepunkte 4 5 6 8	none
+⢹	Braillepunkte 1 4 5 6 8	none
+⢺	Braillepunkte 2 4 5 6 8	none
+⢻	Braillepunkte 1 2 4 5 6 8	none
+⢼	Braillepunkte 3 4 5 6 8	none
+⢽	Braillepunkte 1 3 4 5 6 8	none
+⢾	Braillepunkte 2 3 4 5 6 8	none
+⢿	Braillepunkte 1 2 3 4 5 6 8	none
+⣀	Braillepunkte 7 8	none
+⣁	Braillepunkte 1 7 8	none
+⣂	Braillepunkte 2 7 8	none
+⣃	Braillepunkte 1 2 7 8	none
+⣄	Braillepunkte 3 7 8	none
+⣅	Braillepunkte 1 3 7 8	none
+⣆	Braillepunkte 2 3 7 8	none
+⣇	Braillepunkte 1 2 3 7 8	none
+⣈	Braillepunkte 4 7 8	none
+⣉	Braillepunkte 1 4 7 8	none
+⣊	Braillepunkte 2 4 7 8	none
+⣋	Braillepunkte 1 2 4 7 8	none
+⣌	Braillepunkte 3 4 7 8	none
+⣍	Braillepunkte 1 3 4 7 8	none
+⣎	Braillepunkte 2 3 4 7 8	none
+⣏	Braillepunkte 1 2 3 4 7 8	none
+⣐	Braillepunkte 5 7 8	none
+⣑	Braillepunkte 1 5 7 8	none
+⣒	Braillepunkte 2 5 7 8	none
+⣓	Braillepunkte 1 2 5 7 8	none
+⣔	Braillepunkte 3 5 7 8	none
+⣕	Braillepunkte 1 3 5 7 8	none
+⣖	Braillepunkte 2 3 5 7 8	none
+⣗	Braillepunkte 1 2 3 5 7 8	none
+⣘	Braillepunkte 4 5 7 8	none
+⣙	Braillepunkte 1 4 5 7 8	none
+⣚	Braillepunkte 2 4 5 7 8	none
+⣛	Braillepunkte 1 2 4 5 7 8	none
+⣜	Braillepunkte 3 4 5 7 8	none
+⣝	Braillepunkte 1 3 4 5 7 8	none
+⣞	Braillepunkte 2 3 4 5 7 8	none
+⣟	Braillepunkte 1 2 3 4 5 7 8	none
+⣠	Braillepunkte 6 7 8	none
+⣡	Braillepunkte 1 6 7 8	none
+⣢	Braillepunkte 2 6 7 8	none
+⣣	Braillepunkte 1 2 6 7 8	none
+⣤	Braillepunkte 3 6 7 8	none
+⣥	Braillepunkte 1 3 6 7 8	none
+⣦	Braillepunkte 2 3 6 7 8	none
+⣧	Braillepunkte 1 2 3 6 7 8	none
+⣨	Braillepunkte 4 6 7 8	none
+⣩	Braillepunkte 1 4 6 7 8	none
+⣪	Braillepunkte 2 4 6 7 8	none
+⣫	Braillepunkte 1 2 4 6 7 8	none
+⣬	Braillepunkte 3 4 6 7 8	none
+⣭	Braillepunkte 1 3 4 6 7 8	none
+⣮	Braillepunkte 2 3 4 6 7 8	none
+⣯	Braillepunkte 1 2 3 4 6 7 8	none
+⣰	Braillepunkte 5 6 7 8	none
+⣱	Braillepunkte 1 5 6 7 8	none
+⣲	Braillepunkte 2 5 6 7 8	none
+⣳	Braillepunkte 1 2 5 6 7 8	none
+⣴	Braillepunkte 3 5 6 7 8	none
+⣵	Braillepunkte 1 3 5 6 7 8	none
+⣶	Braillepunkte 2 3 5 6 7 8	none
+⣷	Braillepunkte 1 2 3 5 6 7 8	none
+⣸	Braillepunkte 4 5 6 7 8	none
+⣹	Braillepunkte 1 4 5 6 7 8	none
+⣺	Braillepunkte 2 4 5 6 7 8	none
+⣻	Braillepunkte 1 2 4 5 6 7 8	none
+⣼	Braillepunkte 3 4 5 6 7 8	none
+⣽	Braillepunkte 1 3 4 5 6 7 8	none
+⣾	Braillepunkte 2 3 4 5 6 7 8	none
+⣿	Alle 8 Braillepunkte	none

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_planDuSite.css">
+    <link rel="stylesheet" href="accessconfig/css/accessconfig.min.css" type="text/css" media="screen" />
+    <script src="accessconfig/js/accessconfig.min.js" type="text/javascript"></script>
+    <title>Projet HandiA11y-Plan</title>
+</head>
+<!--Contenu de la page-->
+
+<body>
+    <header class="banniere" role="baniere">
+    <!--Création de la bannière contenant une image, une liste de menu et une barre de recherche-->
+           <img id="logo" src="images/a11yNow.png" alt="Logo A11y Now">
+    <nav role="menu" aria-label="menu">
+        <ul class="menu">
+            <li>
+                <a href="acceuil.html">Acceuil</a>
+            </li>
+            <li>
+                <a href="a11y.html">A11y</a>
+            </li>
+            <li>
+                <a href="handicaps.html">Handicaps</a>
+            </li>
+            <li>
+                <a href="dons.html">Faire un don</a>
+            </li>
+            <li>
+                <a href="equipe.html">Equipe</a>
+            </li>
+            <li>
+                <a href="planDuSite.html">Plan du site</a>
+            </li>
+                <!--Bouton de paramètres accessibilité-->
+                <li>
+                    <div id="accessconfig" data-accessconfig-buttonname="Paramètres d’accessibilité"
+                        data-accessconfig-params='{ "Prefix" : "a42-ac", "ContainerClass" : "","ModalCloseButton" : "","ModalTitle" : "","FormFieldset" : "","FormFieldsetLegend" : "","FormRadio" : ""}'>
+                    </div>
+
+                </li>
+        </ul>
+    </nav>
+            <!-- Fieldset est adapté pour des portions de formulaires, il est un peu comme groupbox en winform -->
+            <fieldset class="recherche" role="recherche" id="headerSearch">
+                <legend>Zone de recherche</legend>
+                <label for="site-search">Rechercher</label>
+                <input id="site-search" type="text" placeholder="Zone de saisie">
+                <button type="submit">Rechercher</button>
+            </fieldset>
+    
+</header>
+<h1 id="tDoc">Plan du site</h1>
+
+</body>
+<footer role="contentinfo">
+    <p>© 2023 HandiA11y. Tous droits réservés.</p>
+</footer>
+
+</html>

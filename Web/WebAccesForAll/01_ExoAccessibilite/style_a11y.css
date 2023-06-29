@@ -1,37 +1,62 @@
-:root {
+/* :root{} prend à la racine html, puis créer la variable de la façon suivante pour y assigner une couleur,
+ méthode pour ne pas avoir à chercher dans tt le code pour changer les couleurs.*/
+ :root {
     --col-wcag-bg: #9BC9F7;
     --col-banner: #0065D1;
+    --col-backg:black;
     --text-banner:#fff;
     --table-highlight: #6d6767;
-    --color-1: #ed3237;
-    --color-2: #f58634;
-    --color-3: #fff212;
-    --color-4: #00a859;
-    --color-5: #00afef;
-    --color-6: #3e4095;
-    --color-7: #815aa4;
+
 }
+
+* {
+    box-sizing: border-box;
+    
+}
+
+
+h1,
+h2,
+h3 {
+    padding: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 html {
     font-size: 62.5%;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
-
+header {
+    background-color:var(--col-banner);
+    color: var(--text-banner);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
 
 #logo{
     width: 10rem;
     height: 10rem;
 }
 
-header {
-    background: linear-gradient(90deg, var(--color-1) 14%, var(--color-2) 28%, var(--color-3) 42%, var(--color-4) 56%, var(--color-5) 70%, var(--color-6) 84%, var(--color-7) 100%);
-    color: var(--text-banner);
+
+
+main{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+main > section{
+    text-align: center;
+}
+
 
 body {
     font-size: 1.6rem;
@@ -39,14 +64,44 @@ body {
     
 }
 
+.menu{
+    align-content: center;
+    list-style: none;
+}
+
+.menu > li{
+    display: inline-block;
+}
+
+.menu > li > a{
+    text-decoration: none;
+    color: var(--text-banner);
+}
+caption {
+    display: table-caption;
+    text-align: center;
+}
+th,
+tr,
+td {
+    border: 0.2rem black solid;
+    padding: 0.5rem;
+}
+
+.fold{
+    max-height: 0;
+    overflow: hidden;
+}
+
+.text-centre{
+    background-color: var(--col-backg);
+    text-align: left;
+    color: var(--text-banner);
+    font-size: 2rem;
+}
 footer{
     padding: .5rem;
     background-color:var(--col-banner);
     color: var(--text-banner);
     text-align: center;
-}
-
-*{
-    box-sizing: border-box;
-    
 }
