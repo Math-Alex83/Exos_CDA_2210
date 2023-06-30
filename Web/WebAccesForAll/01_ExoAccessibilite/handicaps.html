@@ -14,29 +14,29 @@
 
 <body>
     <header class="banniere" role="baniere">
-    <!--Création de la bannière contenant une image, une liste de menu et une barre de recherche-->
-            <img id="logo" src="images/a11yNow.png" alt="Logo A11y Now">
+        <!--Création de la bannière contenant une image, une liste de menu et une barre de recherche-->
+        <img id="logo" src="images/a11yNow.png" alt="Logo A11y Now">
 
-    <nav role="menu" aria-label="menu">
-        <ul class="menu">
-            <li>
-                <a href="acceuil.html">Acceuil</a>
-            </li>
-            <li>
-                <a href="a11y.html">A11y</a>
-            </li>
-            <li>
-                <a href="handicaps.html">Handicaps</a>
-            </li>
-            <li>
-                <a href="dons.html">Faire un don</a>
-            </li>
-            <li>
-                <a href="equipe.html">Equipe</a>
-            </li>
-            <li>
-                <a href="planDuSite.html">Plan du site</a>
-            </li>
+        <nav role="menu" aria-label="menu">
+            <ul class="menu">
+                <li>
+                    <a href="acceuil.html">Acceuil</a>
+                </li>
+                <li>
+                    <a href="a11y.html">A11y</a>
+                </li>
+                <li>
+                    <a href="handicaps.html">Handicaps</a>
+                </li>
+                <li>
+                    <a href="dons.html">Faire un don</a>
+                </li>
+                <li>
+                    <a href="equipe.html">Equipe</a>
+                </li>
+                <li>
+                    <a href="planDuSite.html">Plan du site</a>
+                </li>
                 <!--Bouton de paramètres accessibilité-->
                 <li>
                     <div id="accessconfig" data-accessconfig-buttonname="Paramètres d’accessibilité"
@@ -44,60 +44,73 @@
                     </div>
 
                 </li>
-        </ul>
-    </nav>
-            <!-- Fieldset est adapté pour des portions de formulaires, il est un peu comme groupbox en winform -->
-            <fieldset class="recherche" role="recherche" id="headerSearch">
-                <legend>Zone de recherche</legend>
-                <label for="site-search" hidden>Rechercher</label>
-                <input id="site-search" type="text" placeholder="Zone de saisie">
-                <button type="submit">Rechercher</button>
-            </fieldset>  
-</header>
-<main>
-    <h1 id="tDoc">Symboles et types de handicaps</h1>
-    <section class="handicap">
-    <section class="Visuel">
-        <img id="vis" src="images/handicap-visuel.jpg" alt="Logo de l'handicap visuel">
-        <h2>Handicap visuel</h2>
-        <p>Le handicap visuel désigne les limitations fonctionnelles liées à la vision, que ce soit une cécité totale ou partielle. Les personnes atteintes de handicap visuel peuvent utiliser des aides techniques telles que les plages brailles, les synthèses vocales, ou les dispositifs d'agrandissement de texte pour accéder à l'information.</p>
-    </section>
-    <section class="audio">
-        <img id="aud" src="images/handicap-auditif.jpg" alt="Logo de l'handicap auditif">
-        <h2>Handicap auditif</h2>
-        <p>Le handicap auditif concerne les limitations fonctionnelles liées à l'ouïe, que ce soit une surdité totale ou partielle. Les personnes atteintes de handicap auditif peuvent utiliser des appareils auditifs, des boucles magnétiques ou des sous-titres pour accéder à l'information sonore.</p>
-    </section>
-    <section class="moteur">
-        <img id="mot" src="images/handicap-moteur.jpg" alt="Logo de l'handicap moteur">
-        <h2>Handicap moteur</h2>
-        <p>Le handicap moteur concerne les limitations physiques comme l'incapacité à utiliser une souris ou la nécessité d'avoir une temps de réponse plus lent.</p>
-    </section>
-    <section class="cognitif">
-        <img id="cog" src="images/handicap-cognitif.jpg" alt="Logo de l'handicap cognitif">
-        <h2>Handicap cognitif</h2>
-        <p>Le handicap cognitif concerne les problèmes de troubles de l'apprentissage, l'incapacité à se souvenir ou à se concentrer sur de grandes quantités d'informations, difficultés de lecture et de compréhension, difficultés à prendre des décisions.</p>
-    </section>
-    <section class="materiel">
-        <h2>Quelques matériels d'accessibilité</h2>
-        <section class="canne">
-            <img id="can" src="images/image-cane-non-voyant.jpg" alt="Photo d'un homme marchant avec une canne pour aveugle">
-            <p>Canne pour personnes aveugles</p>
+            </ul>
+        </nav>
+        <!-- Fieldset est adapté pour des portions de formulaires, il est un peu comme groupbox en winform -->
+        <fieldset class="recherche" role="recherche" id="headerSearch">
+            <legend>Zone de recherche</legend>
+            <label for="site-search" hidden>Rechercher</label>
+            <input id="site-search" type="text" placeholder="Zone de saisie">
+            <button type="submit">Rechercher</button>
+        </fieldset>
+    </header>
+    <main>
+        <h1 id="tDoc">Symboles et types de handicaps</h1>
+        <section class="visuel">
+            <img id="vis" src="images/handicap-visuel.jpg" alt="Logo de l'handicap visuel">
+            <div id="tdiv">
+                <h2>Handicap visuel</h2>
+                <p>Le handicap visuel désigne les limitations fonctionnelles liées à la vision, que ce soit une cécité
+                    totale ou partielle. Les personnes atteintes de handicap visuel peuvent utiliser des aides
+                    techniques telles que les plages brailles, les synthèses vocales, ou les dispositifs
+                    d'agrandissement de texte pour accéder à l'information.</p>
+            </div>
         </section>
-        <section class="braille">
-            <img id="brail" src="images/plage-braille.png" alt="Photo d'un plage braille">
-            <p>Plage braille</p>
+        <section class="audio">
+            <img id="aud" src="images/handicap-auditif.jpg" alt="Logo de l'handicap auditif">
+            <h2>Handicap auditif</h2>
+            <p>Le handicap auditif concerne les limitations fonctionnelles liées à l'ouïe, que ce soit une surdité
+                totale ou partielle. Les personnes atteintes de handicap auditif peuvent utiliser des appareils
+                auditifs, des boucles magnétiques ou des sous-titres pour accéder à l'information sonore.</p>
         </section>
-        <section class="vocal">
-            <img id="voc" src="images/synthese-vocale.png" alt="Synthèse vocale du texte à la voix">
-            <p>Synthèse vocale</p>
+        <section class="moteur">
+            <img id="mot" src="images/handicap-moteur.jpg" alt="Logo de l'handicap moteur">
+            <h2>Handicap moteur</h2>
+            <p>Le handicap moteur concerne les limitations physiques comme l'incapacité à utiliser une souris ou la
+                nécessité d'avoir une temps de réponse plus lent.</p>
         </section>
-        <section class="trackball">
-            <img id="tra" src="images/image-trackball.jpg" alt="Photo d'un Trackball, matériel pour handicap moteur">
-            <p>Trackball (remplace la souris)</p>
+        <section class="cognitif">
+            <img id="cog" src="images/handicap-cognitif.jpg" alt="Logo de l'handicap cognitif">
+            <h2>Handicap cognitif</h2>
+            <p>Le handicap cognitif concerne les problèmes de troubles de l'apprentissage, l'incapacité à se souvenir ou
+                à se concentrer sur de grandes quantités d'informations, difficultés de lecture et de compréhension,
+                difficultés à prendre des décisions.</p>
         </section>
-    </section>
-</section>
-</main>
+        <section class="materiel">
+            <h2>Quelques matériels d'accessibilité</h2>
+            <section class="canne">
+                <img id="can" src="images/image-cane-non-voyant.jpg"
+                    alt="Photo d'un homme marchant avec une canne pour aveugle">
+                <p>Canne pour personnes aveugles</p>
+            </section>
+            <section class="braille">
+                <img id="brail" src="images/plage-braille.png" alt="Photo d'un plage braille">
+                <p>Plage braille</p>
+            </section>
+            <section class="vocal">
+                <img id="voc" src="images/synthese-vocale.png" alt="Synthèse vocale du texte à la voix">
+                <p>Synthèse vocale</p>
+            </section>
+            <section class="trackball">
+                <img id="tra" src="images/image-trackball.jpg"
+                    alt="Photo d'un Trackball, matériel pour handicap moteur">
+                <p>Trackball (remplace la souris)</p>
+            </section>
+        </section>
+        <section class="handicap">
+
+        </section>
+    </main>
 </body>
 <footer role="contentinfo">
     <p>Contactez-nous pour plus d'informations sur l'accessibilité.</p>

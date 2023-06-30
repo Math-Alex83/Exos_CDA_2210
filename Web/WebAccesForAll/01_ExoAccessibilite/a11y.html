@@ -47,7 +47,7 @@
             </ul>
         </nav>
         <!-- Fieldset est adapté pour des portions de formulaires, il est un peu comme groupbox en winform -->
-        <fieldset class="recherche" role="recherche" id="headerSearch">
+        <fieldset class="recherche" role="search" id="headerSearch">
             <legend>Zone de recherche</legend>
             <label for="site-search" hidden>Rechercher</label>
             <input id="site-search" type="text" placeholder="Zone de saisie">
@@ -59,7 +59,7 @@
         <h1 id="tDoc">Quelques bonnes pratiques d'accessibilité...</h1>
         <section class="main">
             <section classe="decoratif">
-                <img id="imgdeco" src="images/decorative-image.jpg" alt="image décorative">
+                <img id="dec" src="images/decorative-image.jpg" alt="Exemple d'image décorative">
                 <div>
                     <h2>Que faire avec des images décoratives ?</h2>
                     <p>Utiliser des attributs "alt" vides ou nuls afin d'éviter qu'elles soient lues par les
@@ -67,7 +67,7 @@
                 </div>
             </section>
             <section class="infos">
-                <img id="livre" src="images/informative-image.jpg"
+                <img id="liv" src="images/informative-image.jpg"
                     alt="Couverture du livre 'Accessibilité et handicap' de Joël ZAFFRAN au édition PUG, collection Handicap Vieillisssement Société.">
                 <h2>Quoi mettre dans les alternatives textuelles des images informatives ?</h2>
                 <p>Des descriptions appropriées pour fournir des informations équivalentes
@@ -75,7 +75,7 @@
                     sont pas indispensables !</p>
             </section>
             <section id="balises">
-                <img src="images/semantique-html.jpg" alt="image d'un bout de code sur la sémantique des balises html"
+                <img id="bal" src="images/semantique-html.jpg" alt="image d'un bout de code sur la sémantique des balises html"
                     aria-describedby="image Balise">
                 <h2>Balises HTML sémantiques</h2>
                 <p>Utiliser des balises HTML sémantiques appropriées (telles que &lt;header&gt;, &lt;nav&gt;,
@@ -121,21 +121,21 @@
                 </div>
             </section>
             <section class="clavier">
-                <img src="images/image-clavier.png"
+                <img id="cla" src="images/image-clavier.png"
                     alt="Représente explicitement les difficultées liés à certains handicape d'utiliser la souris.">
                 <h2>Donner l'accès au clavier</h2>
                 <p>S'assurer que toutes les fonctionnalités du site sont accessibles via le clavier par les personnes
                     qui ne peuvent pas utiliser la souris.</p>
             </section>
             <section class="couleurs">
-                <img src="images/contraste-image.png"
+                <img id="con" src="images/contraste-image.png"
                     alt="Visuel sur l'utilisation de contraste pour améliorer la visibilité de certains contenu">
                 <h2>Régler les problèmes de contraste des couleurs</h2>
                 <p>Utiliser des combinaisons de couleurs offrant un contraste suffisant pour rendre le contenu lisible
                     pour les personnes atteintes de déficience visuelle.</p>
             </section>
             <section class="formulaire">
-                <img src="images/image-formulaire.png" alt="Exemple de formulaire d'inscription">
+                <img id="for" src="images/image-formulaire.png" alt="Exemple de formulaire d'inscription">
                 <h2>Comment rendre les formulaires accessibles ?</h2>
                 <p>Il faut utiliser des balises HTML sémantiques telles que &lt;form&gt;, &lt;input&gt;, &lt;label&gt;,
                     &lt;select&gt;, &lt;textarea&gt;, etc... pour améliorer la compréhension du contenu par les
@@ -143,7 +143,7 @@
             </section>
             <section class="ara">
                 <h2>Comment réaliser un audit d'accessibilité de votre site web ?</h2>
-                <img src="images/ara.png" alt="Image décorative d'un Ara">
+                <img id="ara" src="images/ara.png" alt="Image décorative d'un Ara">
                 <p>ARA vous propose une méthodologie pour réaliser 3 types d'audit</p>
                 <p>Rapide (25 critères du <abbr title="Référentiel Général de l'Amélioration de l'Accessibilité" lang="fr">RGAA</abbr>)</p>
                 <p>Complémentaire (50 critères du <abbr title="Référentiel Général de l'Amélioration de l'Accessibilité" lang="fr">RGAA</abbr>)</p>
@@ -163,7 +163,7 @@
     </main>
 </body>
 <footer role="contentinfo">
-    <p>© 2023 HandiA11y. Tous droits réservés.</p>
+    <p> HandiA11y - Tous droits réservés © 2023</p>
 </footer>
 
 </html>

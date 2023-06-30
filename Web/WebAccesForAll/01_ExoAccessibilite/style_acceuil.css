@@ -31,10 +31,22 @@ header {
     flex-direction: row;
     justify-content: space-around;
 }
+header > li > a{
+    margin: 3rem;
+    padding: 1rem;
 
-#logo{
-    width: 10rem;
-    height: 10rem;
+}
+
+/* #lien-evitement{
+position: absolute;
+top: 5px;
+font-size: 0.9rem;
+text-decoration:none;
+text-decoration: #fff;
+}
+ */#logo{
+    width: 6rem;
+    height: 6rem;
 }
 
 .tableauxprincipaux > * > tr > th{

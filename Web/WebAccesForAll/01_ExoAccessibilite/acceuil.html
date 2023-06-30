@@ -19,6 +19,9 @@
         <nav>            
             <ul class="menu">
                 <li>
+                    <a href="#main" id="lien-evitement">Aller au contenu pricipal</a>
+                </li>
+                <li>
                     <a href="acceuil.html">Acceuil</a>
                 </li>
                 <li>
@@ -49,7 +52,7 @@
         </nav>
         <!--Barre de recherche-->
         <!-- Fieldset est adapté pour des portions de formulaires, il est un peu comme groupbox en winform -->
-        <fieldset class="recherche" role="recherche" id="headerSearch">
+        <fieldset class="recherche" role="SEARCH" id="headerSearch">
             <legend>Zone de recherche</legend>
             <label for="site-search" hidden>Rechercher</label>
             <input id="site-search" type="text" placeholder="Rechercher">
@@ -58,7 +61,7 @@
     </header>
     <main role="main">
         <section id="presentation">
-            <h2 id="titreBienvenue">Bienvenue sur HandiA11y</h2>
+            <h1 id="titreBienvenue">Bienvenue sur HandiA11y</h1>
             <p>
                 HandiA11y est un site spécialisé pour découvrir les bases de l'accessibilité web et les différents handicaps
                 à prendre en compte.
@@ -235,15 +238,14 @@
             </table>
         </section>
         <section class="failwcag">
-            <h2 id="titrefailwcag">Most common WCAG failures by WebAIM</h2>
+            <h2 id="titrefailwcag" lang="en">Most common WCAG failures by WebAIM</h2>
             <figure>
-                <figcaption id="titregraph">Graphique et tableaux des échecs les plus courants par WebAIM</figcaption>
-                <img id="graphique" src="images/WebAIM_million 1.png"
-                    alt="Diagramme des echecs WebAim. Données ci-dessous">
+                <img id="graphique" src="/images/WebAIM_million_1.png" alt="Diagramme des echecs WebAim. Données ci-dessous">
+                <figcaption id="titregraph">Graphique et tableaux des échecs les plus courants par WebAIM</figcaption>                
             </figure>
             <captation id="titretabwebaim">Tableau des échecs les plus courants concernant l'accessibilité numérique
             </captation>
-            <table id="tabgraphique" role="tableauwebaim" class="tableauxprincipaux">
+            <table id="tabgraphique" role="tableauwebaim" class="tableauxprincipaux" lang="en">
                 
                 <thead>
                     <tr>

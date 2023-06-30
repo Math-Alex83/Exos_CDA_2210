@@ -10,13 +10,41 @@
 * {
     box-sizing: border-box;
 }
-.Visuel{
-    flex-direction: column-reverse;
+/* .visuel{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    grid-auto-rows: minmax(100px, auto);
 }
+#vis{
+    display: flex;
+    justify-items: center;
+    grid-column: 1/2;
+    grid-row: 1;
+}
+#tdiv{
+    justify-items: center;
+
+    grid-column: 2/2;
+    grid-row: 1;
+
+}*/
+#visuel{
+    display: flex;
+flex-direction: row;
+gap: 2rem;
+row-gap: 2rem;
+column-gap: 2rem;
+margin-bottom: 2rem;
+}
+
 #vis,#aud,#cog,#mot{
-    width: 20rem;/*largeur*/
-    height: 20rem;/*hauteur*/
-    flex-direction: row;
+    width: 13rem;/*largeur*/
+    height: 13rem;/*hauteur*/
+    glyph-orientation-vertical: 1fr;
+}
+div{
+    glyph-orientation-vertical: 2fr;
 }
 #can{
     width: 20rem;/*largeur*/

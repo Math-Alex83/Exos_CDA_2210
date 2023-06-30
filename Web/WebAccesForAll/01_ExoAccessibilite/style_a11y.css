@@ -86,7 +86,33 @@ td {
     border: 0.2rem black solid;
     padding: 0.5rem;
 }
+#dec{
+    width: 27rem;/*largeur*/
+    height: 27rem;/*hauteur*/
+}
 
+#liv{
+    width: 25rem;/*largeur*/
+    height: 40rem;/*hauteur*/
+}
+
+#bal{
+    width: 25rem;/*largeur*/
+    height: 25rem;/*hauteur*/
+}
+#cla{
+    width: 26rem;/*largeur*/
+    height: 18rem;/*hauteur*/
+  
+}
+#con{
+    width: 30rem;
+    height: 10rem;
+}
+#for{
+    width: 40rem;
+    height: 40rem;
+}
 .fold{
     max-height: 0;
     overflow: hidden;
