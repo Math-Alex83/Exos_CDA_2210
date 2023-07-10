@@ -24,25 +24,26 @@
         <section id="entete">
         <h2>Dataset/Flights</h2>
         <table>
-            <thead>
+            <thead id="thead">
                 <tr>
-                    <th>Flight ID</th>
-                    <th>Start City</th>
-                    <th>Arrival City</th>
-                    <th>Start Time</th>
-                    <th>Arrival Time</th>
-                    <th id="flightDuration">Flight Duration</th>
-                    <th>Airline Name</th>
-                    <th>Plane Maker</th>
-                    <th>Plane Ref</th>
-                    <th>Plane Type</th>
-                    <th>Plane Capacity</th>
-                    <th>Seats Free</th>
-                    <th>HH:MM:SS</th>
+                    <th data-name="flight_id">Flight ID</th>
+                    <th data-name="start_city">Start City</th>
+                    <th data-name="arrival_city">Arrival City</th>
+                    <th data-name="start_time">Start Time</th>
+                    <th data-name="arrival_time">Arrival Time</th>
+                    <th data-name="flightDuration">Flight Duration</th>
+                    <th data-name="airline_name">Airline Name</th>
+                    <th data-name="plane_maker">Plane Maker</th>
+                    <th data-name="plane_ref" id="planeRef">Plane Ref</th>
+                    <th data-name="plane_type">Plane Type</th>
+                    <th data-name="plane_capacity">Plane Capacity</th>
+                    <th data-name="seats_free">Seats Free</th>
+                    <th data-name="duration_format">HH:MM:SS</th>
                 </tr>
             </thead>
         </section>
             <tbody id="flightBody"></tbody>
+            <tfoot id="tfoot"></tfoot>
         </table>
     </main>
     <footer>

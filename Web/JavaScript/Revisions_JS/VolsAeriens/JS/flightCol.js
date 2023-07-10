@@ -1,5 +1,5 @@
 import{Db} from "./db.js";
-
+import { UserInterface } from "./UserInterface.js";
 
 
 class FlightCollection{
