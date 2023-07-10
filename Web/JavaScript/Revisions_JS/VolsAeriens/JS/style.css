@@ -1,0 +1,83 @@
+html
+{
+    font-size: 62.5%;
+}
+h1{
+    color:darkcyan;
+    padding-top: 10rem;
+    margin: 0rem;
+}
+#searchField{
+    background-color: darkgray;
+    margin: 1rem;
+    padding: 0.5rem;
+    border-color: black;
+}
+header{
+    text-align: center;
+    color: darkcyan;
+}
+#navion{
+    height: 5rem;
+    display: flex;
+    flex-direction: left;
+    width: 60rem;
+    height: 35rem;
+    padding-left: 5rem;
+    padding-bottom: 2rem;
+    transform: rotate(35deg);
+ }
+/*    img{
+    transition: transform 2s;
+ }
+ img:hover{
+    transform: rotate(360deg);
+ }
+ */  main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main > section{
+    text-align: center;
+}
+
+body {
+    background-color: #222222;
+    font-size: 1.6rem;
+    margin: 0;  
+}
+#entete{
+    background-color: black;
+    color:darkolivegreen;
+    font-size: smaller;
+    font-family: Arial, Helvetica, sans-serif;
+}
+table{
+    border-style: solid;
+    border-collapse: collapse;
+    border-width: 0.1rem;
+    padding: 1rem;
+}
+h2{
+    text-align: left;
+    padding: 1rem;
+}
+th{
+    border-width:1px;
+    border-style:solid; 
+    border-color:darkgray;
+    text-align: center;
+    padding: 1rem;
+}
+tr{
+    border-style: solid;
+    border-collapse: collapse;
+    border-width: 0.1rem;
+}

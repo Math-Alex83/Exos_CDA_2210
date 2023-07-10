@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/JS/main.js" type="module"></script>
+    <link href="/JS/style.css" rel="stylesheet">
+    <link rel="shortcut icon" href="https://www.airjetcargo.com/assets/images/affretement-location-avion-cargo-europe-international.png" type="image/x-icon">
+    <title>Flights</title>
+</head>
+<body>
+    <header>
+        <h1>Vols Aériens</h1>
+        <img id="navion" src="https://www.airjetcargo.com/assets/images/affretement-location-avion-cargo-europe-international.png" alt="logo">
+<!--         <label>Rechercher</label>
+        <input type="search" id="searchField">
+ -->        <fieldset class="recherche" role="search">
+            <input type="text" placeholder="Recherche">
+            <button type="submit">Chercher</button>
+        </fieldset>
+    </header>
+    <main>
+        <section id="entete">
+        <h2>Dataset/Flights</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Flight ID</th>
+                    <th>Start City</th>
+                    <th>Arrival City</th>
+                    <th>Start Time</th>
+                    <th>Arrival Time</th>
+                    <th id="flightDuration">Flight Duration</th>
+                    <th>Airline Name</th>
+                    <th>Plane Maker</th>
+                    <th>Plane Ref</th>
+                    <th>Plane Type</th>
+                    <th>Plane Capacity</th>
+                    <th>Seats Free</th>
+                    <th>HH:MM:SS</th>
+                </tr>
+            </thead>
+        </section>
+            <tbody id="flightBody"></tbody>
+        </table>
+    </main>
+    <footer>
+    </footer>
+</body>
+</html>

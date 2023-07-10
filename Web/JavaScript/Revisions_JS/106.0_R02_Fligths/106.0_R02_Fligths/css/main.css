@@ -1,0 +1,52 @@
+:root{
+    --primary: #222222;
+    --primaryText: #CCDDB4;
+    --secundary: #232234;
+    --secundaryText: #B9CAE1;
+    --tertiary: #313040;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    background-color: var(--primary);
+    color: var(--primaryText);
+}
+
+table, tr, td, th{
+    border: 1px solid grey;
+    border-collapse: collapse;
+}
+
+table{
+    width: 100%;
+}
+
+th{
+    cursor: pointer;
+}
+
+td{
+    text-align: center;
+}
+
+#search{
+    background-color: #ffffff00;
+    border: none;
+}
+
+tbody{
+    background-color: var(--secundary);
+    color: var(--secundaryText)
+}
+
+tr:nth-child(even) td{
+    background-color: var(--tertiary);
+}
