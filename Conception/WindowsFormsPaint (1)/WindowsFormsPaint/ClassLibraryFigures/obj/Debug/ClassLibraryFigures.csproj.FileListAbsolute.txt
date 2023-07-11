@@ -1,0 +1,9 @@
+C:\MonC\ONLINEFORMAPRO\C18 - DÉVELOPPER LES COMPOSANTS MÉTIER\PatternComposite\WindowsFormsPaint\ClassLibraryFigures\obj\Debug\ResolveAssemblyReference.cache
+C:\MonC\ONLINEFORMAPRO\C18 - DÉVELOPPER LES COMPOSANTS MÉTIER\PatternComposite\WindowsFormsPaint\ClassLibraryFigures\bin\Debug\ClassLibraryFigures.dll
+C:\MonC\ONLINEFORMAPRO\C18 - DÉVELOPPER LES COMPOSANTS MÉTIER\PatternComposite\WindowsFormsPaint\ClassLibraryFigures\bin\Debug\ClassLibraryFigures.pdb
+C:\MonC\ONLINEFORMAPRO\C18 - DÉVELOPPER LES COMPOSANTS MÉTIER\PatternComposite\WindowsFormsPaint\ClassLibraryFigures\obj\Debug\ClassLibraryFigures.dll
+C:\MonC\ONLINEFORMAPRO\C18 - DÉVELOPPER LES COMPOSANTS MÉTIER\PatternComposite\WindowsFormsPaint\ClassLibraryFigures\obj\Debug\ClassLibraryFigures.pdb
+E:\MonCv5\ONLINEFORMAPRO\C18 - DÉVELOPPER LES COMPOSANTS MÉTIER\PatternComposite\1. PatternComposite aide\WindowsFormsPaint\ClassLibraryFigures\bin\Debug\ClassLibraryFigures.dll
+E:\MonCv5\ONLINEFORMAPRO\C18 - DÉVELOPPER LES COMPOSANTS MÉTIER\PatternComposite\1. PatternComposite aide\WindowsFormsPaint\ClassLibraryFigures\bin\Debug\ClassLibraryFigures.pdb
+E:\MonCv5\ONLINEFORMAPRO\C18 - DÉVELOPPER LES COMPOSANTS MÉTIER\PatternComposite\1. PatternComposite aide\WindowsFormsPaint\ClassLibraryFigures\obj\Debug\ClassLibraryFigures.dll
+E:\MonCv5\ONLINEFORMAPRO\C18 - DÉVELOPPER LES COMPOSANTS MÉTIER\PatternComposite\1. PatternComposite aide\WindowsFormsPaint\ClassLibraryFigures\obj\Debug\ClassLibraryFigures.pdb

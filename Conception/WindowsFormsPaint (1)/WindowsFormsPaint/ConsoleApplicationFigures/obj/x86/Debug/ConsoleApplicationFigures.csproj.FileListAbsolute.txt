@@ -1,0 +1,14 @@
+C:\MonC\ONLINEFORMAPRO\C18 - DÉVELOPPER LES COMPOSANTS MÉTIER\PatternComposite\WindowsFormsPaint\ConsoleApplicationFigures\bin\Debug\ConsoleApplicationFigures.exe
+C:\MonC\ONLINEFORMAPRO\C18 - DÉVELOPPER LES COMPOSANTS MÉTIER\PatternComposite\WindowsFormsPaint\ConsoleApplicationFigures\bin\Debug\ConsoleApplicationFigures.pdb
+C:\MonC\ONLINEFORMAPRO\C18 - DÉVELOPPER LES COMPOSANTS MÉTIER\PatternComposite\WindowsFormsPaint\ConsoleApplicationFigures\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\MonC\ONLINEFORMAPRO\C18 - DÉVELOPPER LES COMPOSANTS MÉTIER\PatternComposite\WindowsFormsPaint\ConsoleApplicationFigures\obj\x86\Debug\ConsoleApplicationFigures.exe
+C:\MonC\ONLINEFORMAPRO\C18 - DÉVELOPPER LES COMPOSANTS MÉTIER\PatternComposite\WindowsFormsPaint\ConsoleApplicationFigures\obj\x86\Debug\ConsoleApplicationFigures.pdb
+C:\MonC\ONLINEFORMAPRO\C18 - DÉVELOPPER LES COMPOSANTS MÉTIER\PatternComposite\WindowsFormsPaint\ConsoleApplicationFigures\bin\Debug\ClassLibraryFigures.dll
+C:\MonC\ONLINEFORMAPRO\C18 - DÉVELOPPER LES COMPOSANTS MÉTIER\PatternComposite\WindowsFormsPaint\ConsoleApplicationFigures\bin\Debug\ClassLibraryFigures.pdb
+E:\MonCv5\ONLINEFORMAPRO\C18 - DÉVELOPPER LES COMPOSANTS MÉTIER\PatternComposite\1. PatternComposite aide\WindowsFormsPaint\ConsoleApplicationFigures\bin\Debug\ConsoleApplicationFigures.exe
+E:\MonCv5\ONLINEFORMAPRO\C18 - DÉVELOPPER LES COMPOSANTS MÉTIER\PatternComposite\1. PatternComposite aide\WindowsFormsPaint\ConsoleApplicationFigures\bin\Debug\ConsoleApplicationFigures.pdb
+E:\MonCv5\ONLINEFORMAPRO\C18 - DÉVELOPPER LES COMPOSANTS MÉTIER\PatternComposite\1. PatternComposite aide\WindowsFormsPaint\ConsoleApplicationFigures\bin\Debug\ClassLibraryFigures.dll
+E:\MonCv5\ONLINEFORMAPRO\C18 - DÉVELOPPER LES COMPOSANTS MÉTIER\PatternComposite\1. PatternComposite aide\WindowsFormsPaint\ConsoleApplicationFigures\bin\Debug\ClassLibraryFigures.pdb
+E:\MonCv5\ONLINEFORMAPRO\C18 - DÉVELOPPER LES COMPOSANTS MÉTIER\PatternComposite\1. PatternComposite aide\WindowsFormsPaint\ConsoleApplicationFigures\obj\x86\Debug\ConsoleApplicationFigures.csprojResolveAssemblyReference.cache
+E:\MonCv5\ONLINEFORMAPRO\C18 - DÉVELOPPER LES COMPOSANTS MÉTIER\PatternComposite\1. PatternComposite aide\WindowsFormsPaint\ConsoleApplicationFigures\obj\x86\Debug\ConsoleApplicationFigures.exe
+E:\MonCv5\ONLINEFORMAPRO\C18 - DÉVELOPPER LES COMPOSANTS MÉTIER\PatternComposite\1. PatternComposite aide\WindowsFormsPaint\ConsoleApplicationFigures\obj\x86\Debug\ConsoleApplicationFigures.pdb

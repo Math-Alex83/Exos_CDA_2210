@@ -3,7 +3,6 @@ class UserInterface{
         this.collection = _collection;
         this.tbody = document.getElementById("tbody")
     }
-
     generateTable(){
         this.tbody.innerHTML = "";
         for(let item of this.collection.collection){

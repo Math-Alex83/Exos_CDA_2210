@@ -1,0 +1,32 @@
+c:\users\crm\documents\visual studio 2010\Projects\WindowsFormsPaint\WindowsFormsPaint\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\crm\documents\visual studio 2010\Projects\WindowsFormsPaint\WindowsFormsPaint\obj\x86\Debug\WindowsFormsPaint.FormPaint.resources
+c:\users\crm\documents\visual studio 2010\Projects\WindowsFormsPaint\WindowsFormsPaint\obj\x86\Debug\WindowsFormsPaint.Properties.Resources.resources
+c:\users\crm\documents\visual studio 2010\Projects\WindowsFormsPaint\WindowsFormsPaint\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\crm\documents\visual studio 2010\Projects\WindowsFormsPaint\WindowsFormsPaint\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\crm\documents\visual studio 2010\Projects\WindowsFormsPaint\WindowsFormsPaint\bin\Debug\WindowsFormsPaint.exe
+c:\users\crm\documents\visual studio 2010\Projects\WindowsFormsPaint\WindowsFormsPaint\bin\Debug\WindowsFormsPaint.pdb
+c:\users\crm\documents\visual studio 2010\Projects\WindowsFormsPaint\WindowsFormsPaint\obj\x86\Debug\WindowsFormsPaint.exe
+c:\users\crm\documents\visual studio 2010\Projects\WindowsFormsPaint\WindowsFormsPaint\obj\x86\Debug\WindowsFormsPaint.pdb
+C:\MonC\ONLINEFORMAPRO\C18 - DÉVELOPPER LES COMPOSANTS MÉTIER\PatternComposite\WindowsFormsPaint\WindowsFormsPaint\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\MonC\ONLINEFORMAPRO\C18 - DÉVELOPPER LES COMPOSANTS MÉTIER\PatternComposite\WindowsFormsPaint\WindowsFormsPaint\obj\x86\Debug\WindowsFormsPaint.FormPaint.resources
+C:\MonC\ONLINEFORMAPRO\C18 - DÉVELOPPER LES COMPOSANTS MÉTIER\PatternComposite\WindowsFormsPaint\WindowsFormsPaint\obj\x86\Debug\WindowsFormsPaint.Properties.Resources.resources
+C:\MonC\ONLINEFORMAPRO\C18 - DÉVELOPPER LES COMPOSANTS MÉTIER\PatternComposite\WindowsFormsPaint\WindowsFormsPaint\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\MonC\ONLINEFORMAPRO\C18 - DÉVELOPPER LES COMPOSANTS MÉTIER\PatternComposite\WindowsFormsPaint\WindowsFormsPaint\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\MonC\ONLINEFORMAPRO\C18 - DÉVELOPPER LES COMPOSANTS MÉTIER\PatternComposite\WindowsFormsPaint\WindowsFormsPaint\bin\Debug\WindowsFormsPaint.exe
+C:\MonC\ONLINEFORMAPRO\C18 - DÉVELOPPER LES COMPOSANTS MÉTIER\PatternComposite\WindowsFormsPaint\WindowsFormsPaint\bin\Debug\WindowsFormsPaint.pdb
+C:\MonC\ONLINEFORMAPRO\C18 - DÉVELOPPER LES COMPOSANTS MÉTIER\PatternComposite\WindowsFormsPaint\WindowsFormsPaint\bin\Debug\ClassLibraryFigures.dll
+C:\MonC\ONLINEFORMAPRO\C18 - DÉVELOPPER LES COMPOSANTS MÉTIER\PatternComposite\WindowsFormsPaint\WindowsFormsPaint\bin\Debug\ClassLibraryFigures.pdb
+C:\MonC\ONLINEFORMAPRO\C18 - DÉVELOPPER LES COMPOSANTS MÉTIER\PatternComposite\WindowsFormsPaint\WindowsFormsPaint\obj\x86\Debug\WindowsFormsPaint.exe
+C:\MonC\ONLINEFORMAPRO\C18 - DÉVELOPPER LES COMPOSANTS MÉTIER\PatternComposite\WindowsFormsPaint\WindowsFormsPaint\obj\x86\Debug\WindowsFormsPaint.pdb
+C:\MonC\ONLINEFORMAPRO\C18 - DÉVELOPPER LES COMPOSANTS MÉTIER\PatternComposite\1. PatternComposite aide\WindowsFormsPaint\WindowsFormsPaint\obj\x86\Debug\WindowsFormsPaint.exe
+C:\MonC\ONLINEFORMAPRO\C18 - DÉVELOPPER LES COMPOSANTS MÉTIER\PatternComposite\1. PatternComposite aide\WindowsFormsPaint\WindowsFormsPaint\obj\x86\Debug\WindowsFormsPaint.pdb
+E:\MonCv5\ONLINEFORMAPRO\C18 - DÉVELOPPER LES COMPOSANTS MÉTIER\PatternComposite\1. PatternComposite aide\WindowsFormsPaint\WindowsFormsPaint\obj\x86\Debug\WindowsFormsPaint.exe
+E:\MonCv5\ONLINEFORMAPRO\C18 - DÉVELOPPER LES COMPOSANTS MÉTIER\PatternComposite\1. PatternComposite aide\WindowsFormsPaint\WindowsFormsPaint\obj\x86\Debug\WindowsFormsPaint.pdb
+E:\MonCv5\ONLINEFORMAPRO\C18 - DÉVELOPPER LES COMPOSANTS MÉTIER\PatternComposite\1. PatternComposite aide\WindowsFormsPaint\WindowsFormsPaint\obj\x86\Debug\WindowsFormsPaint.csprojResolveAssemblyReference.cache
+E:\MonCv5\ONLINEFORMAPRO\C18 - DÉVELOPPER LES COMPOSANTS MÉTIER\PatternComposite\1. PatternComposite aide\WindowsFormsPaint\WindowsFormsPaint\obj\x86\Debug\WindowsFormsPaint.FormPaint.resources
+E:\MonCv5\ONLINEFORMAPRO\C18 - DÉVELOPPER LES COMPOSANTS MÉTIER\PatternComposite\1. PatternComposite aide\WindowsFormsPaint\WindowsFormsPaint\obj\x86\Debug\WindowsFormsPaint.Properties.Resources.resources
+E:\MonCv5\ONLINEFORMAPRO\C18 - DÉVELOPPER LES COMPOSANTS MÉTIER\PatternComposite\1. PatternComposite aide\WindowsFormsPaint\WindowsFormsPaint\obj\x86\Debug\WindowsFormsPaint.csproj.GenerateResource.Cache
+E:\MonCv5\ONLINEFORMAPRO\C18 - DÉVELOPPER LES COMPOSANTS MÉTIER\PatternComposite\1. PatternComposite aide\WindowsFormsPaint\WindowsFormsPaint\bin\Debug\WindowsFormsPaint.exe
+E:\MonCv5\ONLINEFORMAPRO\C18 - DÉVELOPPER LES COMPOSANTS MÉTIER\PatternComposite\1. PatternComposite aide\WindowsFormsPaint\WindowsFormsPaint\bin\Debug\WindowsFormsPaint.pdb
+E:\MonCv5\ONLINEFORMAPRO\C18 - DÉVELOPPER LES COMPOSANTS MÉTIER\PatternComposite\1. PatternComposite aide\WindowsFormsPaint\WindowsFormsPaint\bin\Debug\ClassLibraryFigures.dll
+E:\MonCv5\ONLINEFORMAPRO\C18 - DÉVELOPPER LES COMPOSANTS MÉTIER\PatternComposite\1. PatternComposite aide\WindowsFormsPaint\WindowsFormsPaint\bin\Debug\ClassLibraryFigures.pdb
