@@ -6,17 +6,17 @@ using System.Threading.Tasks;
 
 namespace Expression
 {
-    internal class Calculer
+    internal class Program
     {
-        static double Additionner(double _valeurG, double _valeurD)
+        static double Additionner(double a, double b)
         {
-            double resultat = _valeurG + _valeurD;
+            double resultat = a + b;
             return resultat;
         }
 
-        static double Soustraire(double _valeurG, double _valeurD)
+        static double Soustraire(double a, double b)
         {
-            double resultat = _valeurG - _valeurD;
+            double resultat = a - b;
             return resultat;
         }
     }
