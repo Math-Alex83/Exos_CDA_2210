@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exo_Expressions2", "Exo_Expressions2.csproj", "{DC0FDA33-8CDA-49C7-B7D1-A8254EAEAE2E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC0FDA33-8CDA-49C7-B7D1-A8254EAEAE2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC0FDA33-8CDA-49C7-B7D1-A8254EAEAE2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC0FDA33-8CDA-49C7-B7D1-A8254EAEAE2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC0FDA33-8CDA-49C7-B7D1-A8254EAEAE2E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C25333E9-F954-49FB-9A75-9A752EDB2E2D}
+	EndGlobalSection
+EndGlobal
